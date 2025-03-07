@@ -6,9 +6,12 @@ import {
   Patch,
   Param,
   Delete,
+  UseGuards,
+  Req,
 } from '@nestjs/common';
 import { UserService } from './user.service';
 import { User as UserModel, Prisma } from '@prisma/client';
+import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 
 @Controller('users')
 export class UserController {
@@ -24,6 +27,12 @@ export class UserController {
   @Get()
   async getAllUsers(): Promise<UserModel[]> {
     return this.userService.users({});
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Get('profile')
+  getProfile(@Req() req) {
+    return req.user;
   }
 
   @Get(':id')
