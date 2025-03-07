@@ -5,6 +5,7 @@ specifiers:
   '@eslint/js': ^9.18.0
   '@nestjs/cli': ^11.0.0
   '@nestjs/common': ^11.0.1
+  '@nestjs/config': ^4.0.1
   '@nestjs/core': ^11.0.1
   '@nestjs/jwt': ^11.0.0
   '@nestjs/passport': ^11.0.5
@@ -42,6 +43,7 @@ specifiers:
 
 dependencies:
   '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_k4742egitefyufnv2ehz5inl5y
+  '@nestjs/config': registry.npmjs.org/@nestjs/config/4.0.1_c7xj2rnymayuzwwpmwotbe4ste
   '@nestjs/core': registry.npmjs.org/@nestjs/core/11.0.11_xjetxdijdai4aa2fvdcqqi2beq
   '@nestjs/jwt': registry.npmjs.org/@nestjs/jwt/11.0.0_@nestjs+common@11.0.11
   '@nestjs/passport': registry.npmjs.org/@nestjs/passport/11.0.5_n6cmt7ppkvlp5mqubvkpdy3w2e
@@ -1914,6 +1916,22 @@ packages:
       rxjs: registry.npmjs.org/rxjs/7.8.2
       tslib: registry.npmjs.org/tslib/2.8.1
       uid: registry.npmjs.org/uid/2.0.2
+
+  registry.npmjs.org/@nestjs/config/4.0.1_c7xj2rnymayuzwwpmwotbe4ste:
+    resolution: {integrity: sha512-0hr6lKS//Wf8A6VcV69ts8uD0fke6jtmmmXSxzvwAzOM/HEXEKYEp21nRU+cpYxlYqm7Khb0oTOoVuDGk+AWUw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@nestjs/config/-/config-4.0.1.tgz}
+    id: registry.npmjs.org/@nestjs/config/4.0.1
+    name: '@nestjs/config'
+    version: 4.0.1
+    peerDependencies:
+      '@nestjs/common': ^10.0.0 || ^11.0.0
+      rxjs: ^7.1.0
+    dependencies:
+      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_k4742egitefyufnv2ehz5inl5y
+      dotenv: registry.npmjs.org/dotenv/16.4.7
+      dotenv-expand: registry.npmjs.org/dotenv-expand/12.0.1
+      lodash: registry.npmjs.org/lodash/4.17.21
+      rxjs: registry.npmjs.org/rxjs/7.8.2
+    dev: false
 
   registry.npmjs.org/@nestjs/core/11.0.11_xjetxdijdai4aa2fvdcqqi2beq:
     resolution: {integrity: sha512-jMH3jrjrPiaGrkQ5hANNcgDWN+j+hcM5GMQ3jSs4vOWNs3lmKHTVR11wJ9y5tTNnwKydzMogeju0VTUdfXDI5Q==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@nestjs/core/-/core-11.0.11.tgz}
@@ -4181,6 +4199,22 @@ packages:
     engines: {node: '>=0.3.1'}
     dev: true
 
+  registry.npmjs.org/dotenv-expand/12.0.1:
+    resolution: {integrity: sha512-LaKRbou8gt0RNID/9RoI+J2rvXsBRPMV7p+ElHlPhcSARbCPDYcYG2s1TIzAfWv4YSgyY5taidWzzs31lNV3yQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/dotenv-expand/-/dotenv-expand-12.0.1.tgz}
+    name: dotenv-expand
+    version: 12.0.1
+    engines: {node: '>=12'}
+    dependencies:
+      dotenv: registry.npmjs.org/dotenv/16.4.7
+    dev: false
+
+  registry.npmjs.org/dotenv/16.4.7:
+    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/dotenv/-/dotenv-16.4.7.tgz}
+    name: dotenv
+    version: 16.4.7
+    engines: {node: '>=12'}
+    dev: false
+
   registry.npmjs.org/dunder-proto/1.0.1:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz}
     name: dunder-proto
@@ -6319,7 +6353,6 @@ packages:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz}
     name: lodash
     version: 4.17.21
-    dev: true
 
   registry.npmjs.org/log-symbols/4.1.0:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/log-symbols/-/log-symbols-4.1.0.tgz}
