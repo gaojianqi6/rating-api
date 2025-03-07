@@ -36,6 +36,7 @@ export class UserController {
   }
 
   @Get(':id')
+  @UseGuards(JwtAuthGuard)
   async getUserById(@Param('id') id: string): Promise<UserModel | null> {
     return this.userService.user({ id: Number(id) });
   }

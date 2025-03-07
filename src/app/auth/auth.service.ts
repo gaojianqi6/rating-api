@@ -19,8 +19,15 @@ export class AuthService {
     return null;
   }
 
+  /**
+   * JWT Token: User ID (sub), Token expiration time (exp), Issued at time (iat)
+   * { username: 'johndoe', sub: 2, iat: 1741336630, exp: 1741340230 }
+   */
   async login(user: User) {
-    const payload = { username: user.username, sub: user.id };
+    const payload = {
+      sub: user.id,
+      username: user.username,
+    };
     return {
       access_token: this.jwtService.sign(payload),
     };
