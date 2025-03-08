@@ -11,7 +11,7 @@ import {
 } from '@nestjs/common';
 import { UserService } from './user.service';
 import { User as UserModel } from '@prisma/client';
-import { JwtAuthGuard } from '../auth/jwt-auth.guard';
+import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import {
   ApiOperation,
   ApiResponse,

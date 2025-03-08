@@ -32,4 +32,48 @@ export class AuthService {
       access_token: this.jwtService.sign(payload),
     };
   }
+
+  async validateGoogleUser(profile: any): Promise<User> {
+    const { googleId, email, firstName, lastName } = profile;
+
+    // Check if user exists
+    let user = await this.userService.user({ googleId });
+
+    // If no user with this Google ID exists, check by email
+    if (!user) {
+      user = await this.userService.user({ email });
+
+      if (user) {
+        // User exists but Google ID is not linked - update user with Google ID
+        user = await this.userService.updateUser({
+          where: { id: user.id },
+          data: { googleId },
+        });
+      } else {
+        // Create new user with Google information
+        // Generate a random password since we won't use it
+        const randomPassword = Math.random().toString(36).slice(-8);
+
+        user = await this.userService.createUser({
+          email,
+          googleId,
+          // Use email as username if needed, or create one based on firstName+lastName
+          username: email.split('@')[0],
+          nickname: firstName,
+          password: randomPassword, // This won't be used for login
+          avatar: null, // You could grab profile picture from Google if available
+          description: null,
+          country: null,
+        });
+      }
+    }
+
+    // Update last login time
+    await this.userService.updateUser({
+      where: { id: user.id },
+      data: { loggedInAt: new Date() },
+    });
+
+    return user;
+  }
 }
