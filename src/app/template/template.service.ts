@@ -1,24 +1,23 @@
 import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
 import { PrismaService } from '@/prisma/prisma.service';
-import { TemplateDropdownDto } from './dto/template-dropdown.dto';
 
 @Injectable()
 export class TemplateService {
   constructor(private prisma: PrismaService) {}
 
-  async getTemplatesForDropdown(): Promise<TemplateDropdownDto[]> {
+  async getTemplatesForDropdown() {
     const templates = await this.prisma.template.findMany({
       where: { isPublished: true }, // Only include published templates
       select: {
         id: true,
+        name: true,
         displayName: true,
+        description: true,
+        fullMarks: true,
       },
     });
 
-    return templates.map((template) => ({
-      value: template.id,
-      label: template.displayName,
-    }));
+    return templates;
   }
 
   async getTemplateById(templateId: number) {
