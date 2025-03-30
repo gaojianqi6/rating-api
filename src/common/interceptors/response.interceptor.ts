@@ -29,6 +29,7 @@ export class ResponseInterceptor<T> implements NestInterceptor<T, Response<T>> {
         message: '', // Default empty message
       })),
       catchError((error) => {
+        console.error(error);
         const status =
           error instanceof HttpException
             ? error.getStatus()

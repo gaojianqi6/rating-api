@@ -13,7 +13,7 @@ specifiers:
   '@nestjs/schematics': ^11.0.0
   '@nestjs/swagger': ^11.0.6
   '@nestjs/testing': ^11.0.1
-  '@prisma/client': 6.4.1
+  '@prisma/client': ^6.5.0
   '@swc/cli': ^0.6.0
   '@swc/core': ^1.10.7
   '@types/express': ^5.0.0
@@ -24,6 +24,7 @@ specifiers:
   '@types/passport-local': ^1.0.38
   '@types/supertest': ^6.0.2
   bcrypt: ^5.1.1
+  class-transformer: ^0.5.1
   class-validator: ^0.14.1
   eslint: ^9.18.0
   eslint-config-prettier: ^10.0.1
@@ -35,10 +36,11 @@ specifiers:
   passport-jwt: ^4.0.1
   passport-local: ^1.0.0
   prettier: ^3.4.2
-  prisma: ^6.4.1
+  prisma: ^6.5.0
   reflect-metadata: ^0.2.2
   resend: ^4.1.2
   rxjs: ^7.8.1
+  slugify: ^1.6.6
   source-map-support: ^0.5.21
   supertest: ^7.0.0
   ts-jest: ^29.2.5
@@ -49,15 +51,16 @@ specifiers:
   typescript-eslint: ^8.20.0
 
 dependencies:
-  '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_qhgt5whwzy7wv2wtt4wvy523ky
+  '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_nu7zjok255yx5oi6tf6qiw6hce
   '@nestjs/config': registry.npmjs.org/@nestjs/config/4.0.1_c7xj2rnymayuzwwpmwotbe4ste
   '@nestjs/core': registry.npmjs.org/@nestjs/core/11.0.11_xjetxdijdai4aa2fvdcqqi2beq
   '@nestjs/jwt': registry.npmjs.org/@nestjs/jwt/11.0.0_@nestjs+common@11.0.11
   '@nestjs/passport': registry.npmjs.org/@nestjs/passport/11.0.5_n6cmt7ppkvlp5mqubvkpdy3w2e
   '@nestjs/platform-express': registry.npmjs.org/@nestjs/platform-express/11.0.11_34t3xvzttg7j4xpyo6gvjy2qpq
-  '@nestjs/swagger': registry.npmjs.org/@nestjs/swagger/11.0.6_6rvowlxsirdqpo22ac5gwsdyeq
-  '@prisma/client': registry.npmjs.org/@prisma/client/6.4.1_ednhsv7e2t55wnvyyzevqakebi
+  '@nestjs/swagger': registry.npmjs.org/@nestjs/swagger/11.0.6_sqlxdru4vhkhcen6mexfiemgui
+  '@prisma/client': registry.npmjs.org/@prisma/client/6.5.0_6mbtgtueiiim63j5jl4m6aefya
   bcrypt: registry.npmjs.org/bcrypt/5.1.1
+  class-transformer: registry.npmjs.org/class-transformer/0.5.1
   class-validator: registry.npmjs.org/class-validator/0.14.1
   passport: registry.npmjs.org/passport/0.7.0
   passport-google-oauth2: registry.npmjs.org/passport-google-oauth2/0.2.0
@@ -66,6 +69,7 @@ dependencies:
   reflect-metadata: registry.npmjs.org/reflect-metadata/0.2.2
   resend: registry.npmjs.org/resend/4.1.2
   rxjs: registry.npmjs.org/rxjs/7.8.2
+  slugify: registry.npmjs.org/slugify/1.6.6
 
 devDependencies:
   '@eslint/eslintrc': registry.npmjs.org/@eslint/eslintrc/3.3.0
@@ -88,7 +92,7 @@ devDependencies:
   globals: registry.npmjs.org/globals/16.0.0
   jest: registry.npmjs.org/jest/29.7.0_ru6x42gm7yws4g3pts7dggqrke
   prettier: registry.npmjs.org/prettier/3.5.3
-  prisma: registry.npmjs.org/prisma/6.4.1_typescript@5.8.2
+  prisma: registry.npmjs.org/prisma/6.5.0_typescript@5.8.2
   source-map-support: registry.npmjs.org/source-map-support/0.5.21
   supertest: registry.npmjs.org/supertest/7.0.0
   ts-jest: registry.npmjs.org/ts-jest/29.2.6_xirwtjp4syhtje3vzap4skb6jy
@@ -1914,7 +1918,7 @@ packages:
       - webpack-cli
     dev: true
 
-  registry.npmjs.org/@nestjs/common/11.0.11_qhgt5whwzy7wv2wtt4wvy523ky:
+  registry.npmjs.org/@nestjs/common/11.0.11_nu7zjok255yx5oi6tf6qiw6hce:
     resolution: {integrity: sha512-b3zYiho5/XGCnLa7W2hHv5ecSBR1huQrXCHu6pxd+g2HY2B7sKP5CXHMv4gHYqpIqu4ClOb7Q4tLKXMp9LyLUg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@nestjs/common/-/common-11.0.11.tgz}
     id: registry.npmjs.org/@nestjs/common/11.0.11
     name: '@nestjs/common'
@@ -1930,6 +1934,7 @@ packages:
       class-validator:
         optional: true
     dependencies:
+      class-transformer: registry.npmjs.org/class-transformer/0.5.1
       class-validator: registry.npmjs.org/class-validator/0.14.1
       iterare: registry.npmjs.org/iterare/1.2.1
       reflect-metadata: registry.npmjs.org/reflect-metadata/0.2.2
@@ -1946,7 +1951,7 @@ packages:
       '@nestjs/common': ^10.0.0 || ^11.0.0
       rxjs: ^7.1.0
     dependencies:
-      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_qhgt5whwzy7wv2wtt4wvy523ky
+      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_nu7zjok255yx5oi6tf6qiw6hce
       dotenv: registry.npmjs.org/dotenv/16.4.7
       dotenv-expand: registry.npmjs.org/dotenv-expand/12.0.1
       lodash: registry.npmjs.org/lodash/4.17.21
@@ -1975,7 +1980,7 @@ packages:
       '@nestjs/websockets':
         optional: true
     dependencies:
-      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_qhgt5whwzy7wv2wtt4wvy523ky
+      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_nu7zjok255yx5oi6tf6qiw6hce
       '@nestjs/platform-express': registry.npmjs.org/@nestjs/platform-express/11.0.11_34t3xvzttg7j4xpyo6gvjy2qpq
       '@nuxt/opencollective': registry.npmjs.org/@nuxt/opencollective/0.4.1
       fast-safe-stringify: registry.npmjs.org/fast-safe-stringify/2.1.1
@@ -1994,12 +1999,12 @@ packages:
     peerDependencies:
       '@nestjs/common': ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0
     dependencies:
-      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_qhgt5whwzy7wv2wtt4wvy523ky
+      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_nu7zjok255yx5oi6tf6qiw6hce
       '@types/jsonwebtoken': registry.npmjs.org/@types/jsonwebtoken/9.0.7
       jsonwebtoken: registry.npmjs.org/jsonwebtoken/9.0.2
     dev: false
 
-  registry.npmjs.org/@nestjs/mapped-types/2.1.0_xxt534vyxw5iwxs5343sbxwidy:
+  registry.npmjs.org/@nestjs/mapped-types/2.1.0_4ojn25txghttinkrfxy4gnpnom:
     resolution: {integrity: sha512-W+n+rM69XsFdwORF11UqJahn4J3xi4g/ZEOlJNL6KoW5ygWSmBB2p0S2BZ4FQeS/NDH72e6xIcu35SfJnE8bXw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@nestjs/mapped-types/-/mapped-types-2.1.0.tgz}
     id: registry.npmjs.org/@nestjs/mapped-types/2.1.0
     name: '@nestjs/mapped-types'
@@ -2015,7 +2020,8 @@ packages:
       class-validator:
         optional: true
     dependencies:
-      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_qhgt5whwzy7wv2wtt4wvy523ky
+      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_nu7zjok255yx5oi6tf6qiw6hce
+      class-transformer: registry.npmjs.org/class-transformer/0.5.1
       class-validator: registry.npmjs.org/class-validator/0.14.1
       reflect-metadata: registry.npmjs.org/reflect-metadata/0.2.2
     dev: false
@@ -2029,7 +2035,7 @@ packages:
       '@nestjs/common': ^10.0.0 || ^11.0.0
       passport: ^0.5.0 || ^0.6.0 || ^0.7.0
     dependencies:
-      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_qhgt5whwzy7wv2wtt4wvy523ky
+      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_nu7zjok255yx5oi6tf6qiw6hce
       passport: registry.npmjs.org/passport/0.7.0
     dev: false
 
@@ -2042,7 +2048,7 @@ packages:
       '@nestjs/common': ^11.0.0
       '@nestjs/core': ^11.0.0
     dependencies:
-      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_qhgt5whwzy7wv2wtt4wvy523ky
+      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_nu7zjok255yx5oi6tf6qiw6hce
       '@nestjs/core': registry.npmjs.org/@nestjs/core/11.0.11_xjetxdijdai4aa2fvdcqqi2beq
       cors: registry.npmjs.org/cors/2.8.5
       express: registry.npmjs.org/express/5.0.1
@@ -2088,7 +2094,7 @@ packages:
       - chokidar
     dev: true
 
-  registry.npmjs.org/@nestjs/swagger/11.0.6_6rvowlxsirdqpo22ac5gwsdyeq:
+  registry.npmjs.org/@nestjs/swagger/11.0.6_sqlxdru4vhkhcen6mexfiemgui:
     resolution: {integrity: sha512-W/0aQWiEfEcXKd/dYO0DbVpYhlKNVMAhO4haahUyrYe20eXaaDY0T5exA2U8IsCcXZePWZuodRUiiXo8jcMYbA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@nestjs/swagger/-/swagger-11.0.6.tgz}
     id: registry.npmjs.org/@nestjs/swagger/11.0.6
     name: '@nestjs/swagger'
@@ -2109,9 +2115,10 @@ packages:
         optional: true
     dependencies:
       '@microsoft/tsdoc': registry.npmjs.org/@microsoft/tsdoc/0.15.1
-      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_qhgt5whwzy7wv2wtt4wvy523ky
+      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_nu7zjok255yx5oi6tf6qiw6hce
       '@nestjs/core': registry.npmjs.org/@nestjs/core/11.0.11_xjetxdijdai4aa2fvdcqqi2beq
-      '@nestjs/mapped-types': registry.npmjs.org/@nestjs/mapped-types/2.1.0_xxt534vyxw5iwxs5343sbxwidy
+      '@nestjs/mapped-types': registry.npmjs.org/@nestjs/mapped-types/2.1.0_4ojn25txghttinkrfxy4gnpnom
+      class-transformer: registry.npmjs.org/class-transformer/0.5.1
       class-validator: registry.npmjs.org/class-validator/0.14.1
       js-yaml: registry.npmjs.org/js-yaml/4.1.0
       lodash: registry.npmjs.org/lodash/4.17.21
@@ -2136,7 +2143,7 @@ packages:
       '@nestjs/platform-express':
         optional: true
     dependencies:
-      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_qhgt5whwzy7wv2wtt4wvy523ky
+      '@nestjs/common': registry.npmjs.org/@nestjs/common/11.0.11_nu7zjok255yx5oi6tf6qiw6hce
       '@nestjs/core': registry.npmjs.org/@nestjs/core/11.0.11_xjetxdijdai4aa2fvdcqqi2beq
       '@nestjs/platform-express': registry.npmjs.org/@nestjs/platform-express/11.0.11_34t3xvzttg7j4xpyo6gvjy2qpq
       tslib: registry.npmjs.org/tslib/2.8.1
@@ -2200,11 +2207,11 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
-  registry.npmjs.org/@prisma/client/6.4.1_ednhsv7e2t55wnvyyzevqakebi:
-    resolution: {integrity: sha512-A7Mwx44+GVZVexT5e2GF/WcKkEkNNKbgr059xpr5mn+oUm2ZW1svhe+0TRNBwCdzhfIZ+q23jEgsNPvKD9u+6g==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/client/-/client-6.4.1.tgz}
-    id: registry.npmjs.org/@prisma/client/6.4.1
+  registry.npmjs.org/@prisma/client/6.5.0_6mbtgtueiiim63j5jl4m6aefya:
+    resolution: {integrity: sha512-M6w1Ql/BeiGoZmhMdAZUXHu5sz5HubyVcKukbLs3l0ELcQb8hTUJxtGEChhv4SVJ0QJlwtLnwOLgIRQhpsm9dw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/client/-/client-6.5.0.tgz}
+    id: registry.npmjs.org/@prisma/client/6.5.0
     name: '@prisma/client'
-    version: 6.4.1
+    version: 6.5.0
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:
@@ -2216,46 +2223,56 @@ packages:
       typescript:
         optional: true
     dependencies:
-      prisma: registry.npmjs.org/prisma/6.4.1_typescript@5.8.2
+      prisma: registry.npmjs.org/prisma/6.5.0_typescript@5.8.2
       typescript: registry.npmjs.org/typescript/5.8.2
     dev: false
 
-  registry.npmjs.org/@prisma/debug/6.4.1:
-    resolution: {integrity: sha512-Q9xk6yjEGIThjSD8zZegxd5tBRNHYd13GOIG0nLsanbTXATiPXCLyvlYEfvbR2ft6dlRsziQXfQGxAgv7zcMUA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/debug/-/debug-6.4.1.tgz}
+  registry.npmjs.org/@prisma/config/6.5.0:
+    resolution: {integrity: sha512-sOH/2Go9Zer67DNFLZk6pYOHj+rumSb0VILgltkoxOjYnlLqUpHPAN826vnx8HigqnOCxj9LRhT6U7uLiIIWgw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/config/-/config-6.5.0.tgz}
+    name: '@prisma/config'
+    version: 6.5.0
+    dependencies:
+      esbuild: registry.npmjs.org/esbuild/0.25.0
+      esbuild-register: registry.npmjs.org/esbuild-register/3.6.0_esbuild@0.25.0
+    transitivePeerDependencies:
+      - supports-color
+
+  registry.npmjs.org/@prisma/debug/6.5.0:
+    resolution: {integrity: sha512-fc/nusYBlJMzDmDepdUtH9aBsJrda2JNErP9AzuHbgUEQY0/9zQYZdNlXmKoIWENtio+qarPNe/+DQtrX5kMcQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/debug/-/debug-6.5.0.tgz}
     name: '@prisma/debug'
-    version: 6.4.1
+    version: 6.5.0
 
-  registry.npmjs.org/@prisma/engines-version/6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d:
-    resolution: {integrity: sha512-Xq54qw55vaCGrGgIJqyDwOq0TtjZPJEWsbQAHugk99hpDf2jcEeQhUcF+yzEsSqegBaDNLA4IC8Nn34sXmkiTQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/engines-version/-/engines-version-6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d.tgz}
+  registry.npmjs.org/@prisma/engines-version/6.5.0-73.173f8d54f8d52e692c7e27e72a88314ec7aeff60:
+    resolution: {integrity: sha512-iK3EmiVGFDCmXjSpdsKGNqy9hOdLnvYBrJB61far/oP03hlIxrb04OWmDjNTwtmZ3UZdA5MCvI+f+3k2jPTflQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/engines-version/-/engines-version-6.5.0-73.173f8d54f8d52e692c7e27e72a88314ec7aeff60.tgz}
     name: '@prisma/engines-version'
-    version: 6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d
+    version: 6.5.0-73.173f8d54f8d52e692c7e27e72a88314ec7aeff60
 
-  registry.npmjs.org/@prisma/engines/6.4.1:
-    resolution: {integrity: sha512-KldENzMHtKYwsOSLThghOIdXOBEsfDuGSrxAZjMnimBiDKd3AE4JQ+Kv+gBD/x77WoV9xIPf25GXMWffXZ17BA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/engines/-/engines-6.4.1.tgz}
+  registry.npmjs.org/@prisma/engines/6.5.0:
+    resolution: {integrity: sha512-FVPQYHgOllJklN9DUyujXvh3hFJCY0NX86sDmBErLvoZjy2OXGiZ5FNf3J/C4/RZZmCypZBYpBKEhx7b7rEsdw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/engines/-/engines-6.5.0.tgz}
     name: '@prisma/engines'
-    version: 6.4.1
+    version: 6.5.0
     requiresBuild: true
     dependencies:
-      '@prisma/debug': registry.npmjs.org/@prisma/debug/6.4.1
-      '@prisma/engines-version': registry.npmjs.org/@prisma/engines-version/6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d
-      '@prisma/fetch-engine': registry.npmjs.org/@prisma/fetch-engine/6.4.1
-      '@prisma/get-platform': registry.npmjs.org/@prisma/get-platform/6.4.1
+      '@prisma/debug': registry.npmjs.org/@prisma/debug/6.5.0
+      '@prisma/engines-version': registry.npmjs.org/@prisma/engines-version/6.5.0-73.173f8d54f8d52e692c7e27e72a88314ec7aeff60
+      '@prisma/fetch-engine': registry.npmjs.org/@prisma/fetch-engine/6.5.0
+      '@prisma/get-platform': registry.npmjs.org/@prisma/get-platform/6.5.0
 
-  registry.npmjs.org/@prisma/fetch-engine/6.4.1:
-    resolution: {integrity: sha512-uZ5hVeTmDspx7KcaRCNoXmcReOD+84nwlO2oFvQPRQh9xiFYnnUKDz7l9bLxp8t4+25CsaNlgrgilXKSQwrIGQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-6.4.1.tgz}
+  registry.npmjs.org/@prisma/fetch-engine/6.5.0:
+    resolution: {integrity: sha512-3LhYA+FXP6pqY8FLHCjewyE8pGXXJ7BxZw2rhPq+CZAhvflVzq4K8Qly3OrmOkn6wGlz79nyLQdknyCG2HBTuA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-6.5.0.tgz}
     name: '@prisma/fetch-engine'
-    version: 6.4.1
+    version: 6.5.0
     dependencies:
-      '@prisma/debug': registry.npmjs.org/@prisma/debug/6.4.1
-      '@prisma/engines-version': registry.npmjs.org/@prisma/engines-version/6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d
-      '@prisma/get-platform': registry.npmjs.org/@prisma/get-platform/6.4.1
+      '@prisma/debug': registry.npmjs.org/@prisma/debug/6.5.0
+      '@prisma/engines-version': registry.npmjs.org/@prisma/engines-version/6.5.0-73.173f8d54f8d52e692c7e27e72a88314ec7aeff60
+      '@prisma/get-platform': registry.npmjs.org/@prisma/get-platform/6.5.0
 
-  registry.npmjs.org/@prisma/get-platform/6.4.1:
-    resolution: {integrity: sha512-gXqZaDI5scDkBF8oza7fOD3Q3QMD0e0rBynlzDDZdTWbWmzjuW58PRZtj+jkvKje2+ZigCWkH8SsWZAsH6q1Yw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/get-platform/-/get-platform-6.4.1.tgz}
+  registry.npmjs.org/@prisma/get-platform/6.5.0:
+    resolution: {integrity: sha512-xYcvyJwNMg2eDptBYFqFLUCfgi+wZLcj6HDMsj0Qw0irvauG4IKmkbywnqwok0B+k+W+p+jThM2DKTSmoPCkzw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/get-platform/-/get-platform-6.5.0.tgz}
     name: '@prisma/get-platform'
-    version: 6.4.1
+    version: 6.5.0
     dependencies:
-      '@prisma/debug': registry.npmjs.org/@prisma/debug/6.4.1
+      '@prisma/debug': registry.npmjs.org/@prisma/debug/6.5.0
 
   registry.npmjs.org/@react-email/render/1.0.1:
     resolution: {integrity: sha512-W3gTrcmLOVYnG80QuUp22ReIT/xfLsVJ+n7ghSlG2BITB8evNABn1AO2rGQoXuK84zKtDAlxCdm3hRyIpZdGSA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@react-email/render/-/render-1.0.1.tgz}
@@ -3941,6 +3958,11 @@ packages:
     name: cjs-module-lexer
     version: 1.4.3
     dev: true
+
+  registry.npmjs.org/class-transformer/0.5.1:
+    resolution: {integrity: sha512-SQa1Ws6hUbfC98vKGxZH3KFY0Y1lm5Zm0SY8XX9zbK7FJCyVEac3ATW0RIpwzW+oOfmHE5PMPufDG9hCfoEOMw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/class-transformer/-/class-transformer-0.5.1.tgz}
+    name: class-transformer
+    version: 0.5.1
 
   registry.npmjs.org/class-validator/0.14.1:
     resolution: {integrity: sha512-2VEG9JICxIqTpoK1eMzZqaV+u/EiwEJkMGzTrZf6sU/fwsnOITVgYJ8yojSy6CaXtO9V0Cc6ZQZ8h8m4UBuLwQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/class-validator/-/class-validator-0.14.1.tgz}
@@ -7531,11 +7553,11 @@ packages:
       react-is: registry.npmjs.org/react-is/18.3.1
     dev: true
 
-  registry.npmjs.org/prisma/6.4.1_typescript@5.8.2:
-    resolution: {integrity: sha512-q2uJkgXnua/jj66mk6P9bX/zgYJFI/jn4Yp0aS6SPRrjH/n6VyOV7RDe1vHD0DX8Aanx4MvgmUPPoYnR6MJnPg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/prisma/-/prisma-6.4.1.tgz}
-    id: registry.npmjs.org/prisma/6.4.1
+  registry.npmjs.org/prisma/6.5.0_typescript@5.8.2:
+    resolution: {integrity: sha512-yUGXmWqv5F4PByMSNbYFxke/WbnyTLjnJ5bKr8fLkcnY7U5rU9rUTh/+Fja+gOrRxEgtCbCtca94IeITj4j/pg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/prisma/-/prisma-6.5.0.tgz}
+    id: registry.npmjs.org/prisma/6.5.0
     name: prisma
-    version: 6.4.1
+    version: 6.5.0
     engines: {node: '>=18.18'}
     hasBin: true
     requiresBuild: true
@@ -7545,9 +7567,8 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@prisma/engines': registry.npmjs.org/@prisma/engines/6.4.1
-      esbuild: registry.npmjs.org/esbuild/0.25.0
-      esbuild-register: registry.npmjs.org/esbuild-register/3.6.0_esbuild@0.25.0
+      '@prisma/config': registry.npmjs.org/@prisma/config/6.5.0
+      '@prisma/engines': registry.npmjs.org/@prisma/engines/6.5.0
       typescript: registry.npmjs.org/typescript/5.8.2
     optionalDependencies:
       fsevents: registry.npmjs.org/fsevents/2.3.3
@@ -8077,6 +8098,13 @@ packages:
     version: 3.0.0
     engines: {node: '>=8'}
     dev: true
+
+  registry.npmjs.org/slugify/1.6.6:
+    resolution: {integrity: sha512-h+z7HKHYXj6wJU+AnS/+IH8Uh9fdcX1Lrhg1/VMdf9PwoBQXFcXiAdsy2tSK0P6gKwJLXp02r90ahUCqHk9rrw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/slugify/-/slugify-1.6.6.tgz}
+    name: slugify
+    version: 1.6.6
+    engines: {node: '>=8.0.0'}
+    dev: false
 
   registry.npmjs.org/sort-keys-length/1.0.1:
     resolution: {integrity: sha512-GRbEOUqCxemTAk/b32F2xa8wDTs+Z1QHOkbhJDQTvv/6G3ZkbJ+frYWsTcc7cBB3Fu4wy4XlLCuNtJuMn7Gsvw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/sort-keys-length/-/sort-keys-length-1.0.1.tgz}
