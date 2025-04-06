@@ -23,14 +23,15 @@ export class ItemService {
 
     // Fetch template fields
     const templateFields = template.fields;
+    console.info('Logger templateFields:', templateFields);
 
     // Validate field values against template fields
     const fieldValueMap = new Map<number, any>();
-    for (const { fieldId, value } of fieldValues) {
-      const field = templateFields.find((f) => f.id === fieldId);
+    for (const { fieldName, value } of fieldValues) {
+      const field = templateFields.find((f) => f.name === fieldName);
       if (!field) {
         throw new HttpException(
-          `Field with ID ${fieldId} not found in template`,
+          `Field with ID ${fieldName} not found in template`,
           HttpStatus.BAD_REQUEST,
         );
       }
@@ -40,7 +41,7 @@ export class ItemService {
           HttpStatus.BAD_REQUEST,
         );
       }
-      fieldValueMap.set(fieldId, value);
+      fieldValueMap.set(field.id, value);
     }
 
     // Ensure all required fields are provided
@@ -78,25 +79,40 @@ export class ItemService {
       });
 
       // Create field values
-      const fieldValueData = fieldValues.map(({ fieldId, value }) => {
-        const field = templateFields.find((f) => f.id === fieldId)!;
-        const data: any = { itemId: item.id, fieldId };
+      const fieldValueData = fieldValues.map(({ fieldName, value }) => {
+        const field = templateFields.find((f) => f.name === fieldName)!;
+        const data: any = { itemId: item.id, fieldId: field.id };
         switch (field.fieldType.toLowerCase()) {
           case 'text':
-            data.textValue = value;
+          case 'textarea':
+          case 'url':
+            data.textValue = String(value);
             break;
+
           case 'number':
             data.numericValue = Number(value);
             break;
+
           case 'date':
             data.dateValue = new Date(value);
             break;
+
           case 'boolean':
             data.booleanValue = Boolean(value);
             break;
-          case 'json':
-            data.jsonValue = value;
+
+          case 'select':
+            data.textValue = String(value);
             break;
+          case 'multiselect':
+            // For multiselect, store as JSON
+            data.jsonValue = Array.isArray(value) ? value : [value];
+            break;
+          case 'json':
+            data.jsonValue =
+              typeof value === 'string' ? JSON.parse(value) : value;
+            break;
+
           default:
             throw new HttpException(
               `Unsupported field type: ${field.fieldType}`,

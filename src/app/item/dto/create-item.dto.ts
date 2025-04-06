@@ -3,9 +3,9 @@ import { IsInt, IsString, IsArray, ValidateNested } from 'class-validator';
 import { Type } from 'class-transformer';
 
 class FieldValueDto {
-  @ApiProperty({ description: 'The ID of the template field' })
+  @ApiProperty({ description: 'The Name of the template field' })
   @IsInt()
-  fieldId: number;
+  fieldName: string;
 
   @ApiProperty({ description: 'The value for the field' })
   value: any;
