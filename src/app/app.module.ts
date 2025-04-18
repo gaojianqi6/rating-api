@@ -8,6 +8,7 @@ import { EmailModule } from './email/email.module';
 import { ItemModule } from './item/item.module';
 import { TemplateModule } from './template/template.module';
 import { DataSourceModule } from './data-source/data-source.module';
+import { UploadModule } from './upload/upload.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { DataSourceModule } from './data-source/data-source.module';
     ItemModule,
     TemplateModule,
     DataSourceModule,
+    UploadModule,
   ],
   controllers: [AppController],
   providers: [PrismaService, AppService],

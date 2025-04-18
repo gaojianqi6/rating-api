@@ -5,6 +5,7 @@ import {
   CallHandler,
   HttpException,
   HttpStatus,
+  BadRequestException,
 } from '@nestjs/common';
 import { Observable, throwError } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
@@ -24,20 +25,30 @@ export class ResponseInterceptor<T> implements NestInterceptor<T, Response<T>> {
     return next.handle().pipe(
       map((data) => ({
         code: '200', // Default success code
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
         data: data ?? null, // Handle undefined/null responses
         message: '', // Default empty message
       })),
       catchError((error) => {
-        console.error(error);
+        console.error(error); // Keep for debugging
         const status =
           error instanceof HttpException
             ? error.getStatus()
             : HttpStatus.INTERNAL_SERVER_ERROR;
-        const message =
-          error instanceof HttpException
-            ? error.message
-            : 'Internal server error';
+
+        // Handle BadRequestException for validation errors
+        let message: string;
+        if (error instanceof BadRequestException) {
+          const response = error.getResponse();
+          message =
+            response['message'] && Array.isArray(response['message'])
+              ? response['message'].join(', ')
+              : response['message'] || error.message || 'Bad Request';
+        } else {
+          message =
+            error instanceof HttpException
+              ? error.message
+              : 'Internal server error';
+        }
 
         return throwError(
           () =>
