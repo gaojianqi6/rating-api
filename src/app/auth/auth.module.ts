@@ -15,7 +15,7 @@ import { JWT_SECRET } from '../config/config';
     PassportModule,
     JwtModule.register({
       secret: JWT_SECRET,
-      signOptions: { expiresIn: '1h' },
+      signOptions: { expiresIn: '7d' },
     }),
   ],
   providers: [AuthService, LocalStrategy, JwtStrategy, GoogleStrategy],

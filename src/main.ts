@@ -3,6 +3,7 @@ import { AppModule } from './app/app.module';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { ConsoleLogger } from '@nestjs/common';
 import { ResponseInterceptor } from './common/interceptors/response.interceptor';
+import { HttpExceptionFilter } from './common/filters/http-exception.filter';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, {
@@ -14,6 +15,9 @@ async function bootstrap() {
 
   // Apply the response interceptor globally
   app.useGlobalInterceptors(new ResponseInterceptor());
+
+  // Apply the global exception filter
+  app.useGlobalFilters(new HttpExceptionFilter());
 
   const config = new DocumentBuilder()
     .setTitle('Rating API')
