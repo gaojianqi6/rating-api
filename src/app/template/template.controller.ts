@@ -24,4 +24,16 @@ export class TemplateController {
   async getTemplateById(@Param('templateId', ParseIntPipe) templateId: number) {
     return this.templateService.getTemplateById(templateId);
   }
+
+  @ApiOperation({
+    summary: 'Get a specific template by name, including its fields',
+  })
+  @ApiParam({
+    name: 'templateName',
+    description: 'The name of the template to retrieve (e.g., "movie")',
+  })
+  @Get('by-name/:templateName')
+  async getTemplateByName(@Param('templateName') templateName: string) {
+    return this.templateService.getTemplateByName(templateName);
+  }
 }

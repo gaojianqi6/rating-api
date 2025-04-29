@@ -42,4 +42,27 @@ export class TemplateService {
 
     return template;
   }
+
+  async getTemplateByName(templateName: string) {
+    const template = await this.prisma.template.findUnique({
+      where: { name: templateName },
+      include: {
+        fields: {
+          include: {
+            dataSource: {
+              include: {
+                options: true, // Include data source options if any
+              },
+            },
+          },
+        },
+      },
+    });
+
+    if (!template) {
+      throw new HttpException('Template not found', HttpStatus.NOT_FOUND);
+    }
+
+    return template;
+  }
 }

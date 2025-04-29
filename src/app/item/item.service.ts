@@ -86,6 +86,7 @@ export class ItemService {
           case 'text':
           case 'textarea':
           case 'url':
+          case 'img':
             data.textValue = String(value);
             break;
 
