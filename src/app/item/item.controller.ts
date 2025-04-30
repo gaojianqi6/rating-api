@@ -32,4 +32,11 @@ export class ItemController {
   async getItemById(@Param('id', ParseIntPipe) id: number) {
     return this.itemService.getItemById(id);
   }
+
+  @ApiOperation({ summary: 'Get a specific rating item by slug' })
+  @ApiParam({ name: 'slug', description: 'The slug of the item to retrieve' })
+  @Get('slug/:slug')
+  async getItemBySlug(@Param('slug') slug: string) {
+    return this.itemService.getItemBySlug(slug);
+  }
 }

@@ -166,7 +166,7 @@ model UserRating {
   id           Int            @id @default(autoincrement()) @map("id")
   itemId       Int            @map("item_id")
   userId       Int            @map("user_id")
-  rating       Float          @map("rating")
+  rating       Decimal        @db.Decimal(3, 1) @map("rating")
   reviewText   String?        @map("review_text")
   createdAt    DateTime       @default(now()) @map("created_at")
   updatedAt    DateTime       @updatedAt @map("updated_at")

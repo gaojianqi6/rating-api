@@ -159,4 +159,23 @@ export class ItemService {
 
     return item;
   }
+
+  async getItemBySlug(slug: string): Promise<Item & { fieldValues: any[] }> {
+    const item = await this.prisma.item.findUnique({
+      where: { slug },
+      include: {
+        fieldValues: {
+          include: {
+            field: true, // Include the template field details
+          },
+        },
+      },
+    });
+
+    if (!item) {
+      throw new HttpException('Item not found', HttpStatus.NOT_FOUND);
+    }
+
+    return item;
+  }
 }
