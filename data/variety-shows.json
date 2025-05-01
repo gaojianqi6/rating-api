@@ -1,0 +1,4980 @@
+[
+  {
+    "templateId": 6,
+    "title": "Jeopardy!",
+    "slug": "jeopardy",
+    "createdAt": "2025-05-01T08:43:59.195Z",
+    "updatedAt": "2025-05-01T08:43:59.195Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Jeopardy!"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/11rWvQOEZBouD7wet0sWHwu7NDs.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Merv Griffin"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 1984
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Syndication"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show",
+          "Family Drama"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "America's favorite quiz show where contestants are presented with general knowledge clues in the form of answers, and must phrase their responses in question form."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 9088
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/2912"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Home Alone",
+    "slug": "home-alone",
+    "createdAt": "2025-05-01T08:44:00.160Z",
+    "updatedAt": "2025-05-01T08:44:00.160Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Home Alone"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/1hqGagr94soBq70Lq7tPHvNmmxy.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Lee Ji-sun"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2013
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "MBC"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Korean"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "South Korea",
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "It can be a badge of honor to be “single.” “I Live Alone” is a documentary-style South Korean reality series that follows the members of a self-formed club called Rainbow, which is comprised of  celebrities who are single and live alone."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 90
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 592
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/65282"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Monday Late Show",
+    "slug": "monday-late-show",
+    "createdAt": "2025-05-01T08:44:01.114Z",
+    "updatedAt": "2025-05-01T08:44:01.114Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Monday Late Show"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/zj9rb86Ai3EXoDriCRlBDwzPDuC.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2012
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Nippon TV"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Hosts Matsuko Deluxe and Murakami Shingo review street interviews based on current trends/topics in Japan."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 55
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 561
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/103810"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Voice Thailand",
+    "slug": "the-voice-thailand",
+    "createdAt": "2025-05-01T08:44:02.063Z",
+    "updatedAt": "2025-05-01T08:44:02.063Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "The Voice Thailand"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/a0MNkvJLAaU5MtQxNcATNECFDN5.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "John de Mol"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2012
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Channel 3"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Thai reality television series on the Channel 3 television network. It was premiered on 9 September 2012 on Channel 3. The format is Dutch and the original Dutch version of the programme was broadcast in the Netherlands for the first time in 2010 as The Voice of Holland. The programme was commissioned after a successful first season in the U.S., where the programme aired on NBC domestically and AXN Asia regionally. It is produced by True Music and Toh-Klom Televisions"
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 124
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/50540"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Les Guignols de l'info",
+    "slug": "les-guignols-de-linfo",
+    "createdAt": "2025-05-01T08:44:03.021Z",
+    "updatedAt": "2025-05-01T08:44:03.021Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Les Guignols de l'info"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/9u7oDri9TvJXffoe6cyD2EDkQi2.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Alain de Greef"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 1988
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2016
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Canal+"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Comedy",
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "No description available."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 8
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1603
+      },
+      {
+        "fieldId": 85,
+        "textValue": "ended"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/88033"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Die Harald Schmidt Show",
+    "slug": "die-harald-schmidt-show",
+    "createdAt": "2025-05-01T08:44:03.973Z",
+    "updatedAt": "2025-05-01T08:44:03.973Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Die Harald Schmidt Show"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/lQcE1AzjDP5zJRUW76PMRn7ai9W.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 1995
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2010
+      },
+      {
+        "fieldId": 77,
+        "textValue": "SAT.1"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "German"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Germany"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The Harald Schmidt Show is a German late night talk show hosted on Sky Deutschland by comedian Harald Schmidt. The show first aired from 5 December 1995 to 23 December 2003 on Sat.1. Schmidt then moved his show to Das Erste as Harald Schmidt and Schmidt & Pocher, but he returned to Sat.1 on 13 September 2011. After cancellation on Sat.1, the show continued on Sky Deutschland in September 2012."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 43
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1369
+      },
+      {
+        "fieldId": 85,
+        "textValue": "ended"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/40605"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Golos",
+    "slug": "golos",
+    "createdAt": "2025-05-01T08:44:04.929Z",
+    "updatedAt": "2025-05-01T08:44:04.929Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Golos"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/kA9940zDVfOXOhAj3NJ9Sik3Nfg.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2012
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Channel One"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Russian"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Russia"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The Voice is a Russian singing competition television series broadcast on Channel One. Based on the original The Voice of Holland, it has aired twelve seasons and aims to find currently unsigned singing talent contested by aspiring singers, age 17 or over, drawn from public auditions."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 184
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/83865"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "All Against All",
+    "slug": "all-against-all",
+    "createdAt": "2025-05-01T08:44:05.876Z",
+    "updatedAt": "2025-05-01T08:44:05.876Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "All Against All"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/lj92q39TbCTD9PjtSGpdXulGutV.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Kanal 5"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Swedish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Sweden"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Filip Hammar and Fredrik Wikingsson put the general knowledge of popular celebrities to the test - with a brand new twist."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 688
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/87362"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Fazenda",
+    "slug": "fazenda",
+    "createdAt": "2025-05-01T08:44:06.831Z",
+    "updatedAt": "2025-05-01T08:44:06.831Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Fazenda"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/wc4IkCXCZyboTRY0ye8lwbqRF2f.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2009
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "RecordTV"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Fazenda is the current Brazilian version of the The Farm reality television show based on the Swedish television series of the same name that was originally created in 2001 by Strix and produced in association with Sony Entertainment and Endemol.\n\nThe show is based on a group of celebrities living together twenty-four hours a day in a Farm, isolated from the outside world while having all their steps followed by cameras around-the-clock, with no privacy for three months.\n\nThe contestants compete for the chance to win the grand prize by avoiding weekly eviction, until the last celebrity remains at the end of the season that can claim the grand prize. The show is presented by news reporter Britto Junior alongside actress Chris Couto and directed by Rodrigo Carelli. Record's website and a Record-owned pay-per-view channel offer round-the-clock coverage."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1440
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/31342"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Ek Mahanayak - Dr B R Ambedkar",
+    "slug": "ek-mahanayak-dr-b-r-ambedkar",
+    "createdAt": "2025-05-01T08:44:07.783Z",
+    "updatedAt": "2025-05-01T08:44:07.783Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Ek Mahanayak - Dr B R Ambedkar"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/nUWsTE6fXf7tv02bI2pEdnUntjK.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Imtiaz Punjabi"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Sony Liv"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Family Drama",
+          "Drama",
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Ek Mahanayak is the story of Dr. Bhimrao Ambedkar, the founding father of the Constitution of India. For the first time, the story of Babasaheb will be shown on television through serial. The show will include inspiring parts of Babasaheb's life. The story of this show will begin from the childhood of Babasaheb. In which Bhimrao Ambedkar's role will be seen playing child artist Aayudh Bhanushali. Later Prasad Jawade will be seen in the role of young Baba Saheb."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 20
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 979
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/237349"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Le Tricheur",
+    "slug": "le-tricheur",
+    "createdAt": "2025-05-01T08:44:08.737Z",
+    "updatedAt": "2025-05-01T08:44:08.737Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Le Tricheur"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/voN5rAppQ9vgX3BzFRtSz3ohbmB.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2012
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "TVA"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show",
+          "Comedy",
+          "Family Drama"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Canada"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "This daily quiz show puts strategy front and centre, as five celebrities answer general-knowledge questions to win money for their favourite charity. But here’s the catch: one of the five participants is cheating, because they’re secretly being fed the answers. The cheater’s mission is to play it smart so they can fool the other players and win the game without getting caught."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 22
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 2008
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/82395"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "First Dates Ireland",
+    "slug": "first-dates-ireland",
+    "createdAt": "2025-05-01T08:44:09.687Z",
+    "updatedAt": "2025-05-01T08:44:09.687Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "First Dates Ireland"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/zI9WHA01j43ofLl82hu3BEM0Z2v.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2016
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "RTÉ2"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show",
+          "Documentary"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The hit Channel 4 series First Dates, has come to Ireland and RTÉ2. In First Dates, single people from across Ireland come to the First Dates restaurant where they have a real blind date.\n\nJoining maître D' Mateo Saina, are barman Ethan Miles, and waiters Alice, Pete and Libby, who help set the scene and give romance the best possible chance to flourish."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 50
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 115
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/99102"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Big Brother",
+    "slug": "big-brother",
+    "createdAt": "2025-05-01T08:44:10.639Z",
+    "updatedAt": "2025-05-01T08:44:10.639Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Big Brother"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/xhUSwOLbAkeRsO5S9dc2KAoGHAN.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2001
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Network Ten"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Australia"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Big Brother is an Australian reality show based on the international Big Brother format created by John de Mol. Following the premise of other versions of the format, the show features a group of contestants, known as \"housemates\" who live together in a specially constructed house that is isolated from the outside world. The housemates are continuously monitored during their stay in the house by live television cameras as well as personal audio microphones. Throughout the course of the competition, housemates are evicted from the house - eliminated from the competition. The last remaining housemate wins the competition and is awarded a cash prize."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 90
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1265
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/990"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Top of the Pops",
+    "slug": "top-of-the-pops",
+    "createdAt": "2025-05-01T08:44:11.588Z",
+    "updatedAt": "2025-05-01T08:44:11.588Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Top of the Pops"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/jjfTTjVYWyD6rGHVbnC44IrsJ7P.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Johnnie Stewart"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 1964
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2006
+      },
+      {
+        "fieldId": 77,
+        "textValue": "BBC One"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The biggest stars, the most iconic performances, the most outrageous outfits – it’s Britain’s number one pop show."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 2206
+      },
+      {
+        "fieldId": 85,
+        "textValue": "ended"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/1636"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Keep Running",
+    "slug": "keep-running",
+    "createdAt": "2025-05-01T08:44:12.536Z",
+    "updatedAt": "2025-05-01T08:44:12.536Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Keep Running"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/8STVpJQuboZQvS1jgFLbufyEIyc.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2014
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Zhejiang Television"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Comedy",
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Mandarin"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Hurry Up, Brother! is a Chinese variety show based off the original Korean variety show, Running Man. It is created by SBS and co-produced with Zhejiang Television. It first aired on October 10, 2014. This show is classified as a game-variety show, where the MCs and guests complete missions in a landmark to win a race. In 2017, the show officially changed its name to \"Keep Running\"."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 90
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 160
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/98031"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Big Brother VIP Mexico",
+    "slug": "big-brother-vip-mexico",
+    "createdAt": "2025-05-01T08:44:13.497Z",
+    "updatedAt": "2025-05-01T08:44:13.497Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Big Brother VIP Mexico"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/tveUR73yA7CpfY7vNVu4EGKKLIk.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "John de Mol"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2002
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2005
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Las Estrellas"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show",
+          "Drama"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Cantonese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Mexico"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "No description available."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 60
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 274
+      },
+      {
+        "fieldId": 85,
+        "textValue": "ended"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/31019"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "First Dates",
+    "slug": "first-dates",
+    "createdAt": "2025-05-01T08:44:14.786Z",
+    "updatedAt": "2025-05-01T08:44:14.786Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "First Dates"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/pKZMO5gToEQ2Xmle9R2ETPElBIv.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2016
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Cuatro"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Korean"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Spain"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "No description available."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 60
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 585
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/84443"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Sanremo Music Festival",
+    "slug": "sanremo-music-festival",
+    "createdAt": "2025-05-01T08:44:15.737Z",
+    "updatedAt": "2025-05-01T08:44:15.737Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Sanremo Music Festival"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/ohqDyr5Wx9jYx3jhsiPqOYAUo65.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 1951
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Rai 1"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Family Drama",
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Italy"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The Sanremo Music Festival is the most popular Italian song contest and awards, held annually in the town of Sanremo, Imperia, Italy, and consisting of a competition amongst previously unreleased songs. The Festival was the inspiration for the Eurovision Song Contest."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 210
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 298
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/66550"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Real Housewives of Lagos",
+    "slug": "the-real-housewives-of-lagos",
+    "createdAt": "2025-05-01T08:44:16.685Z",
+    "updatedAt": "2025-05-01T08:44:16.685Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "The Real Housewives of Lagos"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/pDmhWX5cb9Npi8kDD5N0NsPf6rF.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Showmax"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Nigeria"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The show focused on the luxury lives in the Lagos socialites, from shopping sprees, parties, traveling, and competition within their social circles."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/211552"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Platteland Toe",
+    "slug": "platteland-toe",
+    "createdAt": "2025-05-01T08:44:17.633Z",
+    "updatedAt": "2025-05-01T08:44:17.633Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Platteland Toe"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/5YEKzsJlp2GZjlchWnBf7VG6Uvx.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2021
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "VIA"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The adventurous Sean van Noordwyk visits popular rural villages and finds out what makes these villages unique. He makes a detour through restaurants, guesthouses and attractions to experience everything that makes the villages worth the visit."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 65
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/250399"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Grand Designs New Zealand",
+    "slug": "grand-designs-new-zealand",
+    "createdAt": "2025-05-01T08:44:18.587Z",
+    "updatedAt": "2025-05-01T08:44:18.587Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Grand Designs New Zealand"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/4LkYo3YNEoEVScnF0PvIeufwUCB.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2015
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Three"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Italy"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The stories of creative and enterprising Kiwis who are taking on the challenge of building their own unique and inspirational homes. No design is too ambitious, and no obstacle too large in their quest for the perfect house."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 66
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/64615"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "America's Next Top Model",
+    "slug": "americas-next-top-model",
+    "createdAt": "2025-05-01T08:44:19.546Z",
+    "updatedAt": "2025-05-01T08:44:19.546Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "America's Next Top Model"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/47EIfjYrT80AOfpAIkvSxdpwGOv.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Tyra Banks"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2003
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2018
+      },
+      {
+        "fieldId": 77,
+        "textValue": "UPN"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Aspiring models compete for a chance to break into the business with a panel of judges critiquing their progress throughout the competition."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 42
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 312
+      },
+      {
+        "fieldId": 85,
+        "textValue": "canceled"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/331"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "How Do You Play?",
+    "slug": "how-do-you-play",
+    "createdAt": "2025-05-01T08:44:20.502Z",
+    "updatedAt": "2025-05-01T08:44:20.502Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "How Do You Play?"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/dJd8LFodX9831AeRD3CzWklYcS5.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Kim Tae-ho"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "MBC"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show",
+          "Comedy"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Korean"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "South Korea"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Yoo Jae-suk reunites the producing team of Infinite Challenge and presents you How Do You Play? The Indefinitely expanding YOONIVERSE, based on Yoo's blood, sweat, and tears, will entertain viewers at home. Let's follow Yoo and his friends' new projects every week."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 80
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 276
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/91121"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "今日、好きになりました。",
+    "slug": "",
+    "createdAt": "2025-05-01T08:44:21.454Z",
+    "updatedAt": "2025-05-01T08:44:21.454Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "今日、好きになりました。"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/vkMJi2javGsG90Dq8EJzqzTo3Dz.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2017
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "ABEMA"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Italy"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "No description available."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 383
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/241977"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "4EVE Girl Group Star",
+    "slug": "4eve-girl-group-star",
+    "createdAt": "2025-05-01T08:44:22.427Z",
+    "updatedAt": "2025-05-01T08:44:22.427Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "4EVE Girl Group Star"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/c3PgAhX8F0SvnoZphfwauJYB1BZ.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2020
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2020
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Workpoint TV"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Spain"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "No description available."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 13
+      },
+      {
+        "fieldId": 85,
+        "textValue": "ended"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/230312"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "L'amour est dans le pré",
+    "slug": "lamour-est-dans-le-pre",
+    "createdAt": "2025-05-01T08:44:23.375Z",
+    "updatedAt": "2025-05-01T08:44:23.375Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "L'amour est dans le pré"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/8xSesxkC612zpp2kOZrVC77ohQI.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2005
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "M6"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "No description available."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 317
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/109954"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Voice of Germany",
+    "slug": "the-voice-of-germany",
+    "createdAt": "2025-05-01T08:44:24.324Z",
+    "updatedAt": "2025-05-01T08:44:24.324Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "The Voice of Germany"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/7fp1Yx1uy4HjlgaNSSy0psEtVyn.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "John de Mol"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2011
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "SAT.1"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "German"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Germany"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The Voice of Germany is a German reality talent show that premiered on 24 November 2011 on ProSieben and Sat.1. Based on the reality singing competition The Voice of Holland, the series was created by Dutch television producer John de Mol. It is part of an international series."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 105
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 245
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/41814"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Аватар",
+    "slug": "avatar",
+    "createdAt": "2025-05-01T08:44:25.276Z",
+    "updatedAt": "2025-05-01T08:44:25.276Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Аватар"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/dgjVIX5FOGMEZic1n4U4H33rIvm.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 77,
+        "textValue": "NTV "
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Russian"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Russia"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "No description available."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 18
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/215256"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Fråga doktorn",
+    "slug": "fraga-doktorn",
+    "createdAt": "2025-05-01T08:44:26.225Z",
+    "updatedAt": "2025-05-01T08:44:26.225Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Fråga doktorn"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/rFnMh3hnfupFZGfV9ZrCqr2Ys5L.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2003
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 77,
+        "textValue": "SVT1"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Swedish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Sweden"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "No description available."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 127
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/136484"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Homens Gourmet",
+    "slug": "homens-gourmet",
+    "createdAt": "2025-05-01T08:44:27.173Z",
+    "updatedAt": "2025-05-01T08:44:27.173Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Homens Gourmet"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/8ZoFYjLMKz8mBEG0cpiwlIy04M5.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2010
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2013
+      },
+      {
+        "fieldId": 77,
+        "textValue": "FOXlife"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "No description available."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 124
+      },
+      {
+        "fieldId": 85,
+        "textValue": "ended"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/229008"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Top Model India",
+    "slug": "top-model-india",
+    "createdAt": "2025-05-01T08:44:28.123Z",
+    "updatedAt": "2025-05-01T08:44:28.123Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Top Model India"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/originalnull"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2015
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2018
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Colors Infinity"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Indian version of the American reality television series in which aspiring models compete for a chance to break into the business with a panel of judges critiquing their progress throughout the competition."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 52
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/67608"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Lol:-)",
+    "slug": "lol",
+    "createdAt": "2025-05-01T08:44:29.071Z",
+    "updatedAt": "2025-05-01T08:44:29.071Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Lol:-)"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/oPdx0ByfUT2ZyUnmG48yxoBqD6p.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2011
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 77,
+        "textValue": "TVA"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show",
+          "Comedy"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Canada",
+          "USA",
+          "Italy"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "No description available."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 21
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 121
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/57142"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Gogglebox Ireland",
+    "slug": "gogglebox-ireland",
+    "createdAt": "2025-05-01T08:44:30.018Z",
+    "updatedAt": "2025-05-01T08:44:30.018Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Gogglebox Ireland"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/oCYPhXlffOUcYfj1NRRl4nMZfNJ.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2016
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Virgin Media One"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Ireland's most opinionated and avid TV viewers offer their opinions on some of the most memorable TV screened during the past week."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 60
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 117
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/113719"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Australian Idol",
+    "slug": "australian-idol",
+    "createdAt": "2025-05-01T08:44:30.972Z",
+    "updatedAt": "2025-05-01T08:44:30.972Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Australian Idol"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/w1vKId4rbiH0dHLvO60CVEDwWoY.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2003
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Network Ten"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Australia"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Australian Idol is an Australian singing competition, which began its first season in July 2003 and ended its original run in November 2009 before being revived in January 2023. As part of the Idol franchise, Australian Idol originated from the reality program Pop Idol, which was created by British entertainment executive Simon Fuller. Australian Idol was televised on Network Ten for its first seven series and was broadcast on Austereo Radio Network between 2005 and 2007."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 120
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 332
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/4204"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Pointless",
+    "slug": "pointless",
+    "createdAt": "2025-05-01T08:44:31.937Z",
+    "updatedAt": "2025-05-01T08:44:31.937Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Pointless"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/vhKxgbh4QvnBFU1jRYSBiizWpDg.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2009
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "BBC One"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Quiz in which contestants try to score as few points as possible by plumbing the depths of their general knowledge to come up with the answers no-one else can think of."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 43
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1786
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/30810"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Detective Academy",
+    "slug": "detective-academy",
+    "createdAt": "2025-05-01T08:44:32.886Z",
+    "updatedAt": "2025-05-01T08:44:32.886Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Detective Academy"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Violet He"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Mango TV"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show",
+          "Horror"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Mandarin"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "\"Detective College\", as a derivative of the fifth season of \"Who's the Murderer\", is a star reasoning variety show where selected detective assistants launched by Mango TV. The star guests determine the number of advances by rolling the dice on the checkerboard. When the game is triggered, the corresponding game needs to be completed. The first guest to reach the end becomes the current No.1. The program combines the form of team battles and individual battles to inspire the star guests ’IQ and Contest of logical ability. No. 1 selected in the show will appear on the scene of the fifth season of \"Who's the Murderer\". \"Detective College\" consists of Pu Yixing, Zhou Junwei, Tang Jiuzhou, Qi Sijun, Shi Kai, Guo Wentao, Shao Mingming, etc., and premiered on November 3, 2019."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 202
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/114473"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Juego de Voces",
+    "slug": "juego-de-voces",
+    "createdAt": "2025-05-01T08:44:33.835Z",
+    "updatedAt": "2025-05-01T08:44:33.836Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Juego de Voces"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/hTzT2GeyX4qQTNRX95uOkSiUUwR.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Marcelo Strupini"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Las Estrellas"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show",
+          "Family Drama",
+          "Comedy"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Game of Voices aims not only to entertain, but also to reveal the talent and dynamics between parents and children in the musical field, adding a fresh and novel element to Sunday television."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/249345"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Hermano Mayor",
+    "slug": "hermano-mayor",
+    "createdAt": "2025-05-01T08:44:34.781Z",
+    "updatedAt": "2025-05-01T08:44:34.781Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Hermano Mayor"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/m0y1dUbwtY0jGBlaZ3SJZpiwetR.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2009
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2017
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Cuatro"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Spain"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "No description available."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 55
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 104
+      },
+      {
+        "fieldId": 85,
+        "textValue": "ended"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/79826"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Home at first sight",
+    "slug": "home-at-first-sight",
+    "createdAt": "2025-05-01T08:44:35.732Z",
+    "updatedAt": "2025-05-01T08:44:35.732Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Home at first sight"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/sy5AuQYtQNH6zJN2L7u6FiBFo5z.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Real Time"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "German"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Italy"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "3 real estate agents are tasked with showing the dream house to prospective buyers in the cities of Milan and Rome."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 48
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 166
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/226214"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Bares für Rares",
+    "slug": "bares-fur-rares",
+    "createdAt": "2025-05-01T08:45:31.490Z",
+    "updatedAt": "2025-05-01T08:45:31.490Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Bares für Rares"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/j9SzcU00nl64FdgLs4otaHBfRkj.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2013
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "ZDF"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show",
+          "Documentary"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "German"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Germany"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "In the show, selected applicants each present a curiosity, rarity or antique they have brought with them. Once they have received their expertise, they will have the opportunity on site to offer their exhibit to a changing five-person podium for sale and, ideally, to sell it to the highest bidder for „Bares“ (\"cash\")."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 2109
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/79917"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Lenßen & Partner",
+    "slug": "lenssen-and-partner",
+    "createdAt": "2025-05-01T08:45:32.434Z",
+    "updatedAt": "2025-05-01T08:45:32.434Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Lenßen & Partner"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/wJhQ0nIBMH5tScrXFA9BjqpONnN.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2003
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 77,
+        "textValue": "SAT.1"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show",
+          "Crime"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "German"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Germany"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Attorney Ingo Lenssen and his team of investigators who specialize in sensitive cases involving clients who prefer private investigations to legal advice."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1302
+      },
+      {
+        "fieldId": 85,
+        "textValue": "ended"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/40694"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Diners, Drive-Ins and Dives",
+    "slug": "diners-drive-ins-and-dives",
+    "createdAt": "2025-05-01T08:45:33.380Z",
+    "updatedAt": "2025-05-01T08:45:33.380Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Diners, Drive-Ins and Dives"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/1ulyar2gfSnPaEDIyaT4f9zrhHr.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2007
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Food Network"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Documentary",
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Host Guy Fieri takes a cross-country road trip to visit some of America's classic \"greasy spoon\" restaurants — diners, drive-ins and dives — that have been doing it right for decades."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 22
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 673
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/4086"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Big Brother's Little Brother",
+    "slug": "big-brothers-little-brother",
+    "createdAt": "2025-05-01T08:45:34.323Z",
+    "updatedAt": "2025-05-01T08:45:34.323Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Big Brother's Little Brother"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/gM6dJDdkzcea55iT71pwjUauY3e.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2001
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2010
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Channel 4"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Spain"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Each week, the housemate evicted from the Big Brother house the previous week traditionally spends another week on Big Brother's Little Brother, answering questions and taking part in Call BBLB along with other features. The show also boasts celebrity guests and experts who come in to discuss and analyse the remaining Big Brother housemates."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 860
+      },
+      {
+        "fieldId": 85,
+        "textValue": "ended"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/31017"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Escape to the Country",
+    "slug": "escape-to-the-country",
+    "createdAt": "2025-05-01T08:45:35.269Z",
+    "updatedAt": "2025-05-01T08:45:35.269Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Escape to the Country"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/ykSfW3rU7Th0VvrgB85nHvQZCAN.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2002
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "BBC Two"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The property show that helps prospective buyers find their dream home in the country."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1226
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/6390"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Naked Education",
+    "slug": "naked-education",
+    "createdAt": "2025-05-01T08:45:36.217Z",
+    "updatedAt": "2025-05-01T08:45:36.217Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Naked Education"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/oLUCOWFiSgCm2hNqRP2nRPFZz8G.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Channel 4"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Nigeria"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Naked Education is a body-positive, educational series aiming to normalize all body types, champion people’s differences and break down stereotypes."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 6
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/223899"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Price Is Right",
+    "slug": "the-price-is-right",
+    "createdAt": "2025-05-01T08:45:37.162Z",
+    "updatedAt": "2025-05-01T08:45:37.162Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "The Price Is Right"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Bob Stewart"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 1972
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "CBS"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "\"Come on down!\" The Price Is Right features a wide variety of games and contests with the same basic challenge: Guess the prices of everyday (or not-quite-everyday) retail items. "
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 60
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 2914
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/2051"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "BANGTAN BOMB",
+    "slug": "bangtan-bomb",
+    "createdAt": "2025-05-01T08:45:38.102Z",
+    "updatedAt": "2025-05-01T08:45:38.102Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "BANGTAN BOMB"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/i01uYYJoovqILhexlYA6E1CHh56.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2013
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "YouTube"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Korean"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "South Korea"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Bangtan Bomb are short videos of BTS released on their YouTube channel."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 833
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/83319"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Wheel of Fortune",
+    "slug": "wheel-of-fortune",
+    "createdAt": "2025-05-01T08:45:39.066Z",
+    "updatedAt": "2025-05-01T08:45:39.066Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Wheel of Fortune"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/a6XruJ8a8LFNhrB0L20QcjmDXi6.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Merv Griffin"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 1983
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Syndication"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Family Drama",
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "This game show sees contestants solve word puzzles, similar to those used in Hangman, to win cash and prizes determined by spinning a giant carnival wheel."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 25
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 2310
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/2778"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Raw",
+    "slug": "raw",
+    "createdAt": "2025-05-01T08:45:40.012Z",
+    "updatedAt": "2025-05-01T08:45:40.012Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Raw"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/pv5WNnLUo7mpT8k901Lo8UovrqI.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Paul Lévesque"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 1993
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "USA Network"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A regularly scheduled, live, year-round program featuring some of the biggest WWE Superstars."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 130
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1704
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/4656"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "I've Got a Secret",
+    "slug": "ive-got-a-secret",
+    "createdAt": "2025-05-01T08:45:40.955Z",
+    "updatedAt": "2025-05-01T08:45:40.955Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "I've Got a Secret"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/yMGxV37D6Jt3Len7q8QocLJJ5E3.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Allan Sherman"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 1952
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 1967
+      },
+      {
+        "fieldId": 77,
+        "textValue": "CBS"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A panel tries to determine a contestant's secret: something that is unusual, amazing, embarrassing, or humorous about that person."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 727
+      },
+      {
+        "fieldId": 85,
+        "textValue": "canceled"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/4862"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Running Man",
+    "slug": "running-man",
+    "createdAt": "2025-05-01T08:45:41.905Z",
+    "updatedAt": "2025-05-01T08:45:41.905Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Running Man"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/2Wmmu1MkqxJ48J7aySET9EKEjXz.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Jo Hyo-jin"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2010
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "SBS"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Comedy",
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Korean"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "South Korea"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A reality and competition show where members are joined by celebs to complete a weekly mission to win the race with Seoul as the beautiful backdrop."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 85
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 755
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/33238"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Secret Story",
+    "slug": "secret-story",
+    "createdAt": "2025-05-01T08:45:46.643Z",
+    "updatedAt": "2025-05-01T08:45:46.643Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Secret Story"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/jDFFyXE04vv9pvHzJESgbJnNRc2.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2007
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "NT1"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The game contestants are cut off from the rest of the world during ten to fifteen weeks in a house called “house of secrets”, where every room is fitted with video cameras, except the restroom. The goal is to keep a secret while trying to discover the other contestants' secret."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 81
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1056
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/46271"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Dancing with the Stars",
+    "slug": "dancing-with-the-stars",
+    "createdAt": "2025-05-01T08:45:47.619Z",
+    "updatedAt": "2025-05-01T08:45:47.619Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Dancing with the Stars"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/xGIalfneavhfgWiE0uRXySTyAo4.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2005
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "ABC"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Family Drama",
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The competition sees celebrities perform choreographed dance routines which are judged by a panel of renowned ballroom experts and voted on by viewers. Enjoy sizzling salsas, sambas and spray-tans as they vie for the coveted Mirrorball Trophy."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 90
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 499
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/1508"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Cops",
+    "slug": "cops",
+    "createdAt": "2025-05-01T08:45:48.571Z",
+    "updatedAt": "2025-05-01T08:45:48.571Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Cops"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/nUsdcwmoYP4DiZtJcAWkpxjRnay.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "John Langley"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 1989
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "FOX"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Follow real-life law enforcement officers from various regions and departments of the United States armed with nothing but with cameras to capture their actions, performing their daily duty to serve and protect the public."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1239
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/3670"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Celebrity Big Brother",
+    "slug": "celebrity-big-brother",
+    "createdAt": "2025-05-01T08:45:49.520Z",
+    "updatedAt": "2025-05-01T08:45:49.520Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Celebrity Big Brother"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/729Z7o1ycoEzk9fcPHn3iuteVfF.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "John de Mol"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2001
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2018
+      },
+      {
+        "fieldId": 77,
+        "textValue": "BBC One"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Celebrity Big Brother is a British reality television game show in which a number of celebrity contestants live in an isolated house trying to avoid being evicted by the public with the aim of winning a large cash prize being donated to the winner's nominated charity at the end of the run."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 60
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 592
+      },
+      {
+        "fieldId": 85,
+        "textValue": "ended"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/45956"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The People's Court",
+    "slug": "the-peoples-court",
+    "createdAt": "2025-05-01T08:45:50.471Z",
+    "updatedAt": "2025-05-01T08:45:50.471Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "The People's Court"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/oHGpB5zv3CGar9Xhe1Trrv6uh03.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "John Masterson"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2018
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Syndication"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show",
+          "Crime"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The People's Court is an American arbitration-based reality court show currently presided over by retired Florida State Circuit Court Judge Marilyn Milian. Milian, the show's longest-reigning arbiter, handles small claims disputes in a simulated courtroom set.\n\nThe People's Court is the first court show to use binding arbitration, introducing the format into the genre in 1981. The system has been duplicated by most of the show's successors in the judicial genre. Moreover, The People's Court is the first popular, long-running reality in the judicial genre. It was preceded only by a few short-lived realities in the genre; these short-lived predecessors were only loosely related to judicial proceedings, except for one: Parole took footage from real-life courtrooms holding legal proceedings. Prior to The People's Court, the vast majority of TV courtroom shows used actors, and recreated or fictional cases. Among examples of these types of court shows include Famous Jury Trials and Your Witness.\n\nThe People's Court has had two contrasting lives. The show's first life was presided over solely by former Los Angeles County Superior Court Judge Joseph Wapner. His tenure lasted from the show's debut on September 14, 1981, until May 21, 1993, when the show was cancelled due to low ratings. This left the show with a total of 2,484 ½-hour episodes and 12 seasons. The show was taped in Los Angeles during its first life. After being cancelled, reruns aired until September 9, 1994."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 44
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1255
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/2024"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "America's Got Talent",
+    "slug": "americas-got-talent",
+    "createdAt": "2025-05-01T08:45:51.425Z",
+    "updatedAt": "2025-05-01T08:45:51.425Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "America's Got Talent"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/1YLiZqge79k4M0sIbiWi1ByNags.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Ken Warwick"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2006
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "NBC"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A weekly talent competition where an array of performers – from singers and dancers, to comedians and novelty acts – vie for a $1 million cash prize."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 85
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 469
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/4551"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "America's Funniest Home Videos",
+    "slug": "americas-funniest-home-videos",
+    "createdAt": "2025-05-01T08:45:52.383Z",
+    "updatedAt": "2025-05-01T08:45:52.383Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "America's Funniest Home Videos"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/7jedS7U08F1wF3MJTTEVu0vZrS2.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Vin Di Bona"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 1989
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "ABC"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Comedy",
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "America's Funniest Home Videos is the longest-running primetime entertainment show in ABC history. Each week AFV shines the spotlight on hilarious videos. Fans tune in to witness failures and fiascos and to submit their own mishaps for their chance at stardom."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 787
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/4448"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Na lovu",
+    "slug": "na-lovu",
+    "createdAt": "2025-05-01T08:45:53.342Z",
+    "updatedAt": "2025-05-01T08:45:53.342Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Na lovu"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/udJ1wVuOwFg1q6UBcQGwcpcdIYF.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2021
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "TV Nova"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show",
+          "Family Drama"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Mandarin"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Nigeria"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Na Lovu is a Czech game-show, based on the license of the popular global format The Chase. A heart-racing quiz show where four competitors must pit their wits and face off against Lovec (the Chaser), a ruthless quiz genius determined to stop them from winning cash prizes."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 637
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/206679"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Amazing Race",
+    "slug": "the-amazing-race",
+    "createdAt": "2025-05-01T08:45:54.299Z",
+    "updatedAt": "2025-05-01T08:45:54.299Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "The Amazing Race"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/x1jq0atcQg6UkaZpco0kFL6QHuM.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Bertram van Munster"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2001
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "CBS"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "This reality competition sees teams embark on a trek around the world to amazing destinations where they must compete in a series of challenges, some mental and some physical. Only when the tasks are completed will they learn of their next location. Teams who are the farthest behind will gradually be eliminated as the contest progresses, with the first team to arrive at the final destination winning the race and the $1 million prize."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 42
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 433
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/30957"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Only Way Is Essex",
+    "slug": "the-only-way-is-essex",
+    "createdAt": "2025-05-01T08:45:55.251Z",
+    "updatedAt": "2025-05-01T08:45:55.251Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "The Only Way Is Essex"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/n6hnIR4HSSIF9xLsZyY8N29tQN4.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Ruth Wrigley"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2010
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "ITV2"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Part soap opera, part reality show, TOWIE follows the lives, loves and scandals of a group of real-life Essex guys and girls. Cameras capture the happenings at all kinds of glamorous locations as the cast meet up in nail bars, nightclubs and salons. Each episode features action filmed just a few days previously."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 60
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 406
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/34284"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Survivor",
+    "slug": "survivor",
+    "createdAt": "2025-05-01T08:45:56.202Z",
+    "updatedAt": "2025-05-01T08:45:56.202Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Survivor"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/oFkZGAAcK1dzy3lcCwZKqhOpjy3.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Charlie Parsons"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2003
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Mega TV"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Cantonese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "No description available."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 120
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 651
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/213810"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Real Housewives of Beverly Hills",
+    "slug": "the-real-housewives-of-beverly-hills",
+    "createdAt": "2025-05-01T08:45:57.153Z",
+    "updatedAt": "2025-05-01T08:45:57.153Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "The Real Housewives of Beverly Hills"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/gHZmEmtQzobW9PVdpGrYP7SU9RH.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2010
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Bravo"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A reality series that follows some of the most affluent women in the country as they enjoy the lavish lifestyle that only Beverly Hills can provide."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 308
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/32390"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Ultimate Fighter",
+    "slug": "the-ultimate-fighter",
+    "createdAt": "2025-05-01T08:45:58.140Z",
+    "updatedAt": "2025-05-01T08:45:58.140Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "The Ultimate Fighter"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/k3NlkqDeYmKTsx7QIQWjXXo0DeW.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Frank Fertitta III"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 2005
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "FX"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA",
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "The Ultimate Fighter is an American reality television series and mixed martial arts (MMA) competition produced by the Ultimate Fighting Championship (UFC) and Pilgrim Media Group currently airing on ESPN+. It previously aired for fourteen seasons on Spike TV. The show features professional MMA fighters living together in Las Vegas, Nevada, and follows them as they train and compete against each other for a prized six-figure contract with the UFC. The series debuted on January 17, 2005."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 60
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 430
+      },
+      {
+        "fieldId": 85,
+        "textValue": "returning series"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/517"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Midi Première",
+    "slug": "midi-premiere",
+    "createdAt": "2025-05-01T08:45:59.089Z",
+    "updatedAt": "2025-05-01T08:45:59.090Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "Midi Première"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/original/iiPXeiJHsljoyl2ZXft8Cf7pLnc.jpg"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Unknown Host"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 1975
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 1982
+      },
+      {
+        "fieldId": 77,
+        "textValue": "TF1"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "Midi Première is a French variety show presented by Danièle Gilbert, directed by Jacques Pierre and broadcast from January 6, 1975 until January 1, 1982 on TF1. The program was generally broadcast between 12:15 p.m. and 12:55 p.m., then giving way to the 1:00 p.m. TV news. However, the broadcast schedule could change, depending on the guests, and the setting where the recording of the program was shot. Certain performances by artists who have become cult like the one where Ringo jostles with a demonstrator in interpretation (1977), that of Dalida with the title There is always a song with the soundtrack that does not start, twice, at the right speed (1978), Claude François and his Clodettes, who, in the provinces, are unable to join \"the set\" in order to interpret his song, the latter being taken by the crowd of delirious fans (summer 1977) . The group Supertramp performed there with the title \"Dreamer\" on March 8, 1975."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 638
+      },
+      {
+        "fieldId": 85,
+        "textValue": "ended"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/112791"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "What Am I?",
+    "slug": "what-am-i",
+    "createdAt": "2025-05-01T08:46:00.040Z",
+    "updatedAt": "2025-05-01T08:46:00.040Z",
+    "fieldValues": [
+      {
+        "fieldId": 72,
+        "textValue": "What Am I?"
+      },
+      {
+        "fieldId": 73,
+        "textValue": "https://image.tmdb.org/t/p/originalnull"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "Robert Lembke"
+      },
+      {
+        "fieldId": 75,
+        "numericValue": 1955
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2000
+      },
+      {
+        "fieldId": 77,
+        "textValue": "Das Erste"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Reality Show"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "German"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Germany"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "No description available."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 333
+      },
+      {
+        "fieldId": 85,
+        "textValue": "canceled"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.themoviedb.org/tv/81871"
+      }
+    ]
+  }
+]
