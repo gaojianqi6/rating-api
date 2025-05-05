@@ -16,6 +16,7 @@ export class RatingService {
     dto: CreateRatingDto,
   ): Promise<UserRatingResponse> {
     const { itemId, rating, reviewText } = dto;
+    console.log('Create rating:', itemId, rating, reviewText);
 
     // Validate item exists
     const item = await this.prisma.item.findUnique({ where: { id: itemId } });

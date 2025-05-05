@@ -179,7 +179,7 @@ model UserRating {
 
 model ItemStatistics {
   itemId           Int       @id @map("item_id")
-  avgRating        Float     @default(0) @map("avg_rating")
+  avgRating        Decimal   @db.Decimal(4, 2) @default(0) @map("avg_rating")
   ratingsCount     Int       @default(0) @map("ratings_count")
   viewsCount       Int       @default(0) @map("views_count")
   lastCalculatedAt DateTime  @default(now()) @map("last_calculated_at")

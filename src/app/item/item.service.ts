@@ -178,4 +178,138 @@ export class ItemService {
 
     return item;
   }
+
+  async getRecommendationsByTemplate(templateId: number): Promise<any[]> {
+    // Validate template exists
+    const template = await this.prisma.template.findUnique({
+      where: { id: templateId },
+    });
+    if (!template) {
+      throw new HttpException('Template not found', HttpStatus.NOT_FOUND);
+    }
+
+    // Dynamically fetch the poster field ID
+    const posterField = await this.prisma.templateField.findFirst({
+      where: {
+        templateId,
+        name: { contains: 'poster', mode: 'insensitive' },
+      },
+    });
+    const posterFieldId = posterField?.id || null;
+
+    // Fetch recent items for the template
+    const items = await this.prisma.item.findMany({
+      where: { templateId },
+      include: {
+        fieldValues: {
+          where: posterFieldId ? { fieldId: posterFieldId } : undefined,
+        },
+      },
+      orderBy: { createdAt: 'desc' },
+      take: 10,
+    });
+
+    // Map to RecommendationItem format
+    return items.map((item) => ({
+      id: item.id,
+      title: item.title,
+      slug: item.slug,
+      poster:
+        item.fieldValues[0]?.textValue || 'https://via.placeholder.com/150', // Fallback to placeholder
+      createdAt: item.createdAt.toISOString().split('T')[0], // Format as YYYY-MM-DD
+    }));
+  }
+
+  async getRecommendationsByGenre(
+    templateId: number,
+    templateFieldId: number,
+    genreValues: string[],
+  ): Promise<any[]> {
+    // Validate template and field exist
+    const template = await this.prisma.template.findUnique({
+      where: { id: templateId },
+    });
+    if (!template) {
+      throw new HttpException('Template not found', HttpStatus.NOT_FOUND);
+    }
+
+    const field = await this.prisma.templateField.findUnique({
+      where: { id: templateFieldId },
+    });
+    if (!field || field.templateId !== templateId) {
+      throw new HttpException(
+        'Genre field not found or invalid for template',
+        HttpStatus.NOT_FOUND,
+      );
+    }
+
+    // Dynamically fetch the poster field ID
+    const posterField = await this.prisma.templateField.findFirst({
+      where: {
+        templateId,
+        name: { contains: 'poster', mode: 'insensitive' },
+      },
+    });
+    const posterFieldId = posterField?.id || null;
+
+    // Debug: Log genreValues and template/field IDs
+    console.log('Debug - genreValues:', genreValues);
+    console.log('Debug - templateId:', templateId);
+    console.log('Debug - templateFieldId:', templateFieldId);
+    console.log('Debug - posterFieldId:', posterFieldId);
+
+    // Fetch all items with the given templateId and fieldValues
+    const allItems = await this.prisma.item.findMany({
+      where: { templateId },
+      include: {
+        fieldValues: true, // Include all field values to inspect
+      },
+    });
+
+    // Debug: Log all fetched items
+    console.log('Debug - All fetched items:', allItems);
+
+    // Normalize genre values for comparison
+    const normalizedGenreValues = genreValues.map((genre) =>
+      genre.replace(/[\s-]/g, '').toLowerCase(),
+    );
+
+    // Filter items in memory by normalizing jsonValue
+    const matchedItems = allItems
+      .filter((item) => {
+        const genreFieldValue = item.fieldValues.find(
+          (fv) => fv.fieldId === templateFieldId,
+        )?.jsonValue;
+        console.log(
+          'Debug - Item ID:',
+          item.id,
+          'Genre Field Value:',
+          genreFieldValue,
+        );
+        if (!genreFieldValue || !Array.isArray(genreFieldValue)) return false;
+
+        const normalizedItemGenres = genreFieldValue.map((genre: string) =>
+          genre.replace(/[\s-]/g, '').toLowerCase(),
+        );
+        console.log('Debug - Normalized Item Genres:', normalizedItemGenres);
+        return normalizedItemGenres.some((itemGenre) =>
+          normalizedGenreValues.includes(itemGenre),
+        );
+      })
+      .slice(0, 10); // Limit to 2 after filtering
+
+    // Debug: Log matched items after filtering
+    console.log('Debug - Matched items after filtering:', matchedItems);
+
+    // Map to RecommendationItem format
+    return matchedItems.map((item) => ({
+      id: item.id,
+      title: item.title,
+      slug: item.slug,
+      poster:
+        item.fieldValues.find((fv) => fv.fieldId === posterFieldId)
+          ?.textValue || 'https://via.placeholder.com/150',
+      createdAt: item.createdAt.toISOString().split('T')[0],
+    }));
+  }
 }

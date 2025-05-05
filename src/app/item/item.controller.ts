@@ -7,10 +7,17 @@ import {
   UseGuards,
   Req,
   ParseIntPipe,
+  Query,
 } from '@nestjs/common';
 import { ItemService } from './item.service';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
-import { ApiTags, ApiOperation, ApiBody, ApiParam } from '@nestjs/swagger';
+import {
+  ApiTags,
+  ApiOperation,
+  ApiBody,
+  ApiParam,
+  ApiQuery,
+} from '@nestjs/swagger';
 import { CreateItemDto } from './dto/create-item.dto';
 
 @ApiTags('Items')
@@ -38,5 +45,46 @@ export class ItemController {
   @Get('slug/:slug')
   async getItemBySlug(@Param('slug') slug: string) {
     return this.itemService.getItemBySlug(slug);
+  }
+
+  @ApiOperation({ summary: 'Get recommended items by template ID' })
+  @ApiParam({
+    name: 'templateId',
+    description: 'The ID of the template (e.g., 1 for movie, 6 for show)',
+  })
+  @Get('recommendations/template/:templateId')
+  async getRecommendationsByTemplate(
+    @Param('templateId', ParseIntPipe) templateId: number,
+  ) {
+    return this.itemService.getRecommendationsByTemplate(templateId);
+  }
+
+  @ApiOperation({ summary: 'Get recommended items by genre field' })
+  @ApiParam({
+    name: 'templateId',
+    description: 'The ID of the template (e.g., 1 for movie, 6 for show)',
+  })
+  @ApiParam({
+    name: 'templateFieldId',
+    description: 'The ID of the genre field (e.g., 7 for movie genre)',
+  })
+  @ApiQuery({
+    name: 'genreValues',
+    description:
+      'Comma-separated list of genre values (e.g., Science Fiction,Drama,Thriller)',
+    required: true,
+  })
+  @Get('recommendations/genre/:templateId/:templateFieldId')
+  async getRecommendationsByGenre(
+    @Param('templateId', ParseIntPipe) templateId: number,
+    @Param('templateFieldId', ParseIntPipe) templateFieldId: number,
+    @Query('genreValues') genreValues: string,
+  ) {
+    const genreValuesArray = genreValues.split(',').map((v) => v.trim());
+    return this.itemService.getRecommendationsByGenre(
+      templateId,
+      templateFieldId,
+      genreValuesArray,
+    );
   }
 }
