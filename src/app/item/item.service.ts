@@ -3,10 +3,139 @@ import { PrismaService } from '@/prisma/prisma.service';
 import { Item, TemplateField } from '@prisma/client';
 import slugify from 'slugify';
 import { CreateItemDto } from './dto/create-item.dto';
+import { SearchItemsDto } from './dto/search-items.dto';
 
 @Injectable()
 export class ItemService {
   constructor(private prisma: PrismaService) {}
+
+  async searchItems(dto: SearchItemsDto): Promise<any> {
+    const {
+      templateId,
+      fields,
+      sort = 'date',
+      pageSize = 20,
+      pageNo = 1,
+    } = dto;
+
+    // Validate template exists
+    const template = await this.prisma.template.findUnique({
+      where: { id: templateId },
+      include: { fields: true },
+    });
+    if (!template) {
+      throw new HttpException('Template not found', HttpStatus.NOT_FOUND);
+    }
+
+    // Validate fieldIds and determine field types
+    const fieldTypes = new Map<number, string>();
+    for (const { fieldId } of fields) {
+      const field = template.fields.find((f) => f.id === fieldId);
+      if (!field) {
+        throw new HttpException(
+          `Field with ID ${fieldId} not found in template`,
+          HttpStatus.BAD_REQUEST,
+        );
+      }
+      fieldTypes.set(fieldId, field.fieldType.toLowerCase());
+    }
+
+    // Build where clause for filtering
+    const whereClause: any = {
+      templateId,
+      fieldValues: {
+        some: {
+          OR: fields.map(({ fieldId, fieldValue }) => {
+            const fieldType = fieldTypes.get(fieldId)!;
+            if (fieldType === 'multiselect' || fieldType === 'json') {
+              return {
+                fieldId,
+                jsonValue: {
+                  array_contains: fieldValue.map((val) => val.toString()),
+                },
+              };
+            } else if (fieldType === 'number') {
+              return {
+                fieldId,
+                numericValue: { in: fieldValue.map((val) => Number(val)) },
+              };
+            } else if (fieldType === 'date') {
+              return {
+                fieldId,
+                dateValue: { in: fieldValue.map((val) => new Date(val)) },
+              };
+            } else if (fieldType === 'boolean') {
+              return {
+                fieldId,
+                booleanValue: { in: fieldValue.map((val) => Boolean(val)) },
+              };
+            } else {
+              return {
+                fieldId,
+                textValue: { in: fieldValue.map((val) => val.toString()) },
+              };
+            }
+          }),
+        },
+      },
+    };
+
+    // Determine sorting
+    let orderBy: any;
+    if (sort === 'date') {
+      orderBy = { createdAt: 'desc' };
+    } else if (sort === 'score') {
+      orderBy = { statistics: { avgRating: 'desc' } };
+    } else if (sort === 'popularity') {
+      orderBy = { statistics: { viewsCount: 'desc' } };
+    }
+
+    // Fetch items with pagination
+    const items = await this.prisma.item.findMany({
+      where: whereClause,
+      include: {
+        fieldValues: {
+          include: { field: true },
+        },
+        statistics: true,
+      },
+      orderBy,
+      skip: (pageNo - 1) * pageSize,
+      take: pageSize,
+    });
+
+    const total = await this.prisma.item.count({ where: whereClause });
+
+    // Dynamically fetch the poster field ID
+    const posterField = await this.prisma.templateField.findFirst({
+      where: {
+        templateId,
+        name: { contains: 'poster', mode: 'insensitive' },
+      },
+    });
+    const posterFieldId = posterField?.id || null;
+
+    // Map to response format
+    const responseItems = items.map((item) => ({
+      id: item.id,
+      title: item.title,
+      slug: item.slug,
+      poster:
+        item.fieldValues.find((fv) => fv.fieldId === posterFieldId)
+          ?.textValue || 'https://via.placeholder.com/150',
+      createdAt: item.createdAt.toISOString().split('T')[0],
+    }));
+
+    return {
+      items: responseItems,
+      pagination: {
+        total,
+        page: pageNo,
+        pageSize,
+        totalPages: Math.ceil(total / pageSize),
+      },
+    };
+  }
 
   async createItem(userId: number, dto: CreateItemDto): Promise<Item> {
     const { templateId, title, fieldValues } = dto;
@@ -296,7 +425,7 @@ export class ItemService {
           normalizedGenreValues.includes(itemGenre),
         );
       })
-      .slice(0, 10); // Limit to 2 after filtering
+      .slice(0, 10); // Limit to 10 after filtering
 
     // Debug: Log matched items after filtering
     console.log('Debug - Matched items after filtering:', matchedItems);

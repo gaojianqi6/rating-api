@@ -17,13 +17,97 @@ import {
   ApiBody,
   ApiParam,
   ApiQuery,
+  ApiResponse,
 } from '@nestjs/swagger';
 import { CreateItemDto } from './dto/create-item.dto';
+import { SearchItemsDto } from './dto/search-items.dto';
 
 @ApiTags('Items')
 @Controller('items')
 export class ItemController {
   constructor(private readonly itemService: ItemService) {}
+
+  @ApiOperation({ summary: 'Search items by template and field filters' })
+  @ApiQuery({
+    name: 'templateId',
+    description: 'The ID of the template (e.g., 1 for movie)',
+    type: Number,
+    required: true,
+  })
+  @ApiQuery({
+    name: 'fields',
+    description: 'Array of field filters in JSON format',
+    type: String,
+    example:
+      '[{"fieldId":7,"fieldValue":["Science Fiction","Drama"]},{"fieldId":3,"fieldValue":[1999]}]',
+    required: true,
+  })
+  @ApiQuery({
+    name: 'sort',
+    description: 'Sort by: date, score, or popularity',
+    enum: ['date', 'score', 'popularity'],
+    required: false,
+  })
+  @ApiQuery({
+    name: 'pageSize',
+    description: 'Number of items per page',
+    type: Number,
+    required: false,
+  })
+  @ApiQuery({
+    name: 'pageNo',
+    description: 'Page number',
+    type: Number,
+    required: false,
+  })
+  @ApiResponse({
+    status: 200,
+    description: 'List of items with pagination metadata',
+    schema: {
+      type: 'object',
+      properties: {
+        items: {
+          type: 'array',
+          items: {
+            type: 'object',
+            properties: {
+              id: { type: 'number' },
+              title: { type: 'string' },
+              slug: { type: 'string' },
+              poster: { type: 'string' },
+              createdAt: { type: 'string' },
+            },
+          },
+        },
+        pagination: {
+          type: 'object',
+          properties: {
+            total: { type: 'number' },
+            page: { type: 'number' },
+            pageSize: { type: 'number' },
+            totalPages: { type: 'number' },
+          },
+        },
+      },
+    },
+  })
+  @Get()
+  async searchItems(
+    @Query('templateId', ParseIntPipe) templateId: number,
+    @Query('fields') fields: string,
+    @Query('sort') sort?: 'date' | 'score' | 'popularity',
+    @Query('pageSize', ParseIntPipe) pageSize: number = 20,
+    @Query('pageNo', ParseIntPipe) pageNo: number = 1,
+  ) {
+    const searchDto: SearchItemsDto = {
+      templateId,
+      fields: JSON.parse(fields),
+      sort,
+      pageSize,
+      pageNo,
+    };
+    return this.itemService.searchItems(searchDto);
+  }
 
   @ApiOperation({ summary: 'Create a rating item using a template' })
   @ApiBody({ type: CreateItemDto })
