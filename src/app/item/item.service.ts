@@ -18,6 +18,20 @@ export class ItemService {
       pageNo = 1,
     } = dto;
 
+    // Validate pageSize and pageNo
+    if (pageSize < 1) {
+      throw new HttpException(
+        'pageSize must be at least 1',
+        HttpStatus.BAD_REQUEST,
+      );
+    }
+    if (pageNo < 1) {
+      throw new HttpException(
+        'pageNo must be at least 1',
+        HttpStatus.BAD_REQUEST,
+      );
+    }
+
     // Validate template exists
     const template = await this.prisma.template.findUnique({
       where: { id: templateId },
@@ -27,23 +41,27 @@ export class ItemService {
       throw new HttpException('Template not found', HttpStatus.NOT_FOUND);
     }
 
-    // Validate fieldIds and determine field types
-    const fieldTypes = new Map<number, string>();
-    for (const { fieldId } of fields) {
-      const field = template.fields.find((f) => f.id === fieldId);
-      if (!field) {
-        throw new HttpException(
-          `Field with ID ${fieldId} not found in template`,
-          HttpStatus.BAD_REQUEST,
-        );
-      }
-      fieldTypes.set(fieldId, field.fieldType.toLowerCase());
-    }
-
-    // Build where clause for filtering
+    // Base where clause with templateId
     const whereClause: any = {
       templateId,
-      fieldValues: {
+    };
+
+    // Validate fieldIds and build field filters only if fields are provided
+    if (fields && fields.length > 0) {
+      const fieldTypes = new Map<number, string>();
+      for (const { fieldId } of fields) {
+        const field = template.fields.find((f) => f.id === fieldId);
+        if (!field) {
+          throw new HttpException(
+            `Field with ID ${fieldId} not found in template`,
+            HttpStatus.BAD_REQUEST,
+          );
+        }
+        fieldTypes.set(fieldId, field.fieldType.toLowerCase());
+      }
+
+      // Add field filters to the where clause
+      whereClause.fieldValues = {
         some: {
           OR: fields.map(({ fieldId, fieldValue }) => {
             const fieldType = fieldTypes.get(fieldId)!;
@@ -77,8 +95,8 @@ export class ItemService {
             }
           }),
         },
-      },
-    };
+      };
+    }
 
     // Determine sorting
     let orderBy: any;

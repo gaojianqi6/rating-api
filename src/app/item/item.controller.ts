@@ -16,8 +16,8 @@ import {
   ApiOperation,
   ApiBody,
   ApiParam,
-  ApiQuery,
   ApiResponse,
+  ApiQuery,
 } from '@nestjs/swagger';
 import { CreateItemDto } from './dto/create-item.dto';
 import { SearchItemsDto } from './dto/search-items.dto';
@@ -28,37 +28,10 @@ export class ItemController {
   constructor(private readonly itemService: ItemService) {}
 
   @ApiOperation({ summary: 'Search items by template and field filters' })
-  @ApiQuery({
-    name: 'templateId',
-    description: 'The ID of the template (e.g., 1 for movie)',
-    type: Number,
+  @ApiBody({
+    type: SearchItemsDto,
+    description: 'Search parameters sent in the request body',
     required: true,
-  })
-  @ApiQuery({
-    name: 'fields',
-    description: 'Array of field filters in JSON format',
-    type: String,
-    example:
-      '[{"fieldId":7,"fieldValue":["Science Fiction","Drama"]},{"fieldId":3,"fieldValue":[1999]}]',
-    required: true,
-  })
-  @ApiQuery({
-    name: 'sort',
-    description: 'Sort by: date, score, or popularity',
-    enum: ['date', 'score', 'popularity'],
-    required: false,
-  })
-  @ApiQuery({
-    name: 'pageSize',
-    description: 'Number of items per page',
-    type: Number,
-    required: false,
-  })
-  @ApiQuery({
-    name: 'pageNo',
-    description: 'Page number',
-    type: Number,
-    required: false,
   })
   @ApiResponse({
     status: 200,
@@ -91,21 +64,16 @@ export class ItemController {
       },
     },
   })
-  @Get()
-  async searchItems(
-    @Query('templateId', ParseIntPipe) templateId: number,
-    @Query('fields') fields: string,
-    @Query('sort') sort?: 'date' | 'score' | 'popularity',
-    @Query('pageSize', ParseIntPipe) pageSize: number = 20,
-    @Query('pageNo', ParseIntPipe) pageNo: number = 1,
-  ) {
+  @Post('search')
+  async searchItems(@Body() body: SearchItemsDto) {
     const searchDto: SearchItemsDto = {
-      templateId,
-      fields: JSON.parse(fields),
-      sort,
-      pageSize,
-      pageNo,
+      templateId: body.templateId, // Required, must be provided
+      fields: body.fields || [],
+      sort: body.sort || 'date', // Default to 'date' if not provided
+      pageSize: body.pageSize || 20,
+      pageNo: body.pageNo || 1,
     };
+
     return this.itemService.searchItems(searchDto);
   }
 

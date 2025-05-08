@@ -25,6 +25,7 @@ export class SearchItemsDto {
   @ApiProperty({
     description: 'The ID of the template (e.g., 1 for movie)',
     example: 1,
+    required: true,
   })
   @IsInt()
   templateId: number;
@@ -36,9 +37,11 @@ export class SearchItemsDto {
       { fieldId: 7, fieldValue: ['Science Fiction', 'Drama'] },
       { fieldId: 3, fieldValue: [1999] },
     ],
+    required: false,
   })
+  @IsOptional()
   @IsArray()
-  fields: FieldFilter[];
+  fields?: FieldFilter[];
 
   @ApiProperty({
     description: 'Sort by: date, score, or popularity',
