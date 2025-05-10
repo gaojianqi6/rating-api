@@ -8,6 +8,7 @@ import {
   Delete,
   UseGuards,
   Req,
+  BadRequestException,
 } from '@nestjs/common';
 import { UserService } from './user.service';
 import { User as UserModel } from '@prisma/client';
@@ -55,13 +56,73 @@ export class UserController {
     return req.user;
   }
 
+  @ApiOperation({
+    summary: 'Get all ratings for the authenticated user, grouped by template',
+  })
+  @ApiResponse({
+    status: 200,
+    description: 'Returns the user’s ratings grouped by template.',
+    schema: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          templateId: { type: 'number', example: 1 },
+          templateName: { type: 'string', example: 'movie' },
+          templateDisplayName: { type: 'string', example: 'Movie' },
+          ratings: {
+            type: 'array',
+            items: {
+              type: 'object',
+              properties: {
+                id: { type: 'number', example: 1 },
+                title: { type: 'string', example: 'Echoes of Tomorrow' },
+                slug: { type: 'string', example: 'echoes-of-tomorrow' },
+                year: { type: 'number', example: 2025 },
+                poster: {
+                  type: 'string',
+                  example: 'https://example.com/poster.jpg',
+                },
+                rating: { type: 'number', example: 10 },
+                comment: { type: 'string', example: 'Does it right!' },
+              },
+            },
+          },
+        },
+      },
+    },
+  })
+  @UseGuards(JwtAuthGuard)
+  @Get('ratings')
+  async getUserRatings(@Req() req): Promise<
+    Array<{
+      templateId: number;
+      templateName: string;
+      templateDisplayName: string;
+      ratings: Array<{
+        id: number;
+        title: string;
+        slug: string;
+        year: number;
+        poster: string;
+        rating: number;
+        comment: string;
+      }>;
+    }>
+  > {
+    if (!req.user || !req.user.userId) {
+      throw new BadRequestException('User ID is missing from the request.');
+    }
+    return this.userService.getUserRatings(req.user.userId);
+  }
+
   @ApiOperation({ summary: 'Get a user by ID' })
   @ApiResponse({
     status: 200,
     description: 'Returns the user with the specified ID.',
   })
   @ApiParam({ name: 'id', description: 'The ID of the user to retrieve.' })
-  @Get(':id')
+  @Get('/get/:id')
   @UseGuards(JwtAuthGuard)
   async getUserById(@Param('id') id: string): Promise<UserModel | null> {
     return this.userService.user({ id: Number(id) });
