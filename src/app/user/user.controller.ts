@@ -52,8 +52,11 @@ export class UserController {
   })
   @UseGuards(JwtAuthGuard)
   @Get('profile')
-  getProfile(@Req() req) {
-    return req.user;
+  getProfile(@Req() req): Promise<UserModel | null> {
+    if (!req.user || !req.user.userId) {
+      throw new BadRequestException('User ID is missing from the request.');
+    }
+    return this.userService.userById({ id: Number(req.user.userId) });
   }
 
   @ApiOperation({
@@ -125,7 +128,7 @@ export class UserController {
   @Get('/get/:id')
   @UseGuards(JwtAuthGuard)
   async getUserById(@Param('id') id: string): Promise<UserModel | null> {
-    return this.userService.user({ id: Number(id) });
+    return this.userService.userById({ id: Number(id) });
   }
 
   @ApiOperation({ summary: 'Update a user' })

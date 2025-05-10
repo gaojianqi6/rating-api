@@ -10,14 +10,20 @@ export class UserService {
   async user(
     userWhereUniqueInput: Prisma.UserWhereUniqueInput,
   ): Promise<User | null> {
+    return this.prisma.user.findUnique({
+      where: userWhereUniqueInput,
+    });
+  }
+
+  async userById(
+    userWhereUniqueInput: Prisma.UserWhereUniqueInput,
+  ): Promise<User | null> {
     if (!userWhereUniqueInput || !userWhereUniqueInput.id) {
       throw new BadRequestException(
         'User ID is required to fetch user details.',
       );
     }
-    return this.prisma.user.findUnique({
-      where: userWhereUniqueInput,
-    });
+    return this.user(userWhereUniqueInput);
   }
 
   async users(params: {
