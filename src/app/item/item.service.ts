@@ -60,42 +60,52 @@ export class ItemService {
         fieldTypes.set(fieldId, field.fieldType.toLowerCase());
       }
 
-      // Add field filters to the where clause
-      whereClause.fieldValues = {
-        some: {
-          OR: fields.map(({ fieldId, fieldValue }) => {
-            const fieldType = fieldTypes.get(fieldId)!;
-            if (fieldType === 'multiselect' || fieldType === 'json') {
+      // Filter out fields with empty values and build field filters
+      const nonEmptyFields = fields.filter(
+        (field) => field.fieldValue && field.fieldValue.length > 0,
+      );
+
+      if (nonEmptyFields.length > 0) {
+        whereClause.fieldValues = {
+          some: {
+            AND: nonEmptyFields.map(({ fieldId, fieldValue }) => {
+              const fieldType = fieldTypes.get(fieldId)!;
               return {
                 fieldId,
-                jsonValue: {
-                  array_contains: fieldValue.map((val) => val.toString()),
-                },
+                ...(fieldType === 'multiselect' || fieldType === 'json'
+                  ? {
+                      jsonValue: {
+                        array_contains: fieldValue.map((val) => val.toString()),
+                      },
+                    }
+                  : fieldType === 'number'
+                    ? {
+                        numericValue: {
+                          in: fieldValue.map((val) => Number(val)),
+                        },
+                      }
+                    : fieldType === 'date'
+                      ? {
+                          dateValue: {
+                            in: fieldValue.map((val) => new Date(val)),
+                          },
+                        }
+                      : fieldType === 'boolean'
+                        ? {
+                            booleanValue: {
+                              in: fieldValue.map((val) => Boolean(val)),
+                            },
+                          }
+                        : {
+                            textValue: {
+                              in: fieldValue.map((val) => val.toString()),
+                            },
+                          }),
               };
-            } else if (fieldType === 'number') {
-              return {
-                fieldId,
-                numericValue: { in: fieldValue.map((val) => Number(val)) },
-              };
-            } else if (fieldType === 'date') {
-              return {
-                fieldId,
-                dateValue: { in: fieldValue.map((val) => new Date(val)) },
-              };
-            } else if (fieldType === 'boolean') {
-              return {
-                fieldId,
-                booleanValue: { in: fieldValue.map((val) => Boolean(val)) },
-              };
-            } else {
-              return {
-                fieldId,
-                textValue: { in: fieldValue.map((val) => val.toString()) },
-              };
-            }
-          }),
-        },
-      };
+            }),
+          },
+        };
+      }
     }
 
     // Determine sorting
