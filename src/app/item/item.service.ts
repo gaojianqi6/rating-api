@@ -46,7 +46,7 @@ export class ItemService {
       templateId,
     };
 
-    // Validate fieldIds and build field filters only if fields are provided
+    // Add field filters to the where clause
     if (fields && fields.length > 0) {
       const fieldTypes = new Map<number, string>();
       for (const { fieldId } of fields) {
@@ -60,7 +60,7 @@ export class ItemService {
         fieldTypes.set(fieldId, field.fieldType.toLowerCase());
       }
 
-      // Filter out fields with empty values and build field filters
+      // Filter out fields with empty values
       const nonEmptyFields = fields.filter(
         (field) => field.fieldValue && field.fieldValue.length > 0,
       );
@@ -68,40 +68,48 @@ export class ItemService {
       if (nonEmptyFields.length > 0) {
         whereClause.fieldValues = {
           some: {
-            AND: nonEmptyFields.map(({ fieldId, fieldValue }) => {
+            OR: nonEmptyFields.map(({ fieldId, fieldValue }) => {
               const fieldType = fieldTypes.get(fieldId)!;
-              return {
-                fieldId,
-                ...(fieldType === 'multiselect' || fieldType === 'json'
-                  ? {
+              const firstValue = fieldValue[0]; // Take first value for single-value fields
+
+              if (fieldType === 'multiselect' || fieldType === 'json') {
+                return {
+                  fieldId,
+                  OR: [
+                    {
                       jsonValue: {
-                        array_contains: fieldValue.map((val) => val.toString()),
+                        array_contains: [firstValue],
                       },
-                    }
-                  : fieldType === 'number'
-                    ? {
-                        numericValue: {
-                          in: fieldValue.map((val) => Number(val)),
-                        },
-                      }
-                    : fieldType === 'date'
-                      ? {
-                          dateValue: {
-                            in: fieldValue.map((val) => new Date(val)),
-                          },
-                        }
-                      : fieldType === 'boolean'
-                        ? {
-                            booleanValue: {
-                              in: fieldValue.map((val) => Boolean(val)),
-                            },
-                          }
-                        : {
-                            textValue: {
-                              in: fieldValue.map((val) => val.toString()),
-                            },
-                          }),
-              };
+                    },
+                    {
+                      jsonValue: {
+                        equals: [firstValue],
+                      },
+                    },
+                  ],
+                };
+              } else if (fieldType === 'number') {
+                return {
+                  fieldId,
+                  numericValue: Number(firstValue),
+                };
+              } else if (fieldType === 'date') {
+                return {
+                  fieldId,
+                  dateValue: new Date(firstValue),
+                };
+              } else if (fieldType === 'boolean') {
+                return {
+                  fieldId,
+                  booleanValue: Boolean(firstValue),
+                };
+              } else {
+                // For text, textarea, url, img, select
+                return {
+                  fieldId,
+                  textValue: firstValue.toString(),
+                };
+              }
             }),
           },
         };

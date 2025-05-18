@@ -7,7 +7,7 @@ const TMDB_API_KEY = '8307d688307908d4931e4a1fd866dcc7';
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 const REQUEST_DELAY_MS = 250; // Delay between API requests to avoid rate limiting
 
-// Countries and Genres from your datasource
+// Countries and Languages from your datasource
 const countries = [
   'USA', 'South Korea', 'Japan', 'Thailand', 'France', 'Germany', 'Russia', 'Sweden', 'Brazil', 'India',
   'Canada', 'Ireland', 'Australia', 'United Kingdom', 'China', 'Mexico', 'Spain', 'Italy', 'Nigeria', 'South Africa', 'New Zealand'
@@ -45,7 +45,7 @@ const movieGenres = [
   'History', 'Biography', 'Western', 'Short Film', 'Documentary'
 ];
 
-// TMDB genre IDs for movies (from TMDB API documentation)
+// TMDB genre IDs for movies
 const tmdbMovieGenreMap = {
   'Action': 28,
   'Adventure': 12,
@@ -66,7 +66,7 @@ const tmdbMovieGenreMap = {
   'Western': 37,
   'Biography': 18, // Drama as a proxy
   'Suspense': 53, // Thriller as a proxy
-  'Short Film': 16, // Animation as a proxy for short films
+  'Short Film': 16, // Animation as a proxy
   'Classic Movies': 18, // Drama as a proxy
   'Online Movies': 28, // Action as a proxy
   'Gay Movies': 10749, // Romance as a proxy
@@ -82,37 +82,48 @@ const tmdbMovieGenreMap = {
   'Costume Drama': 36, // History as a proxy
 };
 
-const showGenres = [
-  'Reality Show', 'Comedy', 'Romance', 'Animation', 'Martial Arts', 'Costume Drama', 'Family Drama', 'Crime', 'Thriller',
-  'Adventure', 'Sci-Fi', 'Horror', 'History', 'War', 'Action', 'Biography', 'Drama', 'Fantasy', 'Disaster', 'Western',
-  'Musical', 'Short Film', 'Documentary'
+// TV Series genres from tv_type (dataSourceId: 2)
+const tvGenres = [
+  'love', 'romance', 'comedy', 'history', 'competition', 'emotional', 'animation', 'costume_drama', 'family_drama',
+  'crime', 'thriller', 'adventure', 'horror', 'war', 'action', 'biography', 'drama', 'fantasy', 'disaster', 'musical'
 ];
 
-// TMDB genre IDs for TV shows
+// Variety Show genres from show_type (dataSourceId: 3)
+const varietyGenres = [
+  'reality_show', 'talent_show', 'talk_show', 'dance_show', 'comedy_show', 'martial_arts', 'interview', 'concert', 'others'
+];
+
+// TMDB genre IDs for TV shows (aligned with tv_type)
 const tmdbShowGenreMap = {
-  'Action': 10759, // Action & Adventure
-  'Adventure': 10759,
-  'Animation': 16,
-  'Comedy': 35,
-  'Crime': 80,
-  'Documentary': 99,
-  'Drama': 18,
-  'Family Drama': 10751, // Family
-  'Fantasy': 10765, // Sci-Fi & Fantasy
-  'History': 36,
-  'Horror': 9648, // Mystery as a proxy
-  'Musical': 10402, // Music
-  'Romance': 10749,
-  'Sci-Fi': 10765,
-  'Thriller': 9648, // Mystery as a proxy
-  'War': 10768, // War & Politics
-  'Western': 37,
-  'Biography': 18, // Drama as a proxy
-  'Reality Show': 10764, // Reality
-  'Short Film': 16, // Animation as a proxy
-  'Disaster': 10759, // Action & Adventure as a proxy
-  'Martial Arts': 10759, // Action & Adventure as a proxy
-  'Costume Drama': 36, // History as a proxy
+  'action': 10759, // Action & Adventure
+  'adventure': 10759,
+  'animation': 16,
+  'comedy': 35,
+  'crime': 80,
+  'drama': 18,
+  'family_drama': 10751, // Family
+  'fantasy': 10765, // Sci-Fi & Fantasy
+  'history': 36,
+  'horror': 9648, // Mystery as a proxy
+  'musical': 10402, // Music
+  'romance': 10749,
+  'thriller': 9648, // Mystery as a proxy
+  'war': 10768, // War & Politics
+  'biography': 18, // Drama as a proxy
+  'disaster': 10759, // Action & Adventure as a proxy
+  'costume_drama': 36, // History as a proxy
+  'love': 10749, // Romance as a proxy
+  'emotional': 18, // Drama as a proxy
+  'competition': 10764, // Reality as a proxy (for scripted competition)
+};
+
+// TMDB keyword IDs for variety show types
+const tmdbKeywordMap = {
+  'talent_show': 263106, // Talent show keyword
+  'dance_show': 18018, // Dance keyword
+  'comedy_show': 176684, // Comedy keyword
+  'martial_arts': 77991,
+  'concert': 11199,
 };
 
 const languages = [
@@ -155,7 +166,7 @@ async function fetchTMDBData(endpoint, params) {
   }
 }
 
-// Helper to get content rating (simplified mapping)
+// Helper to get content rating
 function mapContentRating(rating) {
   if (!rating) return getRandom(contentRatings);
   if (rating.includes('G')) return 'G';
@@ -178,7 +189,7 @@ function mapGenres(tmdbGenres, genreMap, availableGenres) {
       genres.push(matchingGenre);
     }
   }
-  return genres.length > 0 ? genres : [getRandom(availableGenres)]; // Fallback to random genre if no match
+  return genres.length > 0 ? genres : [getRandom(availableGenres)]; // Fallback to random genre
 }
 
 // Helper to map TMDB countries to your countries
@@ -212,19 +223,20 @@ async function seedMovies() {
   const startTime = Date.now();
   console.log('Starting to fetch Movies...');
   const movieData = [];
-  const seenTitles = new Set(); // Track seen titles to avoid duplicates
+  const seenTitles = new Set();
+  const slugCounts = {};
   let movieCounter = 1;
 
   // Ensure at least 5 per genre (34 genres × 5 = 170 entries)
   for (const genre of movieGenres) {
-    const genreId = tmdbMovieGenreMap[genre] || 28; // Default to Action if no mapping
+    const genreId = tmdbMovieGenreMap[genre] || 28; // Default to Action
     for (let i = 0; i < 5; i++) {
       const country = countries[(movieCounter - 1) % countries.length];
       const countryCode = countryCodeMap[country];
       const page = Math.floor(movieCounter / 20) + 1; // TMDB returns 20 results per page
       const movies = await fetchTMDBData('discover/movie', {
         with_genres: genreId,
-        'with_origin_country': countryCode,
+        with_origin_country: countryCode,
         page,
         sort_by: 'popularity.desc',
       });
@@ -248,10 +260,10 @@ async function seedMovies() {
         continue;
       }
 
-      const movieDetails = await fetchTMDBData(`movie/${movie.id}`, { append_to_response: 'releases' });
+      const movieDetails = await fetchTMDBData(`movie/${movie.id}`, { append_to_response: 'releases,credits' });
 
-      const genres = mapGenres(movieDetails.genres, tmdbMovieGenreMap, movieGenres);
-      const movieCountries = mapCountries(movieDetails.production_countries);
+      const genres = mapGenres(movieDetails.genres || [], tmdbMovieGenreMap, movieGenres);
+      const movieCountries = mapCountries(movieDetails.production_countries || []);
       const languages = mapLanguages(movieDetails.original_language);
       const releaseYear = movieDetails.release_date ? parseInt(movieDetails.release_date.split('-')[0]) : 2020;
       const contentRating = mapContentRating(
@@ -259,8 +271,12 @@ async function seedMovies() {
       );
 
       const title = movieDetails.title;
-      seenTitles.add(title); // Add title to seen set
-      const slug = slugify(`${title}`, { lower: true, strict: true }); // Add counter to ensure unique slugs
+      seenTitles.add(title);
+      let slug = slugify(`${title}`, { lower: true, strict: true });
+      slugCounts[slug] = (slugCounts[slug] || 0) + 1;
+      if (slugCounts[slug] > 1) {
+        slug = `${slug}-${slugCounts[slug]}`; // Append counter for unique slugs
+      }
 
       const movieEntry = {
         templateId: 1,
@@ -270,10 +286,10 @@ async function seedMovies() {
         updatedAt: new Date().toISOString(),
         fieldValues: [
           { fieldId: 1, textValue: title }, // title
-          { fieldId: 2, textValue: `https://image.tmdb.org/t/p/original${movieDetails.poster_path}` }, // poster
+          { fieldId: 2, textValue: movieDetails.poster_path ? `https://image.tmdb.org/t/p/original${movieDetails.poster_path}` : '' }, // poster
           { fieldId: 3, numericValue: releaseYear }, // release_year
-          { fieldId: 4, textValue: movieDetails.director || 'Unknown Director' }, // director
-          { fieldId: 5, textValue: 'Various Actors' }, // cast (requires credits endpoint, simplified here)
+          { fieldId: 4, textValue: movieDetails.credits?.crew.find((c) => c.job === 'Director')?.name || 'Unknown Director' }, // director
+          { fieldId: 5, textValue: movieDetails.credits?.cast.slice(0, 3).map((c) => c.name).join(', ') || 'Various Actors' }, // cast
           { fieldId: 6, jsonValue: languages }, // language
           { fieldId: 7, jsonValue: genres }, // type (genre)
           { fieldId: 8, jsonValue: movieCountries }, // country
@@ -305,7 +321,6 @@ async function seedMovies() {
       continue;
     }
 
-    // Find the first unseen movie
     let movie = null;
     for (const result of movies.results) {
       if (!seenTitles.has(result.title)) {
@@ -319,10 +334,10 @@ async function seedMovies() {
       continue;
     }
 
-    const movieDetails = await fetchTMDBData(`movie/${movie.id}`, { append_to_response: 'releases' });
+    const movieDetails = await fetchTMDBData(`movie/${movie.id}`, { append_to_response: 'releases,credits' });
 
-    const genres = mapGenres(movieDetails.genres, tmdbMovieGenreMap, movieGenres);
-    const movieCountries = mapCountries(movieDetails.production_countries);
+    const genres = mapGenres(movieDetails.genres || [], tmdbMovieGenreMap, movieGenres);
+    const movieCountries = mapCountries(movieDetails.production_countries || []);
     const languages = mapLanguages(movieDetails.original_language);
     const releaseYear = movieDetails.release_date ? parseInt(movieDetails.release_date.split('-')[0]) : 2020;
     const contentRating = mapContentRating(
@@ -330,8 +345,12 @@ async function seedMovies() {
     );
 
     const title = movieDetails.title;
-    seenTitles.add(title); // Add title to seen set
-    const slug = slugify(`${title}`, { lower: true, strict: true }); // Add counter to ensure unique slugs
+    seenTitles.add(title);
+    let slug = slugify(`${title}`, { lower: true, strict: true });
+    slugCounts[slug] = (slugCounts[slug] || 0) + 1;
+    if (slugCounts[slug] > 1) {
+      slug = `${slug}-${slugCounts[slug]}`;
+    }
 
     const movieEntry = {
       templateId: 1,
@@ -341,10 +360,10 @@ async function seedMovies() {
       updatedAt: new Date().toISOString(),
       fieldValues: [
         { fieldId: 1, textValue: title },
-        { fieldId: 2, textValue: `https://image.tmdb.org/t/p/original${movieDetails.poster_path}` },
+        { fieldId: 2, textValue: movieDetails.poster_path ? `https://image.tmdb.org/t/p/original${movieDetails.poster_path}` : '' },
         { fieldId: 3, numericValue: releaseYear },
-        { fieldId: 4, textValue: movieDetails.director || 'Unknown Director' },
-        { fieldId: 5, textValue: 'Various Actors' },
+        { fieldId: 4, textValue: movieDetails.credits?.crew.find((c) => c.job === 'Director')?.name || 'Unknown Director' },
+        { fieldId: 5, textValue: movieDetails.credits?.cast.slice(0, 3).map((c) => c.name).join(', ') || 'Various Actors' },
         { fieldId: 6, jsonValue: languages },
         { fieldId: 7, jsonValue: genres },
         { fieldId: 8, jsonValue: movieCountries },
@@ -365,7 +384,6 @@ async function seedMovies() {
   const endTime = Date.now();
   console.log(`Finished fetching ${movieData.length} movies. Time taken: ${formatDuration(endTime - startTime)}`);
 
-  // Write data to JSON file
   console.log('Writing movies to movies.json...');
   const writeStartTime = Date.now();
   try {
@@ -384,96 +402,131 @@ async function seedVarietyShows() {
   const startTime = Date.now();
   console.log('Starting to fetch Variety Shows...');
   const varietyShowData = [];
-  const seenTitles = new Set(); // Track seen titles to avoid duplicates
+  const seenTitles = new Set();
+  const slugCounts = {};
   let varietyCounter = 1;
 
-  // Filter for Reality and Talk shows as a proxy for variety shows
-  const varietyGenreIds = [10764]; // Reality
-  for (const genre of showGenres) {
-    const genreId = tmdbShowGenreMap[genre] || 10764;
-    for (let i = 0; i < 5; i++) {
-      const country = countries[(varietyCounter - 1) % countries.length];
-      const countryCode = countryCodeMap[country];
-      const page = Math.floor(varietyCounter / 20) + 1;
-      const shows = await fetchTMDBData('discover/tv', {
-        with_genres: varietyGenreIds.join(','),
-        'with_origin_country': countryCode,
-        page,
-      });
+  // Ensure at least 5 per genre (9 genres × 5 = 45 entries)
+  for (const genre of varietyGenres) {
+    const params = {
+      with_genres: '10764,10767', // Reality and Talk
+      with_origin_country: countryCodeMap[countries[(varietyCounter - 1) % countries.length]],
+      page: Math.floor(varietyCounter / 20) + 1,
+      sort_by: 'popularity.desc',
+    };
 
-      if (shows.results.length === 0) {
-        console.log(`No variety shows found for genre ${genre} in country ${country}, page ${page}. Skipping...`);
-        continue;
+    // Add keyword filters for specific genres
+    if (genre === 'talent_show') {
+      params.with_keywords = tmdbKeywordMap['talent_show'];
+    } else if (genre === 'dance_show') {
+      params.with_keywords = tmdbKeywordMap['dance_show'];
+    } else if (genre === 'comedy_show') {
+      params.with_keywords = tmdbKeywordMap['comedy_show'];
+    } else if (genre === 'martial_arts') {
+      params.with_keywords = tmdbKeywordMap['martial_arts'];
+    } else if (genre === 'concert') {
+      params.with_keywords = tmdbKeywordMap['concert'];
+    }
+
+    const shows = await fetchTMDBData('discover/tv', params);
+
+    if (shows.results.length === 0) {
+      console.log(`No variety shows found for genre ${genre}, page ${params.page}. Skipping...`);
+      continue;
+    }
+
+    let show = null;
+    for (const result of shows.results) {
+      if (!seenTitles.has(result.name)) {
+        show = result;
+        break;
       }
+    }
 
-      // Find the first unseen show
-      let show = null;
-      for (const result of shows.results) {
-        if (!seenTitles.has(result.name)) {
-          show = result;
-          break;
-        }
-      }
+    if (!show) {
+      console.log(`All variety shows on page ${params.page} for genre ${genre} are duplicates. Skipping...`);
+      continue;
+    }
 
-      if (!show) {
-        console.log(`All variety shows on page ${page} for genre ${genre} are duplicates. Skipping...`);
-        continue;
-      }
+    const showDetails = await fetchTMDBData(`tv/${show.id}`, { append_to_response: 'content_ratings,credits,keywords' });
 
-      const showDetails = await fetchTMDBData(`tv/${show.id}`, { append_to_response: 'content_ratings' });
+    // Map genres based on TMDB data and target genre
+    let genres = [];
+    if (genre === 'reality_show' && showDetails.genres.some((g) => g.id === 10764)) {
+      genres = ['reality_show'];
+    } else if (genre === 'talk_show' && showDetails.genres.some((g) => g.id === 10767)) {
+      genres = ['talk_show'];
+    } else if (genre === 'talent_show' && showDetails.keywords?.results.some((k) => k.id === tmdbKeywordMap['talent_show'])) {
+      genres = ['talent_show'];
+    } else if (genre === 'dance_show' && showDetails.keywords?.results.some((k) => k.id === tmdbKeywordMap['dance_show'])) {
+      genres = ['dance_show'];
+    } else if (genre === 'comedy_show' && showDetails.keywords?.results.some((k) => k.id === tmdbKeywordMap['comedy_show'])) {
+      genres = ['comedy_show'];
+    } else if (genre === 'martial_arts' && showDetails.keywords?.results.some((k) => k.id === tmdbKeywordMap['martial_arts'])) {
+      genres = ['martial_arts'];
+    } else if (genre === 'concert' && showDetails.keywords?.results.some((k) => k.id === tmdbKeywordMap['concert'])) {
+      genres = ['concert'];
+    } else if (genre === 'interview' && showDetails.genres.some((g) => g.id === 10767)) {
+      genres = ['interview']; // Proxy with Talk
+    } else {
+      genres = ['others']; // Fallback
+    }
 
-      const genres = mapGenres(showDetails.genres, tmdbShowGenreMap, showGenres);
-      const showCountries = mapCountries(showDetails.production_countries || showDetails.origin_country.map((c) => ({ iso_3166_1: c })));
-      const languages = mapLanguages(showDetails.original_language);
-      const firstAirYear = showDetails.first_air_date ? parseInt(showDetails.first_air_date.split('-')[0]) : 2018;
-      const endYear = showDetails.last_air_date ? parseInt(showDetails.last_air_date.split('-')[0]) : null;
-      const contentRating = mapContentRating(
-        showDetails.content_ratings?.results.find((c) => c.iso_3166_1 === 'US')?.rating
-      );
+    const showCountries = mapCountries(showDetails.production_countries || showDetails.origin_country.map((c) => ({ iso_3166_1: c })));
+    const languages = mapLanguages(showDetails.original_language);
+    const firstAirYear = showDetails.first_air_date ? parseInt(showDetails.first_air_date.split('-')[0]) : 2018;
+    const endYear = showDetails.last_air_date ? parseInt(showDetails.last_air_date.split('-')[0]) : null;
+    const contentRating = mapContentRating(
+      showDetails.content_ratings?.results.find((c) => c.iso_3166_1 === 'US')?.rating
+    );
 
-      const title = showDetails.name;
-      seenTitles.add(title); // Add title to seen set
-      const slug = slugify(`${title}`, { lower: true, strict: true }); // Add counter to ensure unique slugs
+    const title = showDetails.name;
+    seenTitles.add(title);
+    let slug = slugify(`${title}`, { lower: true, strict: true });
+    slugCounts[slug] = (slugCounts[slug] || 0) + 1;
+    if (slugCounts[slug] > 1) {
+      slug = `${slug}-${slugCounts[slug]}`;
+    }
 
-      const showEntry = {
-        templateId: 6,
-        title,
-        slug,
-        createdAt: new Date().toISOString(),
-        updatedAt: new Date().toISOString(),
-        fieldValues: [
-          { fieldId: 72, textValue: title }, // title
-          { fieldId: 73, textValue: `https://image.tmdb.org/t/p/original${showDetails.poster_path}` }, // poster
-          { fieldId: 74, textValue: showDetails.created_by?.[0]?.name || 'Unknown Host' }, // host
-          { fieldId: 75, numericValue: firstAirYear }, // first_air_year
-          { fieldId: 76, numericValue: endYear }, // end_year
-          { fieldId: 77, textValue: showDetails.networks?.[0]?.name || 'Unknown Platform' }, // network_or_platform
-          { fieldId: 78, jsonValue: genres }, // genre
-          { fieldId: 79, jsonValue: languages }, // language
-          { fieldId: 80, jsonValue: showCountries }, // country
-          { fieldId: 81, textValue: showDetails.overview || 'No description available.' }, // description
-          { fieldId: 82, textValue: contentRating }, // content_rating
-          { fieldId: 83, numericValue: showDetails.episode_run_time?.[0] || 45 }, // average_runtime
-          { fieldId: 84, numericValue: showDetails.number_of_episodes || 50 }, // episode_count
-          { fieldId: 85, textValue: showDetails.status?.toLowerCase() || getRandom(statuses) }, // status
-          { fieldId: 86, textValue: `https://www.themoviedb.org/tv/${show.id}` }, // trailer_url (proxy)
-        ],
-      };
-      varietyShowData.push(showEntry);
-      varietyCounter++;
+    const showEntry = {
+      templateId: 3, // Variety Show template
+      title,
+      slug,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+      fieldValues: [
+        { fieldId: 30, textValue: title }, // title
+        { fieldId: 31, textValue: showDetails.poster_path ? `https://image.tmdb.org/t/p/original${showDetails.poster_path}` : '' }, // poster
+        { fieldId: 32, textValue: showDetails.credits?.cast[0]?.name || showDetails.created_by?.[0]?.name || 'Unknown Host' }, // host
+        { fieldId: 33, numericValue: firstAirYear }, // first_air_year
+        { fieldId: 34, numericValue: endYear }, // end_year
+        { fieldId: 35, textValue: showDetails.networks?.[0]?.name || 'Unknown Platform' }, // network_or_platform
+        { fieldId: 36, jsonValue: genres }, // genre
+        { fieldId: 37, jsonValue: languages }, // language
+        { fieldId: 38, jsonValue: showCountries }, // country
+        { fieldId: 39, textValue: showDetails.overview || 'No description available.' }, // description
+        { fieldId: 40, textValue: contentRating }, // content_rating
+        { fieldId: 41, numericValue: showDetails.episode_run_time?.[0] || 45 }, // average_runtime
+        { fieldId: 42, numericValue: showDetails.number_of_episodes || 50 }, // episode_count
+        { fieldId: 43, textValue: showDetails.status?.toLowerCase() || getRandom(statuses) }, // status
+        { fieldId: 44, textValue: `https://www.themoviedb.org/tv/${show.id}` }, // trailer_url
+      ],
+    };
+    varietyShowData.push(showEntry);
+    varietyCounter++;
 
-      if (varietyCounter % 50 === 0) {
-        console.log(`Processed ${varietyCounter} variety shows...`);
-      }
+    if (varietyCounter % 50 === 0) {
+      console.log(`Processed ${varietyCounter} variety shows...`);
     }
   }
 
-  // Add remaining variety shows to reach 150 (150 - 115 = 35 more)
-  for (let i = 0; i < 35; i++) {
+  // Add remaining variety shows to reach 150 (150 - 45 = 105 more)
+  for (let i = 0; i < 105; i++) {
     const page = Math.floor(i / 20) + 1;
     const shows = await fetchTMDBData('discover/tv', {
-      with_genres: varietyGenreIds.join(','),
+      with_genres: '10764,10767',
       page,
+      sort_by: 'popularity.desc',
     });
 
     if (shows.results.length === 0) {
@@ -481,7 +534,6 @@ async function seedVarietyShows() {
       continue;
     }
 
-    // Find the first unseen show
     let show = null;
     for (const result of shows.results) {
       if (!seenTitles.has(result.name)) {
@@ -495,9 +547,24 @@ async function seedVarietyShows() {
       continue;
     }
 
-    const showDetails = await fetchTMDBData(`tv/${show.id}`, { append_to_response: 'content_ratings' });
+    const showDetails = await fetchTMDBData(`tv/${show.id}`, { append_to_response: 'content_ratings,credits,keywords' });
 
-    const genres = mapGenres(showDetails.genres, tmdbShowGenreMap, showGenres);
+    // Assign genre based on TMDB genres or keywords
+    let genres = [];
+    if (showDetails.genres.some((g) => g.id === 10764)) {
+      genres = ['reality_show'];
+    } else if (showDetails.genres.some((g) => g.id === 10767)) {
+      genres = ['talk_show'];
+    } else if (showDetails.keywords?.results.some((k) => k.id === tmdbKeywordMap['talent_show'])) {
+      genres = ['talent_show'];
+    } else if (showDetails.keywords?.results.some((k) => k.id === tmdbKeywordMap['dance_show'])) {
+      genres = ['dance_show'];
+    } else if (showDetails.keywords?.results.some((k) => k.id === tmdbKeywordMap['comedy_show'])) {
+      genres = ['comedy_show'];
+    } else {
+      genres = ['others'];
+    }
+
     const showCountries = mapCountries(showDetails.production_countries || showDetails.origin_country.map((c) => ({ iso_3166_1: c })));
     const languages = mapLanguages(showDetails.original_language);
     const firstAirYear = showDetails.first_air_date ? parseInt(showDetails.first_air_date.split('-')[0]) : 2018;
@@ -507,31 +574,35 @@ async function seedVarietyShows() {
     );
 
     const title = showDetails.name;
-    seenTitles.add(title); // Add title to seen set
-    const slug = slugify(`${title}`, { lower: true, strict: true }); // Add counter to ensure unique slugs
+    seenTitles.add(title);
+    let slug = slugify(`${title}`, { lower: true, strict: true });
+    slugCounts[slug] = (slugCounts[slug] || 0) + 1;
+    if (slugCounts[slug] > 1) {
+      slug = `${slug}-${slugCounts[slug]}`;
+    }
 
     const showEntry = {
-      templateId: 6,
+      templateId: 3,
       title,
       slug,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
       fieldValues: [
-        { fieldId: 72, textValue: title },
-        { fieldId: 73, textValue: `https://image.tmdb.org/t/p/original${showDetails.poster_path}` },
-        { fieldId: 74, textValue: showDetails.created_by?.[0]?.name || 'Unknown Host' },
-        { fieldId: 75, numericValue: firstAirYear },
-        { fieldId: 76, numericValue: endYear },
-        { fieldId: 77, textValue: showDetails.networks?.[0]?.name || 'Unknown Platform' },
-        { fieldId: 78, jsonValue: genres },
-        { fieldId: 79, jsonValue: languages },
-        { fieldId: 80, jsonValue: showCountries },
-        { fieldId: 81, textValue: showDetails.overview || 'No description available.' },
-        { fieldId: 82, textValue: contentRating },
-        { fieldId: 83, numericValue: showDetails.episode_run_time?.[0] || 45 },
-        { fieldId: 84, numericValue: showDetails.number_of_episodes || 50 },
-        { fieldId: 85, textValue: showDetails.status?.toLowerCase() || getRandom(statuses) },
-        { fieldId: 86, textValue: `https://www.themoviedb.org/tv/${show.id}` },
+        { fieldId: 30, textValue: title },
+        { fieldId: 31, textValue: showDetails.poster_path ? `https://image.tmdb.org/t/p/original${showDetails.poster_path}` : '' },
+        { fieldId: 32, textValue: showDetails.credits?.cast[0]?.name || showDetails.created_by?.[0]?.name || 'Unknown Host' },
+        { fieldId: 33, numericValue: firstAirYear },
+        { fieldId: 34, numericValue: endYear },
+        { fieldId: 35, textValue: showDetails.networks?.[0]?.name || 'Unknown Platform' },
+        { fieldId: 36, jsonValue: genres },
+        { fieldId: 37, jsonValue: languages },
+        { fieldId: 38, jsonValue: showCountries },
+        { fieldId: 39, textValue: showDetails.overview || 'No description available.' },
+        { fieldId: 40, textValue: contentRating },
+        { fieldId: 41, numericValue: showDetails.episode_run_time?.[0] || 45 },
+        { fieldId: 42, numericValue: showDetails.number_of_episodes || 50 },
+        { fieldId: 43, textValue: showDetails.status?.toLowerCase() || getRandom(statuses) },
+        { fieldId: 44, textValue: `https://www.themoviedb.org/tv/${show.id}` },
       ],
     };
     varietyShowData.push(showEntry);
@@ -545,7 +616,6 @@ async function seedVarietyShows() {
   const endTime = Date.now();
   console.log(`Finished fetching ${varietyShowData.length} variety shows. Time taken: ${formatDuration(endTime - startTime)}`);
 
-  // Write data to JSON file
   console.log('Writing variety shows to variety-shows.json...');
   const writeStartTime = Date.now();
   try {
@@ -564,103 +634,100 @@ async function seedTVSeries() {
   const startTime = Date.now();
   console.log('Starting to fetch TV Series...');
   const tvSeriesData = [];
-  const seenTitles = new Set(); // Track seen titles to avoid duplicates
+  const seenTitles = new Set();
+  const slugCounts = {};
   let tvCounter = 1;
 
-  // Ensure at least 5 per genre (23 genres × 5 = 115 entries)
-  for (const genre of showGenres) {
-    if (genre === 'Reality Show') continue; // Skip Reality Show genre to avoid variety shows
+  // Ensure at least 5 per genre (20 genres × 5 = 100 entries)
+  for (const genre of tvGenres) {
     const genreId = tmdbShowGenreMap[genre] || 10759;
-    for (let i = 0; i < 5; i++) {
-      const country = countries[(tvCounter - 1) % countries.length];
-      const countryCode = countryCodeMap[country];
-      const page = Math.floor(tvCounter / 20) + 1;
-      const series = await fetchTMDBData('discover/tv', {
-        with_genres: genreId,
-        'without_genres': '10764', // Exclude Reality genre
-        'with_origin_country': countryCode,
-        page,
-      });
+    const page = Math.floor(tvCounter / 20) + 1;
+    const series = await fetchTMDBData('discover/tv', {
+      with_genres: genreId,
+      without_genres: '10764,10767', // Exclude Reality and Talk
+      with_origin_country: countryCodeMap[countries[(tvCounter - 1) % countries.length]],
+      page,
+      sort_by: 'popularity.desc',
+    });
 
-      if (series.results.length === 0) {
-        console.log(`No TV series found for genre ${genre} in country ${country}, page ${page}. Skipping...`);
-        continue;
+    if (series.results.length === 0) {
+      console.log(`No TV series found for genre ${genre}, page ${page}. Skipping...`);
+      continue;
+    }
+
+    let show = null;
+    for (const result of series.results) {
+      if (!seenTitles.has(result.name)) {
+        show = result;
+        break;
       }
+    }
 
-      // Find the first unseen series
-      let show = null;
-      for (const result of series.results) {
-        if (!seenTitles.has(result.name)) {
-          show = result;
-          break;
-        }
-      }
+    if (!show) {
+      console.log(`All TV series on page ${page} for genre ${genre} are duplicates. Skipping...`);
+      continue;
+    }
 
-      if (!show) {
-        console.log(`All TV series on page ${page} for genre ${genre} are duplicates. Skipping...`);
-        continue;
-      }
+    const showDetails = await fetchTMDBData(`tv/${show.id}`, { append_to_response: 'content_ratings,credits' });
 
-      const showDetails = await fetchTMDBData(`tv/${show.id}`, { append_to_response: 'content_ratings' });
+    const genres = mapGenres(showDetails.genres || [], tmdbShowGenreMap, tvGenres);
+    const showCountries = mapCountries(showDetails.production_countries || showDetails.origin_country.map((c) => ({ iso_3166_1: c })));
+    const languages = mapLanguages(showDetails.original_language);
+    const firstAirYear = showDetails.first_air_date ? parseInt(showDetails.first_air_date.split('-')[0]) : 2015;
+    const endYear = showDetails.last_air_date ? parseInt(showDetails.last_air_date.split('-')[0]) : null;
+    const contentRating = mapContentRating(
+      showDetails.content_ratings?.results.find((c) => c.iso_3166_1 === 'US')?.rating
+    );
 
-      const genres = mapGenres(showDetails.genres, tmdbShowGenreMap, showGenres);
-      // Ensure no Reality Show genre is included
-      if (genres.includes('Reality Show')) {
-        console.log(`Skipping ${showDetails.name} as it contains Reality Show genre.`);
-        continue;
-      }
+    const title = showDetails.name;
+    seenTitles.add(title);
+    let slug = slugify(`${title}`, { lower: true, strict: true });
+    slugCounts[slug] = (slugCounts[slug] || 0) + 1;
+    if (slugCounts[slug] > 1) {
+      slug = `${slug}-${slugCounts[slug]}`;
+    }
 
-      const showCountries = mapCountries(showDetails.production_countries || showDetails.origin_country.map((c) => ({ iso_3166_1: c })));
-      const languages = mapLanguages(showDetails.original_language);
-      const firstAirYear = showDetails.first_air_date ? parseInt(showDetails.first_air_date.split('-')[0]) : 2015;
-      const endYear = showDetails.last_air_date ? parseInt(showDetails.last_air_date.split('-')[0]) : null;
-      const contentRating = mapContentRating(
-        showDetails.content_ratings?.results.find((c) => c.iso_3166_1 === 'US')?.rating
-      );
+    const seriesEntry = {
+      templateId: 2, // TV Series template
+      title,
+      slug,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+      fieldValues: [
+        { fieldId: 13, textValue: title }, // title
+        { fieldId: 14, textValue: showDetails.poster_path ? `https://image.tmdb.org/t/p/original${showDetails.poster_path}` : '' }, // poster
+        { fieldId: 15, numericValue: firstAirYear }, // first_air_year
+        { fieldId: 16, numericValue: endYear }, // end_year
+        { fieldId: 17, textValue: showDetails.created_by?.[0]?.name || 'Unknown Creator' }, // created_by
+        { fieldId: 18, textValue: showDetails.credits?.cast.slice(0, 3).map((c) => c.name).join(', ') || 'Various Actors' }, // cast
+        { fieldId: 19, jsonValue: languages }, // language
+        { fieldId: 20, jsonValue: genres }, // genre
+        { fieldId: 21, jsonValue: showCountries }, // country
+        { fieldId: 22, textValue: showDetails.overview || 'No description available.' }, // synopsis
+        { fieldId: 23, textValue: contentRating }, // content_rating
+        { fieldId: 24, numericValue: showDetails.episode_run_time?.[0] || 40 }, // average_runtime
+        { fieldId: 25, numericValue: showDetails.number_of_seasons || 1 }, // number_of_seasons
+        { fieldId: 26, numericValue: showDetails.number_of_episodes || 20 }, // number_of_episodes
+        { fieldId: 27, textValue: showDetails.networks?.[0]?.name || 'Unknown Network' }, // network_or_platform
+        { fieldId: 28, textValue: showDetails.status?.toLowerCase() || getRandom(statuses) }, // status
+        { fieldId: 29, textValue: `https://www.themoviedb.org/tv/${show.id}` }, // trailer_url
+      ],
+    };
+    tvSeriesData.push(seriesEntry);
+    tvCounter++;
 
-      const title = showDetails.name;
-      seenTitles.add(title); // Add title to seen set
-      const slug = slugify(`${title}`, { lower: true, strict: true }); // Add counter to ensure unique slugs
-
-      const seriesEntry = {
-        templateId: 6,
-        title,
-        slug,
-        createdAt: new Date().toISOString(),
-        updatedAt: new Date().toISOString(),
-        fieldValues: [
-          { fieldId: 72, textValue: title },
-          { fieldId: 73, textValue: `https://image.tmdb.org/t/p/original${showDetails.poster_path}` },
-          { fieldId: 74, textValue: showDetails.created_by?.[0]?.name || 'Unknown Creator' },
-          { fieldId: 75, numericValue: firstAirYear },
-          { fieldId: 76, numericValue: endYear },
-          { fieldId: 77, textValue: showDetails.networks?.[0]?.name || 'Unknown Network' },
-          { fieldId: 78, jsonValue: genres },
-          { fieldId: 79, jsonValue: languages },
-          { fieldId: 80, jsonValue: showCountries },
-          { fieldId: 81, textValue: showDetails.overview || 'No description available.' },
-          { fieldId: 82, textValue: contentRating },
-          { fieldId: 83, numericValue: showDetails.episode_run_time?.[0] || 40 },
-          { fieldId: 84, numericValue: showDetails.number_of_episodes || 20 },
-          { fieldId: 85, textValue: showDetails.status?.toLowerCase() || getRandom(statuses) },
-          { fieldId: 86, textValue: `https://www.themoviedb.org/tv/${show.id}` },
-        ],
-      };
-      tvSeriesData.push(seriesEntry);
-      tvCounter++;
-
-      if (tvCounter % 50 === 0) {
-        console.log(`Processed ${tvCounter} TV series...`);
-      }
+    if (tvCounter % 50 === 0) {
+      console.log(`Processed ${tvCounter} TV series...`);
     }
   }
 
-  // Add remaining TV series to reach 200 (200 - 115 = 85 more)
-  for (let i = 0; i < 85; i++) {
+  // Add remaining TV series to reach 200 (200 - 100 = 100 more)
+  for (let i = 0; i < 100; i++) {
     const page = Math.floor(i / 20) + 1;
     const series = await fetchTMDBData('discover/tv', {
-      'without_genres': '10764', // Exclude Reality genre
+      without_genres: '10764,10767',
       page,
+      sort_by: 'popularity.desc',
     });
 
     if (series.results.length === 0) {
@@ -668,7 +735,6 @@ async function seedTVSeries() {
       continue;
     }
 
-    // Find the first unseen series
     let show = null;
     for (const result of series.results) {
       if (!seenTitles.has(result.name)) {
@@ -682,15 +748,9 @@ async function seedTVSeries() {
       continue;
     }
 
-    const showDetails = await fetchTMDBData(`tv/${show.id}`, { append_to_response: 'content_ratings' });
+    const showDetails = await fetchTMDBData(`tv/${show.id}`, { append_to_response: 'content_ratings,credits' });
 
-    const genres = mapGenres(showDetails.genres, tmdbShowGenreMap, showGenres);
-    // Ensure no Reality Show genre is included
-    if (genres.includes('Reality Show')) {
-      console.log(`Skipping ${showDetails.name} as it contains Reality Show genre.`);
-      continue;
-    }
-
+    const genres = mapGenres(showDetails.genres || [], tmdbShowGenreMap, tvGenres);
     const showCountries = mapCountries(showDetails.production_countries || showDetails.origin_country.map((c) => ({ iso_3166_1: c })));
     const languages = mapLanguages(showDetails.original_language);
     const firstAirYear = showDetails.first_air_date ? parseInt(showDetails.first_air_date.split('-')[0]) : 2015;
@@ -700,31 +760,37 @@ async function seedTVSeries() {
     );
 
     const title = showDetails.name;
-    seenTitles.add(title); // Add title to seen set
-    const slug = slugify(`${title}`, { lower: true, strict: true }); // Add counter to ensure unique slugs
+    seenTitles.add(title);
+    let slug = slugify(`${title}`, { lower: true, strict: true });
+    slugCounts[slug] = (slugCounts[slug] || 0) + 1;
+    if (slugCounts[slug] > 1) {
+      slug = `${slug}-${slugCounts[slug]}`;
+    }
 
     const seriesEntry = {
-      templateId: 6,
+      templateId: 2,
       title,
       slug,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
       fieldValues: [
-        { fieldId: 72, textValue: title },
-        { fieldId: 73, textValue: `https://image.tmdb.org/t/p/original${showDetails.poster_path}` },
-        { fieldId: 74, textValue: showDetails.created_by?.[0]?.name || 'Unknown Creator' },
-        { fieldId: 75, numericValue: firstAirYear },
-        { fieldId: 76, numericValue: endYear },
-        { fieldId: 77, textValue: showDetails.networks?.[0]?.name || 'Unknown Network' },
-        { fieldId: 78, jsonValue: genres },
-        { fieldId: 79, jsonValue: languages },
-        { fieldId: 80, jsonValue: showCountries },
-        { fieldId: 81, textValue: showDetails.overview || 'No description available.' },
-        { fieldId: 82, textValue: contentRating },
-        { fieldId: 83, numericValue: showDetails.episode_run_time?.[0] || 40 },
-        { fieldId: 84, numericValue: showDetails.number_of_episodes || 20 },
-        { fieldId: 85, audioValue: showDetails.status?.toLowerCase() || getRandom(statuses) },
-        { fieldId: 86, textValue: `https://www.themoviedb.org/tv/${show.id}` },
+        { fieldId: 13, textValue: title },
+        { fieldId: 14, textValue: showDetails.poster_path ? `https://image.tmdb.org/t/p/original${showDetails.poster_path}` : '' },
+        { fieldId: 15, numericValue: firstAirYear },
+        { fieldId: 16, numericValue: endYear },
+        { fieldId: 17, textValue: showDetails.created_by?.[0]?.name || 'Unknown Creator' },
+        { fieldId: 18, textValue: showDetails.credits?.cast.slice(0, 3).map((c) => c.name).join(', ') || 'Various Actors' },
+        { fieldId: 19, jsonValue: languages },
+        { fieldId: 20, jsonValue: genres },
+        { fieldId: 21, jsonValue: showCountries },
+        { fieldId: 22, textValue: showDetails.overview || 'No description available.' },
+        { fieldId: 23, textValue: contentRating },
+        { fieldId: 24, numericValue: showDetails.episode_run_time?.[0] || 40 },
+        { fieldId: 25, numericValue: showDetails.number_of_seasons || 1 },
+        { fieldId: 26, numericValue: showDetails.number_of_episodes || 20 },
+        { fieldId: 27, textValue: showDetails.networks?.[0]?.name || 'Unknown Network' },
+        { fieldId: 28, textValue: showDetails.status?.toLowerCase() || getRandom(statuses) },
+        { fieldId: 29, textValue: `https://www.themoviedb.org/tv/${show.id}` },
       ],
     };
     tvSeriesData.push(seriesEntry);
@@ -738,7 +804,6 @@ async function seedTVSeries() {
   const endTime = Date.now();
   console.log(`Finished fetching ${tvSeriesData.length} TV series. Time taken: ${formatDuration(endTime - startTime)}`);
 
-  // Write data to JSON file
   console.log('Writing TV series to tv-series.json...');
   const writeStartTime = Date.now();
   try {
