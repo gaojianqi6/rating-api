@@ -9,6 +9,7 @@ import {
   UseGuards,
   Req,
   BadRequestException,
+  Logger,
 } from '@nestjs/common';
 import { UserService } from './user.service';
 import { User as UserModel } from '@prisma/client';
@@ -27,6 +28,8 @@ import { ChangePasswordDto } from './dto/change-password.dto';
 @ApiTags('Users')
 @Controller('users')
 export class UserController {
+  private readonly logger = new Logger(UserController.name);
+
   constructor(private readonly userService: UserService) {}
 
   @ApiOperation({ summary: 'Create a new user' })
@@ -57,6 +60,7 @@ export class UserController {
     if (!req.user || !req.user.userId) {
       throw new BadRequestException('User ID is missing from the request.');
     }
+    this.logger.debug(`User ID: ${req.user.userId}`);
     return this.userService.userById({ id: Number(req.user.userId) });
   }
 

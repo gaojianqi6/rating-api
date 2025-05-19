@@ -6,6 +6,10 @@ import {
   Request,
   Req,
   Res,
+  Body,
+  BadRequestException,
+  Logger,
+  InternalServerErrorException,
 } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { LocalAuthGuard } from './guards/local-auth.guard';
@@ -13,11 +17,68 @@ import { ApiBody, ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { LoginDto } from './dto/login.dto';
 import { GoogleAuthGuard } from './guards/google-auth.guard';
 import { WEBSITE_URL } from '../config/config';
+import { EmailService } from '../email/email.service';
+import { CacheService } from '../cache/cache.service';
+import { UserService } from '../user/user.service';
+import { SendRegisterEmailDto } from './dto/send-register-email.dto';
 
 @ApiTags('Auth')
 @Controller('auth')
 export class AuthController {
-  constructor(private authService: AuthService) {}
+  private readonly logger = new Logger(AuthController.name);
+
+  constructor(
+    private authService: AuthService,
+    private emailService: EmailService,
+    private cacheService: CacheService,
+    private userService: UserService,
+  ) {}
+
+  @ApiOperation({ summary: 'Send registration verification email' })
+  @ApiResponse({
+    status: 200,
+    description: 'Verification email sent successfully',
+  })
+  @ApiResponse({ status: 400, description: 'Email already registered' })
+  @ApiResponse({
+    status: 500,
+    description: 'Failed to send verification email',
+  })
+  @ApiBody({ type: SendRegisterEmailDto })
+  @Post('send-register-email')
+  async sendRegisterEmail(@Body() dto: SendRegisterEmailDto) {
+    this.logger.log(
+      `Received request to send verification email to ${dto.email}`,
+    );
+
+    const { email } = dto;
+
+    // Check if email is already registered
+    const existingUser = await this.userService.user({ email });
+    if (existingUser) {
+      this.logger.warn(`Email ${email} is already registered`);
+      throw new BadRequestException('Email is already registered');
+    }
+
+    // Generate verification code
+    const code = Math.floor(100000 + Math.random() * 900000).toString();
+    this.logger.debug(`Generated verification code for ${email}`);
+
+    // Store in cache
+    this.cacheService.setVerificationCode(email, code);
+
+    // Send email
+    const sent = await this.emailService.sendVerifyCode(email, code);
+    if (!sent) {
+      this.logger.error(`Failed to send verification email to ${email}`);
+      throw new InternalServerErrorException(
+        'Failed to send verification email. Please try again later.',
+      );
+    }
+
+    this.logger.log(`Successfully sent verification email to ${email}`);
+    return { message: 'Verification email sent successfully' };
+  }
 
   @ApiOperation({ summary: 'User login' })
   @ApiResponse({ status: 200, description: 'User logged in successfully' })

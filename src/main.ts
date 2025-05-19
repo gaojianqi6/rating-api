@@ -10,6 +10,7 @@ async function bootstrap() {
     cors: true,
     logger: new ConsoleLogger({
       prefix: 'RatingAPI',
+      logLevels: ['error', 'warn', 'log', 'debug', 'verbose'],
     }),
   });
 
