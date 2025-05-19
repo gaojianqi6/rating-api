@@ -22,6 +22,7 @@ import {
 } from '@nestjs/swagger';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
+import { ChangePasswordDto } from './dto/change-password.dto';
 
 @ApiTags('Users')
 @Controller('users')
@@ -147,6 +148,24 @@ export class UserController {
       where: { id: Number(id) },
       data: updateUserDto,
     });
+  }
+
+  @ApiOperation({ summary: 'Change user password' })
+  @ApiResponse({
+    status: 200,
+    description: 'Password has been successfully changed.',
+  })
+  @ApiBody({ type: ChangePasswordDto })
+  @UseGuards(JwtAuthGuard)
+  @Post('change-password')
+  async changePassword(
+    @Req() req,
+    @Body() changePasswordDto: ChangePasswordDto,
+  ): Promise<UserModel> {
+    if (!req.user || !req.user.userId) {
+      throw new BadRequestException('User ID is missing from the request.');
+    }
+    return this.userService.changePassword(req.user.userId, changePasswordDto);
   }
 
   @ApiOperation({ summary: 'Delete a user' })

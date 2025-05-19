@@ -2,6 +2,7 @@ import { Injectable, BadRequestException } from '@nestjs/common';
 import { PrismaService } from '../../prisma/prisma.service';
 import { User, Prisma } from '@prisma/client';
 import * as bcrypt from 'bcrypt';
+import { ChangePasswordDto } from './dto/change-password.dto';
 
 @Injectable()
 export class UserService {
@@ -67,6 +68,42 @@ export class UserService {
   async deleteUser(where: Prisma.UserWhereUniqueInput): Promise<User> {
     return this.prisma.user.delete({
       where,
+    });
+  }
+
+  async changePassword(userId: number, dto: ChangePasswordDto): Promise<User> {
+    // Get user with current password
+    const user = await this.prisma.user.findUnique({
+      where: { id: userId },
+    });
+
+    if (!user) {
+      throw new BadRequestException('User not found');
+    }
+
+    // Verify old password
+    const isPasswordValid = await bcrypt.compare(
+      dto.oldPassword,
+      user.password,
+    );
+    if (!isPasswordValid) {
+      throw new BadRequestException('Current password is incorrect');
+    }
+
+    // Verify new password and confirm password match
+    if (dto.newPassword !== dto.confirmPassword) {
+      throw new BadRequestException(
+        'New password and confirm password do not match',
+      );
+    }
+
+    // Hash new password
+    const hashedPassword = await bcrypt.hash(dto.newPassword, 10);
+
+    // Update password
+    return this.prisma.user.update({
+      where: { id: userId },
+      data: { password: hashedPassword },
     });
   }
 
