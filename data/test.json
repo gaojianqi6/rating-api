@@ -1,69 +1,65 @@
 [
   {
     "templateId": 1,
-    "title": "A Minecraft Movie",
-    "slug": "a-minecraft-movie",
-    "createdAt": "2025-05-01T08:43:53.925Z",
-    "updatedAt": "2025-05-01T08:43:53.942Z",
+    "title": "Star Wars: The Force Awakens",
+    "slug": "star-wars-the-force-awakens",
+    "createdAt": "2025-05-19T17:15:00.000Z",
+    "updatedAt": "2025-05-19T17:15:00.000Z",
     "fieldValues": [
-      {
-        "fieldId": 1,
-        "textValue": "A Minecraft Movie"
-      },
-      {
-        "fieldId": 2,
-        "textValue": "https://image.tmdb.org/t/p/original/iPPTGh2OXuIv6d7cwuoPkw8govp.jpg"
-      },
-      {
-        "fieldId": 3,
-        "numericValue": 2025
-      },
-      {
-        "fieldId": 4,
-        "textValue": "Unknown Director"
-      },
-      {
-        "fieldId": 5,
-        "textValue": "Various Actors"
-      },
-      {
-        "fieldId": 6,
-        "jsonValue": [
-          "English"
-        ]
-      },
-      {
-        "fieldId": 7,
-        "jsonValue": [
-          "Family Drama",
-          "Comedy",
-          "Adventure",
-          "Fantasy"
-        ]
-      },
-      {
-        "fieldId": 8,
-        "jsonValue": [
-          "Sweden",
-          "USA"
-        ]
-      },
-      {
-        "fieldId": 9,
-        "textValue": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they'll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve."
-      },
-      {
-        "fieldId": 10,
-        "textValue": "G"
-      },
-      {
-        "fieldId": 11,
-        "numericValue": 101
-      },
-      {
-        "fieldId": 12,
-        "textValue": "https://www.themoviedb.org/movie/950387"
-      }
+      { "fieldId": 1, "textValue": "Star Wars: The Force Awakens" },
+      { "fieldId": 2, "textValue": "https://image.tmdb.org/t/p/original/wqnLdwVXoBjKibFRR5U3y0aDUhs.jpg" },
+      { "fieldId": 3, "numericValue": 2015 },
+      { "fieldId": 4, "textValue": "J.J. Abrams" },
+      { "fieldId": 5, "textValue": "Harrison Ford, Mark Hamill, Carrie Fisher" },
+      { "fieldId": 6, "jsonValue": ["English"] },
+      { "fieldId": 7, "jsonValue": ["Adventure", "Action", "Sci-Fi"] },
+      { "fieldId": 8, "jsonValue": ["USA"] },
+      { "fieldId": 9, "textValue": "Thirty years after defeating the Galactic Empire, Han Solo and his allies face a new threat from the evil Kylo Ren and his army of Stormtroopers." },
+      { "fieldId": 10, "textValue": "PG-13" },
+      { "fieldId": 11, "numericValue": 136 },
+      { "fieldId": 12, "textValue": "https://www.themoviedb.org/movie/140607" }
+    ]
+  },
+  {
+    "templateId": 1,
+    "title": "The Empire Strikes Back",
+    "slug": "the-empire-strikes-back",
+    "createdAt": "2025-05-19T17:15:00.000Z",
+    "updatedAt": "2025-05-19T17:15:00.000Z",
+    "fieldValues": [
+      { "fieldId": 1, "textValue": "The Empire Strikes Back" },
+      { "fieldId": 2, "textValue": "https://image.tmdb.org/t/p/original/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg" },
+      { "fieldId": 3, "numericValue": 1980 },
+      { "fieldId": 4, "textValue": "Irvin Kershner" },
+      { "fieldId": 5, "textValue": "Mark Hamill, Harrison Ford, Carrie Fisher" },
+      { "fieldId": 6, "jsonValue": ["English"] },
+      { "fieldId": 7, "jsonValue": ["Adventure", "Action", "Sci-Fi"] },
+      { "fieldId": 8, "jsonValue": ["USA"] },
+      { "fieldId": 9, "textValue": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair." },
+      { "fieldId": 10, "textValue": "PG" },
+      { "fieldId": 11, "numericValue": 124 },
+      { "fieldId": 12, "textValue": "https://www.themoviedb.org/movie/1891" }
+    ]
+  },
+  {
+    "templateId": 1,
+    "title": "Return of the Jedi",
+    "slug": "return-of-the-jedi",
+    "createdAt": "2025-05-19T17:15:00.000Z",
+    "updatedAt": "2025-05-19T17:15:00.000Z",
+    "fieldValues": [
+      { "fieldId": 1, "textValue": "Return of the Jedi" },
+      { "fieldId": 2, "textValue": "https://image.tmdb.org/t/p/original/jQYlydvHm3kUix1f8prMucrplhm.jpg" },
+      { "fieldId": 3, "numericValue": 1983 },
+      { "fieldId": 4, "textValue": "Richard Marquand" },
+      { "fieldId": 5, "textValue": "Mark Hamill, Harrison Ford, Carrie Fisher" },
+      { "fieldId": 6, "jsonValue": ["English"] },
+      { "fieldId": 7, "jsonValue": ["Adventure", "Action", "Sci-Fi"] },
+      { "fieldId": 8, "jsonValue": ["USA"] },
+      { "fieldId": 9, "textValue": "Luke Skywalker leads a mission to rescue his friend Han Solo from the clutches of Jabba the Hutt, while the Emperor seeks to destroy the Rebellion once and for all with a second dreaded Death Star." },
+      { "fieldId": 10, "textValue": "PG" },
+      { "fieldId": 11, "numericValue": 132 },
+      { "fieldId": 12, "textValue": "https://www.themoviedb.org/movie/1892" }
     ]
   }
 ]

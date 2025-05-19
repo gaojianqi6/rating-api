@@ -1,0 +1,54 @@
+[
+  {
+    "templateId": 2,
+    "title": "The Mandalorian",
+    "slug": "the-mandalorian",
+    "createdAt": "2025-05-19T17:04:00.000Z",
+    "updatedAt": "2025-05-19T17:04:00.000Z",
+    "fieldValues": [
+      { "fieldId": 13, "textValue": "The Mandalorian" },
+      { "fieldId": 14, "textValue": "https://image.tmdb.org/t/p/original/eU1i6eHXlzMOlEq0ku1Rzq7Y4wA.jpg" },
+      { "fieldId": 15, "numericValue": 2019 },
+      { "fieldId": 16, "numericValue": null },
+      { "fieldId": 17, "textValue": "Jon Favreau" },
+      { "fieldId": 18, "textValue": "Pedro Pascal, Gina Carano, Giancarlo Esposito" },
+      { "fieldId": 19, "jsonValue": ["English"] },
+      { "fieldId": 20, "jsonValue": ["Science Fiction", "Action & Adventure", "Drama"] },
+      { "fieldId": 21, "jsonValue": ["United States"] },
+      { "fieldId": 22, "textValue": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter." },
+      { "fieldId": 23, "textValue": "PG-13" },
+      { "fieldId": 24, "numericValue": 40 },
+      { "fieldId": 25, "numericValue": 3 },
+      { "fieldId": 26, "numericValue": 24 },
+      { "fieldId": 27, "textValue": "Disney+" },
+      { "fieldId": 28, "textValue": "ongoing" },
+      { "fieldId": 29, "textValue": "https://www.themoviedb.org/tv/82856" }
+    ]
+  },
+  {
+    "templateId": 2,
+    "title": "Disney Gallery / Star Wars: The Mandalorian",
+    "slug": "disney-gallery-star-wars-the-mandalorian",
+    "createdAt": "2025-05-19T17:04:00.000Z",
+    "updatedAt": "2025-05-19T17:04:00.000Z",
+    "fieldValues": [
+      { "fieldId": 13, "textValue": "Disney Gallery / Star Wars: The Mandalorian" },
+      { "fieldId": 14, "textValue": "https://image.tmdb.org/t/p/original/qwc5RFNadL7YYtMfly58AjYUA50.jpg" },
+      { "fieldId": 15, "numericValue": 2020 },
+      { "fieldId": 16, "numericValue": 2021 },
+      { "fieldId": 17, "textValue": "Jon Favreau" },
+      { "fieldId": 18, "textValue": "Jon Favreau" },
+      { "fieldId": 19, "jsonValue": ["English"] },
+      { "fieldId": 20, "jsonValue": ["Documentary"] },
+      { "fieldId": 21, "jsonValue": ["United States"] },
+      { "fieldId": 22, "textValue": "Executive producer Jon Favreau invites the cast and crew of The Mandalorian to share an unprecedented look at the making of the series. Each chapter explores a different facet of the first live-action Star Wars television show through interviews, never-before-seen footage, and roundtable conversations hosted by Favreau himself." },
+      { "fieldId": 23, "textValue": "PG" },
+      { "fieldId": 24, "numericValue": 35 },
+      { "fieldId": 25, "numericValue": 3 },
+      { "fieldId": 26, "numericValue": 11 },
+      { "fieldId": 27, "textValue": "Disney+" },
+      { "fieldId": 28, "textValue": "ended" },
+      { "fieldId": 29, "textValue": "https://www.themoviedb.org/tv/101978" }
+    ]
+  }
+]
