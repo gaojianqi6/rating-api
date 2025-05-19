@@ -21,6 +21,7 @@ import { EmailService } from '../email/email.service';
 import { CacheService } from '../cache/cache.service';
 import { UserService } from '../user/user.service';
 import { SendRegisterEmailDto } from './dto/send-register-email.dto';
+import { RegisterDto } from './dto/register.dto';
 
 @ApiTags('Auth')
 @Controller('auth')
@@ -33,6 +34,59 @@ export class AuthController {
     private cacheService: CacheService,
     private userService: UserService,
   ) {}
+
+  @ApiOperation({ summary: 'Register a new user' })
+  @ApiResponse({
+    status: 201,
+    description: 'User registered successfully',
+  })
+  @ApiResponse({
+    status: 400,
+    description: 'Invalid input or user already exists',
+  })
+  @ApiBody({ type: RegisterDto })
+  @Post('register')
+  async register(@Body() dto: RegisterDto) {
+    this.logger.log(`Received registration request for ${dto.email}`);
+
+    // Check if passwords match
+    if (dto.password !== dto.confirmPassword) {
+      throw new BadRequestException('Passwords do not match');
+    }
+
+    // Check if username exists
+    const existingUsername = await this.userService.user({
+      username: dto.username,
+    });
+    if (existingUsername) {
+      throw new BadRequestException('Username already exists');
+    }
+
+    // Check if email exists
+    const existingEmail = await this.userService.user({ email: dto.email });
+    if (existingEmail) {
+      throw new BadRequestException('Email already registered');
+    }
+
+    // Create user with nickname same as username
+    const user = await this.userService.createUser({
+      username: dto.username,
+      email: dto.email,
+      password: dto.password,
+      nickname: dto.username,
+    });
+
+    this.logger.log(`User registered successfully: ${user.username}`);
+    return {
+      message: 'User registered successfully',
+      user: {
+        id: user.id,
+        username: user.username,
+        email: user.email,
+        nickname: user.nickname,
+      },
+    };
+  }
 
   @ApiOperation({ summary: 'Send registration verification email' })
   @ApiResponse({
