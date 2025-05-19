@@ -1,0 +1,5469 @@
+[
+  {
+    "templateId": 6,
+    "title": "All Ears English Podcast",
+    "slug": "all-ears-english-podcast",
+    "createdAt": "2025-05-19T04:38:43.263Z",
+    "updatedAt": "2025-05-19T04:38:43.263Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "All Ears English Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/0a/ee/0d/0aee0db7-9728-c327-6819-a2c40e2c81a0/mza_9896705448070704662.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Lindsay McMahon and Michelle Kaplan"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Discussion Panel"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Discussion Panel podcast by Lindsay McMahon and Michelle Kaplan."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 41
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 2578
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.megaphone.fm/allearsenglish"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Conversation & Pronunciation: Learn English with The Rachel's English Podcast",
+    "slug": "conversation-and-pronunciation-learn-english-with-the-rachels-english-podcast",
+    "createdAt": "2025-05-19T04:38:44.313Z",
+    "updatedAt": "2025-05-19T04:38:44.313Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Conversation & Pronunciation: Learn English with The Rachel's English Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/2b/fe/28/2bfe2867-e846-9d80-a430-9005a4b76818/mza_8881237822134497802.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Rachel's English:  American Accent Trainer"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2017
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Discussion Panel"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "German"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Germany"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Discussion Panel podcast by Rachel's English:  American Accent Trainer."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 34
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 25
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://rachelsenglish.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "时差 in-betweenness",
+    "slug": "in-betweenness",
+    "createdAt": "2025-05-19T04:38:45.282Z",
+    "updatedAt": "2025-05-19T04:38:45.282Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "时差 in-betweenness"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/30/9c/79/309c7920-6ae5-4afb-b837-ffe5c1a434a9/mza_3016265393743524686.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "时差小伙伴"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "社会与文化"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Co-hosted Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Co-hosted Podcasts podcast by 时差小伙伴."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 51
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 18
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.buzzsprout.com/1171871.rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "バイリンガルニュース (Bilingual News)",
+    "slug": "bilingual-news",
+    "createdAt": "2025-05-19T04:38:46.392Z",
+    "updatedAt": "2025-05-19T04:38:46.392Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "バイリンガルニュース (Bilingual News)"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/d8/68/49/d868497c-f3b5-f40d-00d7-514cbdc3ac8b/mza_12097083422146527699.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Michael & Mami"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Interview Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Cantonese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Interview Podcasts podcast by Michael & Mami."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 660
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://bilingualnews.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Today, Explained",
+    "slug": "today-explained",
+    "createdAt": "2025-05-19T04:38:47.460Z",
+    "updatedAt": "2025-05-19T04:38:47.460Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Today, Explained"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9f/de/11/9fde1195-f6c3-4b63-60f5-4fb6184c4742/mza_9476725151127554447.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Vox"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "每日新闻"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Discussion Panel"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Discussion Panel podcast by Vox."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 35
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1834
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.megaphone.fm/VMP5705694065"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Rachel Hollis Podcast",
+    "slug": "the-rachel-hollis-podcast",
+    "createdAt": "2025-05-19T04:38:48.479Z",
+    "updatedAt": "2025-05-19T04:38:48.479Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "The Rachel Hollis Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/34/0b/0a/340b0a72-8263-257e-d11b-14530efbdf33/mza_16515556434650241485.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Three Percent Chance"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "自我完善"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "True Crime"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A True Crime podcast by Three Percent Chance."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 48
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 939
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.simplecast.com/j2OmaLnl"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "So Money with Farnoosh Torabi",
+    "slug": "so-money-with-farnoosh-torabi",
+    "createdAt": "2025-05-19T04:38:49.486Z",
+    "updatedAt": "2025-05-19T04:38:49.486Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "So Money with Farnoosh Torabi"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/2a/b2/3c/2ab23c94-7c12-9293-155b-27fa214b56f4/mza_10132562216501136304.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Farnoosh Torabi"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "创业"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Interview Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Interview Podcasts podcast by Farnoosh Torabi."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 57
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1854
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://access.acast.com/rss/65675c71c3ca8a0012804645"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Girl Tales",
+    "slug": "girl-tales",
+    "createdAt": "2025-05-19T04:38:52.012Z",
+    "updatedAt": "2025-05-19T04:38:52.012Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Girl Tales"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/13/57/14/135714c7-3a73-2d73-0d18-80ec1f0fe636/mza_13620314175644185786.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Starglow Media / Cordelia Studios"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "儿童故事"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Discussion Panel"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Discussion Panel podcast by Starglow Media / Cordelia Studios."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 49
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 262
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.megaphone.fm/CST7403212167"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "1001 Heroes, Legends, Histories & Mysteries Podcast",
+    "slug": "1001-heroes-legends-histories-and-mysteries-podcast",
+    "createdAt": "2025-05-19T04:38:53.014Z",
+    "updatedAt": "2025-05-19T04:38:53.014Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "1001 Heroes, Legends, Histories & Mysteries Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/89/c4/12/89c412aa-69bf-42ea-1b3f-cd9a48556e03/mza_11616779750370794273.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Jon Hagadorn  Podcast Host"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "历史"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Roundtable"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Roundtable podcast by Jon Hagadorn  Podcast Host."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 513
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.libsyn.com/529192/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "2000 Books for Ambitious Entrepreneurs - Author Interviews and Book Summaries",
+    "slug": "2000-books-for-ambitious-entrepreneurs-author-interviews-and-book-summaries",
+    "createdAt": "2025-05-19T04:38:54.054Z",
+    "updatedAt": "2025-05-19T04:38:54.054Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "2000 Books for Ambitious Entrepreneurs - Author Interviews and Book Summaries"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/12/20/30/12203036-c8ae-8345-1329-1f99d54cd50d/mza_1992630371096300631.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Mani Vaya"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "创业"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Comedy"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Comedy podcast by Mani Vaya."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 41
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 425
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://2000books.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Comedy Bang Bang: The Podcast",
+    "slug": "comedy-bang-bang-the-podcast",
+    "createdAt": "2025-05-19T04:38:55.255Z",
+    "updatedAt": "2025-05-19T04:38:55.255Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Comedy Bang Bang: The Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/39/64/64/396464cc-0734-8bee-9927-40397d8e3995/mza_11422191758228674468.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Earwolf and Scott Aukerman"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "喜剧"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "True Crime"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Korean"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "South Korea"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A True Crime podcast by Earwolf and Scott Aukerman."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 53
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 167
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.simplecast.com/byb4nhvN"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Portuguese Lab Podcast | Learn European Portuguese",
+    "slug": "portuguese-lab-podcast-or-learn-european-portuguese",
+    "createdAt": "2025-05-19T04:38:56.270Z",
+    "updatedAt": "2025-05-19T04:38:56.270Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Portuguese Lab Podcast | Learn European Portuguese"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/32/22/bc/3222bc7e-62f2-323f-1887-bfedb4f58137/mza_9352428609109861124.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Susana Morais"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Comedy"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Comedy podcast by Susana Morais."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 35
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 153
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.portugueselab.com/podcast?format=rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Projectified",
+    "slug": "projectified",
+    "createdAt": "2025-05-19T04:38:57.343Z",
+    "updatedAt": "2025-05-19T04:38:57.343Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Projectified"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/66/9c/eb/669ceb1c-e80d-a618-cfe0-d3e8c026a9cf/mza_4973618102308832049.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Project Management Institute"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "职业"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Co-hosted Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Mandarin"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Co-hosted Podcasts podcast by Project Management Institute."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 56
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 181
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.buzzsprout.com/897649.rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Tutti Matti per l'Italiano!",
+    "slug": "tutti-matti-per-litaliano",
+    "createdAt": "2025-05-19T04:38:58.330Z",
+    "updatedAt": "2025-05-19T04:38:58.330Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Tutti Matti per l'Italiano!"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/17/e1/32/17e132b4-c159-3265-83a8-8eb1347a0b5a/mza_6921862393663365610.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Melissa Muldoon - Studentessa Matta"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Co-hosted Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Co-hosted Podcasts podcast by Melissa Muldoon - Studentessa Matta."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 36
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 72
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://dueragazzepazze.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Learn Japanese w/ Manga Sensei",
+    "slug": "learn-japanese-w-manga-sensei",
+    "createdAt": "2025-05-19T04:38:59.401Z",
+    "updatedAt": "2025-05-19T04:38:59.401Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Learn Japanese w/ Manga Sensei"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9b/22/1b/9b221b79-2bad-224e-5c5a-b78942bb6d86/mza_2654539622784069351.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "LaunchPod Media"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2021
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Discussion Panel"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Discussion Panel podcast by LaunchPod Media."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 44
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 637
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.spreaker.com/show/2726599/episodes/feed"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Zapp! English Vocabulary and Pronunciation (English version)",
+    "slug": "zapp-english-vocabulary-and-pronunciation-english-version",
+    "createdAt": "2025-05-19T04:39:01.724Z",
+    "updatedAt": "2025-05-19T04:39:01.724Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Zapp! English Vocabulary and Pronunciation (English version)"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/2c/e5/45/2ce5457a-d958-2d0c-9d9f-0ef07b77589c/mza_12743757704542183882.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Zappenglish.com"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2014
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Theatrical"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Cantonese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Theatrical podcast by Zappenglish.com."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 41
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 58
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://zappenglishvocabulary.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "B&H Photography Podcast",
+    "slug": "bandh-photography-podcast",
+    "createdAt": "2025-05-19T04:39:02.755Z",
+    "updatedAt": "2025-05-19T04:39:02.755Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "B&H Photography Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/11/6c/f2/116cf275-03b4-ccf5-1f10-4de89e14c820/mza_5856424066032532052.png/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "B&H Photo & Video"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "视觉艺术"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Repurposed Content Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Repurposed Content Podcasts podcast by B&H Photo & Video."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 42
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 420
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://bhphotopodcast.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "WeCrashed",
+    "slug": "wecrashed",
+    "createdAt": "2025-05-19T04:39:03.868Z",
+    "updatedAt": "2025-05-19T04:39:03.868Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "WeCrashed"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/f7/6f/8b/f76f8b92-164f-daa1-97e9-327d19da40c7/mza_13902986941844521833.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Wondery"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "商务"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Co-host Conversational Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Co-host Conversational Podcasts podcast by Wondery."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 21
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://rss.art19.com/wecrashed"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Japanese podcast for beginners (Nihongo con Teppei)",
+    "slug": "japanese-podcast-for-beginners-nihongo-con-teppei",
+    "createdAt": "2025-05-19T04:39:04.951Z",
+    "updatedAt": "2025-05-19T04:39:04.951Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Japanese podcast for beginners (Nihongo con Teppei)"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/6a/30/4c/6a304ce0-6794-5472-f436-c687bdda2745/mza_7253643594919702969.png/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Japanese podcast for beginners (Nihongo con Teppei)"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Interview Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Interview Podcasts podcast by Japanese podcast for beginners (Nihongo con Teppei)."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 36
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1350
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "http://nihongoconteppei.com/feed/podcast"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Premed Years",
+    "slug": "the-premed-years",
+    "createdAt": "2025-05-19T04:39:06.010Z",
+    "updatedAt": "2025-05-19T04:39:06.010Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "The Premed Years"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/c5/b6/49/c5b64913-ea2d-169f-a949-8786e4189e4f/mza_16216081697244527984.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Ryan Gray"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "科学"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Discussion Panel"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Discussion Panel podcast by Ryan Gray."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 60
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 599
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.captivate.fm/premed-years/"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The PFF NFL Podcast",
+    "slug": "the-pff-nfl-podcast",
+    "createdAt": "2025-05-19T04:39:07.072Z",
+    "updatedAt": "2025-05-19T04:39:07.072Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "The PFF NFL Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ee/6e/9a/ee6e9abf-eade-4297-04b7-82b30d98425f/mza_5326076894367200361.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "PFF"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "美式橄榄球"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Co-hosted Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Cantonese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Co-hosted Podcasts podcast by PFF."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 60
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1073
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.simplecast.com/U644ZfMt"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Push Bar 不是吧",
+    "slug": "push-bar",
+    "createdAt": "2025-05-19T04:39:08.048Z",
+    "updatedAt": "2025-05-19T04:39:08.048Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Push Bar 不是吧"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/b6/03/0c/b6030cf7-978d-c707-5c9c-ba0081a159ab/mza_1515550903675634893.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Push Bar"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 77,
+        "textValue": "商务"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Fiction: Storytelling"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Fiction: Storytelling podcast by Push Bar."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 32
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 16
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.fireside.fm/pushbar/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "PeerView Neuroscience & Psychiatry CME/CNE/CPE Video Podcast",
+    "slug": "peerview-neuroscience-and-psychiatry-cmecnecpe-video-podcast",
+    "createdAt": "2025-05-19T04:39:09.025Z",
+    "updatedAt": "2025-05-19T04:39:09.025Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "PeerView Neuroscience & Psychiatry CME/CNE/CPE Video Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/f7/0d/5c/f70d5c64-8e94-d722-5830-63b4d4785eea/mza_15218752554910763007.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "PVI, PeerView Institute for Medical Education"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "科学"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "The Documentary Podcast Format"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A The Documentary Podcast Format podcast by PVI, PeerView Institute for Medical Education."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 33
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 84
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://c.peerview.com/podcast/xml/neurology_video.xml"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Learn Persian | PersianPod101.com",
+    "slug": "learn-persian-or-persianpod101com",
+    "createdAt": "2025-05-19T04:39:10.111Z",
+    "updatedAt": "2025-05-19T04:39:10.111Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Learn Persian | PersianPod101.com"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/57/9b/43/579b4342-0df7-f2e9-1d11-57770436498c/mza_5130714225466333615.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "PersianPod101.com"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Hybrid Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Hybrid Podcasts podcast by PersianPod101.com."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 41
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 48
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.persianpod101.com/wp-feed-audio-video.php"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "NASA's Curious Universe",
+    "slug": "nasas-curious-universe",
+    "createdAt": "2025-05-19T04:39:11.113Z",
+    "updatedAt": "2025-05-19T04:39:11.113Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "NASA's Curious Universe"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/41/40/f6/4140f65d-d72b-fa0c-4a40-d7265d139f62/mza_5581681444499768254.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "National Aeronautics and Space Administration (NASA)"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "科学"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Fiction: Storytelling"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Mandarin"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Fiction: Storytelling podcast by National Aeronautics and Space Administration (NASA)."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 81
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.megaphone.fm/NATIONALAERONAUTICSANDSPACEADMINISTRATION8162188566"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Book Club for Kids",
+    "slug": "book-club-for-kids",
+    "createdAt": "2025-05-19T04:39:12.134Z",
+    "updatedAt": "2025-05-19T04:39:12.134Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Book Club for Kids"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/f2/01/28/f2012821-745e-035a-89a6-59bbf1087a64/mza_631536054069558238.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "kitty felde"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "儿童教育"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Comedy"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Comedy podcast by kitty felde."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 56
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 259
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://bookclubforkids.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Church of What's Happening Now: The New Testament",
+    "slug": "the-church-of-whats-happening-now-the-new-testament",
+    "createdAt": "2025-05-19T04:39:13.203Z",
+    "updatedAt": "2025-05-19T04:39:13.203Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "The Church of What's Happening Now: The New Testament"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e9/8d/c4/e98dc467-180e-99ac-c9b2-f5f879ecf6a3/mza_6087108450146233763.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Joey Coco Diaz"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "喜剧"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Interview Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Russian"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Russia"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Interview Podcasts podcast by Joey Coco Diaz."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 43
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1184
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://thechurchofwhatshappeningnow.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "einfach ganz leben",
+    "slug": "einfach-ganz-leben",
+    "createdAt": "2025-05-19T04:39:14.285Z",
+    "updatedAt": "2025-05-19T04:39:14.285Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "einfach ganz leben"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ff/fe/d3/fffed3d3-31fb-1fbe-b7c7-cb9381c63524/mza_7349939686652314281.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "argon podcast"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "心理健康"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Interview Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Interview Podcasts podcast by argon podcast."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 41
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 161
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.acast.com/public/shows/64abf991cf279000110a5150"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Duct Tape Marketing Podcast",
+    "slug": "the-duct-tape-marketing-podcast",
+    "createdAt": "2025-05-19T04:39:15.507Z",
+    "updatedAt": "2025-05-19T04:39:15.507Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "The Duct Tape Marketing Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/af/ea/40/afea4094-5516-8fa8-751f-aac938c58103/mza_2175181746551700976.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "John Jantsch"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "营销"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Hybrid Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Hybrid Podcasts podcast by John Jantsch."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 36
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1132
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.megaphone.fm/YAP8273124137"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Tale of Rome",
+    "slug": "the-tale-of-rome",
+    "createdAt": "2025-05-19T04:39:16.556Z",
+    "updatedAt": "2025-05-19T04:39:16.556Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "The Tale of Rome"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/f5/b1/b7/f5b1b71b-e24e-910f-a3c3-3d11a19b3b22/mza_15340030544978720200.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Fionayao"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2020
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Theatrical"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Korean"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "South Korea"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Theatrical podcast by Fionayao."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 42
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 49
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "http://www.ximalaya.com/album/11327635.xml"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Writing Excuses",
+    "slug": "writing-excuses",
+    "createdAt": "2025-05-19T04:39:17.751Z",
+    "updatedAt": "2025-05-19T04:39:17.751Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Writing Excuses"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/07/59/fb/0759fb7c-0db1-504e-403f-b5251359ff48/mza_4110502297519913825.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Mary Robinette Kowal, DongWon Song, Erin Roberts, Dan Wells, and Howard Tayler"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "小说"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Co-hosted Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Co-hosted Podcasts podcast by Mary Robinette Kowal, DongWon Song, Erin Roberts, Dan Wells, and Howard Tayler."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 773
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.redcircle.com/848724f4-c420-4a75-b4be-fa3db1e46546"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Man On The Post",
+    "slug": "man-on-the-post",
+    "createdAt": "2025-05-19T04:39:18.798Z",
+    "updatedAt": "2025-05-19T04:39:18.798Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Man On The Post"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/29/b2/02/29b20262-374e-8b09-1a5d-e0d759dcf045/mza_12756137439703142107.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Man On The Post"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "美式橄榄球"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Co-hosted Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Co-hosted Podcasts podcast by Man On The Post."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 54
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 908
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.acast.com/public/shows/6e0827b5-a9f6-4513-ac64-8dce16fddc26"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "neo-Portal",
+    "slug": "neo-portal",
+    "createdAt": "2025-05-19T04:39:19.765Z",
+    "updatedAt": "2025-05-19T04:39:19.765Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "neo-Portal"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/c2/ea/a8/c2eaa848-bbab-f904-022f-80ef729c19a1/mza_8447727821635857079.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "广东时代美术馆"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 77,
+        "textValue": "哲学"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Discussion Panel"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Swedish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Sweden"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Discussion Panel podcast by 广东时代美术馆."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 31
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 13
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "http://www.ximalaya.com/album/40292640.xml"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Arabic's Podcast",
+    "slug": "arabics-podcast",
+    "createdAt": "2025-05-19T04:39:21.056Z",
+    "updatedAt": "2025-05-19T04:39:21.056Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Arabic's Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8b/d5/7f/8bd57f24-a1da-31a5-9e17-1dcb8c71a020/mza_15728568183481780221.png/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Arabic"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2016
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "True Crime"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Mandarin"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A True Crime podcast by Arabic."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 39
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 2
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://phillyarabic.podomatic.com/rss2.xml"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Terra X - Der Podcast",
+    "slug": "terra-x-der-podcast",
+    "createdAt": "2025-05-19T04:39:22.093Z",
+    "updatedAt": "2025-05-19T04:39:22.093Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Terra X - Der Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9e/b7/7b/9eb77bbe-4992-3440-6e7e-3e09ff16c1b8/mza_18245309206710186094.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "ZDF - Terra X"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "科学"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Co-hosted Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Co-hosted Podcasts podcast by ZDF - Terra X."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 58
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://cdn.julephosting.de/podcasts/1350-terra-x-der-podcast/feed.rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Anesthesiology Chinese podcast",
+    "slug": "anesthesiology-chinese-podcast",
+    "createdAt": "2025-05-19T04:39:23.112Z",
+    "updatedAt": "2025-05-19T04:39:23.112Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Anesthesiology Chinese podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/64/91/5b/64915b43-7b63-15c3-b07c-d707d486e387/mza_16764763506662037636.png/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Unknown"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "医学"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "The Documentary Podcast Format"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Cantonese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A The Documentary Podcast Format podcast by Unknown."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 36
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 99
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://anesthesiologychinese.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Ancient Warfare Podcast",
+    "slug": "ancient-warfare-podcast",
+    "createdAt": "2025-05-19T04:39:24.242Z",
+    "updatedAt": "2025-05-19T04:39:24.242Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Ancient Warfare Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/6f/a3/13/6fa31371-0bf6-119d-4519-450358a0c720/mza_7871789354147448531.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "The History Network"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "历史"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Repurposed Content Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Mandarin"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Repurposed Content Podcasts podcast by The History Network."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 31
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 358
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://ancientwarfare.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Bear Brook",
+    "slug": "bear-brook",
+    "createdAt": "2025-05-19T04:39:25.212Z",
+    "updatedAt": "2025-05-19T04:39:25.212Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Bear Brook"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/a0/d7/94/a0d79404-ae6b-5a19-858f-7de618486aa4/mza_4724507633522254361.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "NHPR"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "犯罪纪实"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Comedy"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Comedy podcast by NHPR."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 55
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 22
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.simplecast.com/RGpV1rjX"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Ben Franklin's World",
+    "slug": "ben-franklins-world",
+    "createdAt": "2025-05-19T04:39:26.193Z",
+    "updatedAt": "2025-05-19T04:39:26.193Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Ben Franklin's World"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/44/3a/63/443a6351-4d30-3b66-9b1c-69694a72431f/mza_3888520734153052305.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Liz Covart"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "历史"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "The Documentary Podcast Format"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A The Documentary Podcast Format podcast by Liz Covart."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 52
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 446
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.megaphone.fm/ARML8526255853"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Funhaus Podcast",
+    "slug": "funhaus-podcast",
+    "createdAt": "2025-05-19T04:39:27.253Z",
+    "updatedAt": "2025-05-19T04:39:27.253Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Funhaus Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/76/e8/54/76e8549a-c3d7-4dd9-5084-e6862a109110/mza_3014470123914011610.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Rooster Teeth"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 77,
+        "textValue": "电子游戏"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Interview Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Cantonese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Interview Podcasts podcast by Rooster Teeth."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 42
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 455
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.megaphone.fm:443/dudesoup"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "\"You Think YOU'VE Got Issues?\" Podcast",
+    "slug": "you-think-youve-got-issues-podcast",
+    "createdAt": "2025-05-19T04:39:28.382Z",
+    "updatedAt": "2025-05-19T04:39:28.382Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "\"You Think YOU'VE Got Issues?\" Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e2/17/af/e217af66-befd-55c0-1464-14679462c8e8/mza_5800289925725548366.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Dr. Laurie Appel"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2021
+      },
+      {
+        "fieldId": 77,
+        "textValue": "艺术"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "The Documentary Podcast Format"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A The Documentary Podcast Format podcast by Dr. Laurie Appel."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 39
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 24
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.buzzsprout.com/222873.rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Hello From The Magic Tavern",
+    "slug": "hello-from-the-magic-tavern",
+    "createdAt": "2025-05-19T04:39:29.453Z",
+    "updatedAt": "2025-05-19T04:39:29.453Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Hello From The Magic Tavern"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/15/fc/53/15fc53d9-b510-3471-a9cc-fcdd52ea5ba3/mza_18399377593018408347.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Arnie Niekamp"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "喜剧"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Solo"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Russian"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Russia"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Solo podcast by Arnie Niekamp."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 38
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 530
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://rss.art19.com/hello-from-magic-tavern"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "OldPreMeds Podcast",
+    "slug": "oldpremeds-podcast",
+    "createdAt": "2025-05-19T04:39:30.502Z",
+    "updatedAt": "2025-05-19T04:39:30.502Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "OldPreMeds Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/97/ed/ae/97edae31-491d-38e3-f986-1a409623c874/mza_5786012431890545097.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Ryan Gray"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "科学"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Theatrical"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Theatrical podcast by Ryan Gray."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 35
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 343
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.captivate.fm/oldpremeds/"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Outside Podcast",
+    "slug": "outside-podcast",
+    "createdAt": "2025-05-19T04:39:35.002Z",
+    "updatedAt": "2025-05-19T04:39:35.002Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Outside Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/b3/64/dd/b364ddeb-aa75-1618-635e-ecd109cf4389/mza_1383182314321134511.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Outside"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "野外"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "LIVE Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A LIVE Podcasts podcast by Outside."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 44
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 397
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.megaphone.fm/POM5001301518"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Figarinos Fahrradladen - Der MDR Tweens Hörspiel-Podcast für Kinder",
+    "slug": "figarinos-fahrradladen-der-mdr-tweens-horspiel-podcast-fur-kinder",
+    "createdAt": "2025-05-19T04:39:37.897Z",
+    "updatedAt": "2025-05-19T04:39:37.897Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Figarinos Fahrradladen - Der MDR Tweens Hörspiel-Podcast für Kinder"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c6/e0/26/c6e026ee-3ace-ca42-54e3-c96369b2eb29/mza_15130673112846253304.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Mitteldeutscher Rundfunk"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "儿童故事"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Solo"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Russian"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Russia"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Solo podcast by Mitteldeutscher Rundfunk."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 376
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.mdr.de/tweens/podcast/figarino/fahrradladen102-podcast.xml"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Limited Resources",
+    "slug": "limited-resources",
+    "createdAt": "2025-05-19T04:39:39.066Z",
+    "updatedAt": "2025-05-19T04:39:39.066Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Limited Resources"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/1d/1e/96/1d1e9615-a38d-92da-b6c2-b72f9af31b1c/mza_1584989770525811833.png/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Marshall Sutcliffe"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "游戏"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Solo"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Solo podcast by Marshall Sutcliffe."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 33
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 811
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://limitedresources.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "omega tau science & engineering podcast",
+    "slug": "omega-tau-science-and-engineering-podcast",
+    "createdAt": "2025-05-19T04:39:40.128Z",
+    "updatedAt": "2025-05-19T04:39:40.128Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "omega tau science & engineering podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/51/f0/38/51f038c0-260b-cc63-fe87-de33d418a015/mza_14250577191167827647.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Markus Voelter, Nora Ludewig"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "自然科学"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Educational Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Educational Podcasts podcast by Markus Voelter, Nora Ludewig."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 100
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "http://omegataupodcast.net/feed/mp3/"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Minding the Brain",
+    "slug": "minding-the-brain",
+    "createdAt": "2025-05-19T04:39:41.445Z",
+    "updatedAt": "2025-05-19T04:39:41.445Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Minding the Brain"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/f3/e6/32/f3e63224-25c5-89ef-b741-b59cc3c1f0cf/mza_15127668335379105078.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Jim Davies & Kim Hellemans"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "教育"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Comedy"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Cantonese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Comedy podcast by Jim Davies & Kim Hellemans."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 34
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 91
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://mindingthebrainpodcast.com/feed/podcast/"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "HMMR Podcast",
+    "slug": "hmmr-podcast",
+    "createdAt": "2025-05-19T04:39:47.450Z",
+    "updatedAt": "2025-05-19T04:39:47.450Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "HMMR Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/2d/e9/19/2de91958-31bb-20c9-1640-b430fa5c3fb0/mza_2439782797828689807.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "HMMR Media LLC"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "体育"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Educational Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Cantonese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Educational Podcasts podcast by HMMR Media LLC."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 44
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://hmmrmedia.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Wrestling News Source Podcast",
+    "slug": "wrestling-news-source-podcast",
+    "createdAt": "2025-05-19T04:39:49.918Z",
+    "updatedAt": "2025-05-19T04:39:49.918Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Wrestling News Source Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/f3/90/f6/f390f64c-ae76-99ff-376f-6fb92d15901d/mza_10303018695250245792.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "wrestlingnewssource.com"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "体育"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "The Documentary Podcast Format"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A The Documentary Podcast Format podcast by wrestlingnewssource.com."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 33
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 534
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://cdn.wrestlingnewssource.com/feeds/Wrestling_News_Source_Podcast.xml"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "崇理财开始 - SYOK Podcast [CHI]",
+    "slug": "syok-podcast-chi",
+    "createdAt": "2025-05-19T04:39:52.776Z",
+    "updatedAt": "2025-05-19T04:39:52.776Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "崇理财开始 - SYOK Podcast [CHI]"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/21/92/b6/2192b6f4-9ffe-7c3b-905a-1242831cbd78/mza_2995023620919568514.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "SYOK Podcast"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 77,
+        "textValue": "管理"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "LIVE Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A LIVE Podcasts podcast by SYOK Podcast."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 39
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 11
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.megaphone.fm/SOODO2736635320"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "NASCAR on NBC podcast",
+    "slug": "nascar-on-nbc-podcast",
+    "createdAt": "2025-05-19T04:39:54.576Z",
+    "updatedAt": "2025-05-19T04:39:54.576Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "NASCAR on NBC podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/40/b0/ed/40b0edb6-e566-8a6c-3e27-14cdd3ce24de/mza_5562699021435566407.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Nate Ryan, NASCAR on NBC Sports"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "体育"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Roundtable"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Australia"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Roundtable podcast by Nate Ryan, NASCAR on NBC Sports."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 45
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 333
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.simplecast.com/69xCKHjZ"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Hyperformance Podcast",
+    "slug": "hyperformance-podcast",
+    "createdAt": "2025-05-19T04:39:56.665Z",
+    "updatedAt": "2025-05-19T04:39:56.665Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Hyperformance Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/f4/58/f4/f458f4f6-c0c7-eb21-f5a1-1acbb9b63982/mza_3552695502343897449.png/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Oscar and Angus Rose"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "体育"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Hybrid Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Hybrid Podcasts podcast by Oscar and Angus Rose."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 53
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 448
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://hyperformancepodcast.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Housing matters podcast",
+    "slug": "housing-matters-podcast",
+    "createdAt": "2025-05-19T04:39:57.742Z",
+    "updatedAt": "2025-05-19T04:39:57.742Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Housing matters podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/2d/a3/fb/2da3fb9e-7564-df5d-69fc-ab00b66f5f07/mza_15809209155531074347.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Amber Howard, Marieke van der Star, Vera Vrijmoeth, and Junru Cui"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2021
+      },
+      {
+        "fieldId": 77,
+        "textValue": "社会与文化"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Co-hosted Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Mandarin"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Co-hosted Podcasts podcast by Amber Howard, Marieke van der Star, Vera Vrijmoeth, and Junru Cui."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 52
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 4
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.soundcloud.com/users/soundcloud:users:999971572/sounds.rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Ross Bolen Podcast",
+    "slug": "the-ross-bolen-podcast",
+    "createdAt": "2025-05-19T04:39:59.335Z",
+    "updatedAt": "2025-05-19T04:39:59.335Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "The Ross Bolen Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/a4/92/bc/a492bcdc-c592-7d75-9fb5-ead0f49bb282/mza_15613571994863498739.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Bolen Media"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "幽默对谈"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Discussion Panel"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Swedish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Sweden"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Discussion Panel podcast by Bolen Media."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 34
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 650
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://rossbolenpodcast.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "SoxProspects.com Red Sox Podcast",
+    "slug": "soxprospectscom-red-sox-podcast",
+    "createdAt": "2025-05-19T04:40:00.877Z",
+    "updatedAt": "2025-05-19T04:40:00.877Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "SoxProspects.com Red Sox Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/b1/fc/eb/b1fceb20-0b06-9b92-b700-173164d2a735/mza_4127951057357712715.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "SoxProspects.com"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "棒球"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Theatrical"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Canada"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Theatrical podcast by SoxProspects.com."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 34
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 372
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://templeusox.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Off The Charts Football Podcast",
+    "slug": "off-the-charts-football-podcast",
+    "createdAt": "2025-05-19T04:40:01.974Z",
+    "updatedAt": "2025-05-19T04:40:01.974Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Off The Charts Football Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/00/0d/07/000d07d1-3cd9-f655-78a8-b6263a9dcd97/mza_10261515592015101285.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Sports Info Solutions"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "美式橄榄球"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Discussion Panel"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Russian"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Russia"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Discussion Panel podcast by Sports Info Solutions."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 35
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 382
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.buzzsprout.com/1913364.rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Starting Zone: The World of Warcraft Podcast!",
+    "slug": "the-starting-zone-the-world-of-warcraft-podcast",
+    "createdAt": "2025-05-19T04:40:05.381Z",
+    "updatedAt": "2025-05-19T04:40:05.381Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "The Starting Zone: The World of Warcraft Podcast!"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/58/47/91/58479183-96eb-334e-e17c-4569852eb983/mza_17444327930802099827.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "thestartingzone@gmail.com"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "电子游戏"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Discussion Panel"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Discussion Panel podcast by thestartingzone@gmail.com."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 685
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://thestartingzone.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Future Proof Podcast",
+    "slug": "future-proof-podcast",
+    "createdAt": "2025-05-19T04:40:06.953Z",
+    "updatedAt": "2025-05-19T04:40:06.953Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Future Proof Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/f3/f6/b2/f3f6b20e-98a9-27c1-50cb-3724bc4b451e/mza_18343025462324451906.png/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Future Proof Games"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "电子游戏"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Theatrical"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Russian"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Russia"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Theatrical podcast by Future Proof Games."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 32
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 46
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://futureproofgames.com/blog/feeds/tags/podcast/"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Urban Farm Podcast with Greg Peterson",
+    "slug": "the-urban-farm-podcast-with-greg-peterson",
+    "createdAt": "2025-05-19T04:40:07.962Z",
+    "updatedAt": "2025-05-19T04:40:07.962Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "The Urban Farm Podcast with Greg Peterson"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/b6/89/34/b689343d-a55f-c008-961d-3a23ac818e11/mza_1934080536200835782.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Urban Farm Team"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "课程"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "True Crime"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A True Crime podcast by Urban Farm Team."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 51
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 916
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.captivate.fm/the-urban-farm-podcast-with-greg-peterson/"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Choking Hazard Podcast",
+    "slug": "the-choking-hazard-podcast",
+    "createdAt": "2025-05-19T04:40:09.594Z",
+    "updatedAt": "2025-05-19T04:40:09.594Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "The Choking Hazard Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/c3/e4/47/c3e447af-6924-6c31-4835-9475bee87503/mza_10003128087435394058.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "The Choking Hazard Podcast"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "电子游戏"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Hybrid Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Hybrid Podcasts podcast by The Choking Hazard Podcast."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 51
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 94
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.simplecast.com/rqR0GWaz"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Wired To Hunt Podcast",
+    "slug": "wired-to-hunt-podcast",
+    "createdAt": "2025-05-19T04:40:10.704Z",
+    "updatedAt": "2025-05-19T04:40:10.704Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Wired To Hunt Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/1e/30/8f/1e308fb4-1437-5015-e3cb-07dcb1703194/mza_10867538951886118205.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "MeatEater"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "野外"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Discussion Panel"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Discussion Panel podcast by MeatEater."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 53
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 917
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/fc712b63-a21e-49e9-a45b-ae280065a8f9/117dc6ca-56a3-4b9e-932e-ae280065a907/podcast.rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "beca-podcast's Podcast",
+    "slug": "beca-podcasts-podcast",
+    "createdAt": "2025-05-19T04:40:11.760Z",
+    "updatedAt": "2025-05-19T04:40:11.760Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "beca-podcast's Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/22/78/77/227877f5-735b-7e27-9f0b-75c501090e21/mza_18204195294938783068.png/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "dimitri hrycenko"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2009
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Co-host Conversational Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Co-host Conversational Podcasts podcast by dimitri hrycenko."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 49
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://beca-podcast.podomatic.com/rss2.xml"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The Barely Podcasting Podcast",
+    "slug": "the-barely-podcasting-podcast",
+    "createdAt": "2025-05-19T04:40:14.971Z",
+    "updatedAt": "2025-05-19T04:40:14.971Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "The Barely Podcasting Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/78/63/47/786347cb-4604-401c-2126-3bd0e9cd1cb1/mza_12406770880666653908.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Barely"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "喜剧"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Hybrid Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "German"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Germany"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Hybrid Podcasts podcast by Barely."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 35
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 370
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://barelypodcasting.libsyn.com/rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "◖兒福聯盟Podcast◗",
+    "slug": "podcast",
+    "createdAt": "2025-05-19T04:40:17.835Z",
+    "updatedAt": "2025-05-19T04:40:17.835Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "◖兒福聯盟Podcast◗"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/12/95/6e/12956eba-f5c3-a800-07f7-972484ef8376/mza_12669850806984212574.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "兒童福利聯盟"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "儿童与家庭"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "True Crime"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A True Crime podcast by 兒童福利聯盟."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 165
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feed.firstory.me/rss/user/ckk3zyedl1y210854j4ecv1w1"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "CHUU PODCAST - CHACUN SON CHIEN",
+    "slug": "chuu-podcast-chacun-son-chien",
+    "createdAt": "2025-05-19T04:40:18.949Z",
+    "updatedAt": "2025-05-19T04:40:18.949Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "CHUU PODCAST - CHACUN SON CHIEN"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/38/83/9f/38839f61-21ab-c4f2-110d-690d7e481e74/mza_2183634280891585872.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "CHUU"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "宠物与动物"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Roundtable"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Russian"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Russia"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Roundtable podcast by CHUU."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 39
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 92
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feed.ausha.co/yg0GXtvqjrd1"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Couple On Air - der LGBT-Podcast von Coupleontour",
+    "slug": "couple-on-air-der-lgbt-podcast-von-coupleontour",
+    "createdAt": "2025-05-19T04:40:20.037Z",
+    "updatedAt": "2025-05-19T04:40:20.037Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Couple On Air - der LGBT-Podcast von Coupleontour"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/d2/14/0e/d2140e5e-6e35-2cef-423e-00f045f73f43/mza_18298095124024406486.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Vanessa und Ina"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2021
+      },
+      {
+        "fieldId": 77,
+        "textValue": "自我完善"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "True Crime"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A True Crime podcast by Vanessa und Ina."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 47
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 14
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://coupleonair.podigee.io/feed/mp3"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The TSG Multimedia Podcast",
+    "slug": "the-tsg-multimedia-podcast",
+    "createdAt": "2025-05-19T04:40:22.511Z",
+    "updatedAt": "2025-05-19T04:40:22.511Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "The TSG Multimedia Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/0a/c1/9c/0ac19cc8-d252-8240-c8ca-c06628af8464/mza_6087299295697403782.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "TSG Multimedia"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "爱好"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Interview Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Interview Podcasts podcast by TSG Multimedia."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 32
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 37
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://tsgmultimedia.podomatic.com/rss2.xml"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "UnTextbooked | A history podcast for the future",
+    "slug": "untextbooked-or-a-history-podcast-for-the-future",
+    "createdAt": "2025-05-19T04:40:25.190Z",
+    "updatedAt": "2025-05-19T04:40:25.190Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "UnTextbooked | A history podcast for the future"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/19/52/d0/1952d00a-eb97-e61a-7557-8e6e508af5c1/mza_10715873495084161497.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "The History Co:Lab and Pod People"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "历史"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Fiction: Storytelling"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Swedish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Sweden"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Fiction: Storytelling podcast by The History Co:Lab and Pod People."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 73
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.megaphone.fm/PDP7706621726"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "The CFB Experience Podcast",
+    "slug": "the-cfb-experience-podcast",
+    "createdAt": "2025-05-19T04:40:27.354Z",
+    "updatedAt": "2025-05-19T04:40:27.355Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "The CFB Experience Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/ac/37/4f/ac374f3e-78f9-f3cd-0485-b7e8541175e1/mza_450252231704796643.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "The CFB Experience"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 77,
+        "textValue": "体育"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "True Crime"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Swedish"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Sweden"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A True Crime podcast by The CFB Experience."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 57
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://thecfbexperience.podomatic.com/rss2.xml"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Travel Radio Podcast",
+    "slug": "travel-radio-podcast",
+    "createdAt": "2025-05-19T04:40:28.594Z",
+    "updatedAt": "2025-05-19T04:40:28.594Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Travel Radio Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/f5/c6/b6/f5c6b6dc-4a3d-0e21-90e1-0157999c37c8/mza_17924491225722744450.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Megan Springer Chapa"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2021
+      },
+      {
+        "fieldId": 77,
+        "textValue": "旅行与地方文化"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Solo"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Korean"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "South Korea"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Solo podcast by Megan Springer Chapa."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 51
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 182
+      },
+      {
+        "fieldId": 85,
+        "textValue": "On Hiatus"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://feeds.captivate.fm/travel-radio-pod/"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Podcast Café Cultural con Sabrina Sabah",
+    "slug": "podcast-cafe-cultural-con-sabrina-sabah",
+    "createdAt": "2025-05-19T04:40:30.015Z",
+    "updatedAt": "2025-05-19T04:40:30.015Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Podcast Café Cultural con Sabrina Sabah"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/f5/45/79/f5457937-ca57-4d7f-c83e-ef0ce1cd181e/mza_8322824432282846929.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Aprende Idiomas"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2015
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "The Documentary Podcast Format"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A The Documentary Podcast Format podcast by Aprende Idiomas."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 32
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 6
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.ivoox.com/podcast-cafe-cultural-sabrina-sabah_fg_f1140794_filtro_1.xml"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "REX Today Podcast",
+    "slug": "rex-today-podcast",
+    "createdAt": "2025-05-19T04:40:31.147Z",
+    "updatedAt": "2025-05-19T04:40:31.147Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "REX Today Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/4a/0a/97/4a0a97c0-4920-4de3-d105-312de8c7a496/mza_18231556329070693739.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "rova | Today FM"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 77,
+        "textValue": "家居与园艺"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Solo"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Australia"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Solo podcast by rova | Today FM."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 42
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 2
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.omnycontent.com/d/playlist/d5d8b1d2-6c31-48c0-8625-a959004fd8f1/691fce37-4f61-4037-8aa4-aba600355f8f/a8b2617a-d3ae-4087-884d-aba60036599f/podcast.rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Living in the Past Podcast",
+    "slug": "living-in-the-past-podcast",
+    "createdAt": "2025-05-19T04:40:32.497Z",
+    "updatedAt": "2025-05-19T04:40:32.497Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Living in the Past Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d1/2c/56/d12c5674-ec4d-930b-8483-2a5ca320cf30/mza_996490321827289262.jpeg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Samantha Kemp-Jackson"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 77,
+        "textValue": "个人日记"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Fiction: Storytelling"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Fiction: Storytelling podcast by Samantha Kemp-Jackson."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 55
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 1
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://api.substack.com/feed/podcast/878213.rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "Credit to the Girls - an AFLW podcast",
+    "slug": "credit-to-the-girls-an-aflw-podcast",
+    "createdAt": "2025-05-19T04:40:34.015Z",
+    "updatedAt": "2025-05-19T04:40:34.015Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "Credit to the Girls - an AFLW podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/13/44/b1/1344b184-0f54-7260-eb88-e2dd2356dda9/mza_8418373882526405679.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "AFL Media"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2025
+      },
+      {
+        "fieldId": 77,
+        "textValue": "体育"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Theatrical"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Theatrical podcast by AFL Media."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 47
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 101
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Completed"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://www.omnycontent.com/d/playlist/8ae80818-a88e-475b-9776-ad05005c36ff/d595b85c-69c9-466b-850f-ad5700723970/7aa69879-0a1b-417d-8d22-ad5700723979/podcast.rss"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "West Coast Eagles BigFooty Podcast",
+    "slug": "west-coast-eagles-bigfooty-podcast",
+    "createdAt": "2025-05-19T04:40:35.158Z",
+    "updatedAt": "2025-05-19T04:40:35.158Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "West Coast Eagles BigFooty Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/45/f9/b1/45f9b117-ff15-7bca-16d5-8f36539adfb9/mza_424790852194075364.jpg/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "BigFooty.com"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 77,
+        "textValue": "体育"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Hybrid Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "Cantonese"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Hybrid Podcasts podcast by BigFooty.com."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 53
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 141
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "http://podcasts.bigfootymedia.com/eagles/bigfooty-eagles-itunes.xml"
+      }
+    ]
+  },
+  {
+    "templateId": 6,
+    "title": "dgs-spanish's Podcast",
+    "slug": "dgs-spanishs-podcast",
+    "createdAt": "2025-05-19T04:40:36.431Z",
+    "updatedAt": "2025-05-19T04:40:36.431Z",
+    "fieldValues": [
+      {
+        "fieldId": 73,
+        "textValue": "dgs-spanish's Podcast"
+      },
+      {
+        "fieldId": 74,
+        "textValue": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/95/a8/e3/95a8e3cf-a0ee-a46c-5a2c-4e05d262d67f/mza_4542293649848022421.png/600x600bb.jpg"
+      },
+      {
+        "fieldId": 75,
+        "textValue": "Miss Marsh"
+      },
+      {
+        "fieldId": 76,
+        "numericValue": 2011
+      },
+      {
+        "fieldId": 77,
+        "textValue": "语言学习"
+      },
+      {
+        "fieldId": 78,
+        "jsonValue": [
+          "Hybrid Podcasts"
+        ]
+      },
+      {
+        "fieldId": 79,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 80,
+        "jsonValue": [
+          "Canada"
+        ]
+      },
+      {
+        "fieldId": 81,
+        "textValue": "A Hybrid Podcasts podcast by Miss Marsh."
+      },
+      {
+        "fieldId": 82,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 83,
+        "numericValue": 36
+      },
+      {
+        "fieldId": 84,
+        "numericValue": 19
+      },
+      {
+        "fieldId": 85,
+        "textValue": "Active"
+      },
+      {
+        "fieldId": 86,
+        "textValue": "https://dgs-spanish.podomatic.com/rss2.xml"
+      }
+    ]
+  }
+]

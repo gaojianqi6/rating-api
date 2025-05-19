@@ -110,6 +110,15 @@ async function main() {
     case 'tv-series':
       fileName = 'tv-series.json';
       break;
+    case 'books':
+      fileName = 'books.json';
+      break;
+    case 'music':
+      fileName = 'music.json';
+      break;
+    case 'podcasts':
+      fileName = 'podcasts.json';
+      break;
     case 'test':
       fileName = 'test.json';
       break;

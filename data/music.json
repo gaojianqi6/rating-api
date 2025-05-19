@@ -1,0 +1,8176 @@
+[
+  {
+    "templateId": 5,
+    "title": "Rapture",
+    "slug": "rapture",
+    "createdAt": "2025-05-19T04:28:21.914Z",
+    "updatedAt": "2025-05-19T04:28:21.918Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Rapture"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/b1620b97-d45c-49de-8d4b-fa6c33e40ca5/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Anita Baker"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1986
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Elektra"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Jazz"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "New Zealand"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Jazz album by Anita Baker released in 1986."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/b1620b97-d45c-49de-8d4b-fa6c33e40ca5"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Jazz Aftertaste",
+    "slug": "jazz-aftertaste",
+    "createdAt": "2025-05-19T04:28:23.231Z",
+    "updatedAt": "2025-05-19T04:28:23.231Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Jazz Aftertaste"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/1a39cb34-f0c7-461f-87dd-427d517fdd4a/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Gregory Golub"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Gregory Golub"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Jazz"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Jazz album by Gregory Golub released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/1a39cb34-f0c7-461f-87dd-427d517fdd4a"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Ta Ka Di Mi Di Dance",
+    "slug": "ta-ka-di-mi-di-dance",
+    "createdAt": "2025-05-19T04:28:24.542Z",
+    "updatedAt": "2025-05-19T04:28:24.542Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Ta Ka Di Mi Di Dance"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/e3ad9669-b99f-46db-bad4-ab93114dae8e/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Gerry Joe Weise"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Contemporary ARC Australia"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Jazz"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Jazz album by Gerry Joe Weise released in 2022."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/e3ad9669-b99f-46db-bad4-ab93114dae8e"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "All for Us",
+    "slug": "all-for-us",
+    "createdAt": "2025-05-19T04:28:25.848Z",
+    "updatedAt": "2025-05-19T04:28:25.848Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "All for Us"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/34334812-2438-46f8-9542-3816fcc7c164/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Ludwik Konopko"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 63,
+        "textValue": "[no label]"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Jazz"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Italian"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Italy"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Jazz album by Ludwik Konopko released in 2022."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/34334812-2438-46f8-9542-3816fcc7c164"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Snowbound",
+    "slug": "snowbound",
+    "createdAt": "2025-05-19T04:28:27.164Z",
+    "updatedAt": "2025-05-19T04:28:27.164Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Snowbound"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/6b09c5d3-5594-42d8-9ada-c89e86f71114/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Fourplay"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1999
+      },
+      {
+        "fieldId": 63,
+        "textValue": "evosound"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Jazz"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Canada"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Jazz album by Fourplay released in 1999."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/6b09c5d3-5594-42d8-9ada-c89e86f71114"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "52 Hours",
+    "slug": "52-hours",
+    "createdAt": "2025-05-19T04:28:28.519Z",
+    "updatedAt": "2025-05-19T04:28:28.519Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "52 Hours"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/5efbbc10-a4b7-4e58-b1d4-02d4b8f6d989/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "John Ozbay"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2018
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Classical"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Nigeria"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Classical album by John Ozbay released in 2018."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/5efbbc10-a4b7-4e58-b1d4-02d4b8f6d989"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Pygmalion",
+    "slug": "pygmalion",
+    "createdAt": "2025-05-19T04:28:29.827Z",
+    "updatedAt": "2025-05-19T04:28:29.827Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Pygmalion"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/e6c25b60-2793-4b3b-823c-7c87c70c1311/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "John Ozbay"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2020
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Classical"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Classical album by John Ozbay released in 2020."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/e6c25b60-2793-4b3b-823c-7c87c70c1311"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Temporal Illusions",
+    "slug": "temporal-illusions",
+    "createdAt": "2025-05-19T04:28:31.133Z",
+    "updatedAt": "2025-05-19T04:28:31.133Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Temporal Illusions"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/e262f9a1-7409-483a-8b8d-b8e23c82aeba/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "John Ozbay"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Classical"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Canada"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Classical album by John Ozbay released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/e262f9a1-7409-483a-8b8d-b8e23c82aeba"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Half Asleep",
+    "slug": "half-asleep",
+    "createdAt": "2025-05-19T04:28:32.443Z",
+    "updatedAt": "2025-05-19T04:28:32.443Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Half Asleep"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/c2b1e819-6101-4149-84f4-f6eee6945c09/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "John Ozbay"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2020
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Classical"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Mandarin"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Classical album by John Ozbay released in 2020."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/c2b1e819-6101-4149-84f4-f6eee6945c09"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Egbert Juffer: Organ Works, Vol. 1: a Recital on the sampleset of the Fleiter Organ (2014), St. Ludgerus, Billerbeck (GE)",
+    "slug": "egbert-juffer-organ-works-vol-1-a-recital-on-the-sampleset-of-the-fleiter-organ-2014-st-ludgerus-billerbeck-ge",
+    "createdAt": "2025-05-19T04:28:33.753Z",
+    "updatedAt": "2025-05-19T04:28:33.753Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Egbert Juffer: Organ Works, Vol. 1: a Recital on the sampleset of the Fleiter Organ (2014), St. Ludgerus, Billerbeck (GE)"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/7765e4e0-98eb-4f34-82b4-3d266f140071/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Egbert Juffer"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 63,
+        "textValue": "EJ Music Publishing Ltd."
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Classical"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "South Africa"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Classical album by Egbert Juffer released in 2023."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/7765e4e0-98eb-4f34-82b4-3d266f140071"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "The Most of Little River Band - Vol 2",
+    "slug": "the-most-of-little-river-band-vol-2",
+    "createdAt": "2025-05-19T04:28:35.414Z",
+    "updatedAt": "2025-05-19T04:28:35.414Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "The Most of Little River Band - Vol 2"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/cfd8fa64-6d21-42b9-89f4-d766c9c347e3/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Little River Band"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1992
+      },
+      {
+        "fieldId": 63,
+        "textValue": "EMI Music Group Australasia"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Rock"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Rock album by Little River Band released in 1992."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/cfd8fa64-6d21-42b9-89f4-d766c9c347e3"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Cosmo’s Factory",
+    "slug": "cosmos-factory",
+    "createdAt": "2025-05-19T04:28:37.017Z",
+    "updatedAt": "2025-05-19T04:28:37.017Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Cosmo’s Factory"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/067c3d38-1f5c-4596-baf3-e494a4342d1f/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Creedence Clearwater Revival"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1970
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Liberty"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Rock"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Rock album by Creedence Clearwater Revival released in 1970."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/067c3d38-1f5c-4596-baf3-e494a4342d1f"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Billy Bond y La Pesada del Rock and Roll",
+    "slug": "billy-bond-y-la-pesada-del-rock-and-roll",
+    "createdAt": "2025-05-19T04:28:38.645Z",
+    "updatedAt": "2025-05-19T04:28:38.645Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Billy Bond y La Pesada del Rock and Roll"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/2e7caa17-3f52-4321-bea9-3625d77c6f54/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Billy Bond"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1971
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Music Hall"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Rock"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Rock album by Billy Bond released in 1971."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/2e7caa17-3f52-4321-bea9-3625d77c6f54"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Superseed",
+    "slug": "superseed",
+    "createdAt": "2025-05-19T04:28:40.254Z",
+    "updatedAt": "2025-05-19T04:28:40.254Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Superseed"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/bef227ac-46fd-4522-a4ad-06f2daf6d44e/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Superseed"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Rock"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Rock album by Superseed released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/bef227ac-46fd-4522-a4ad-06f2daf6d44e"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Jeremías pies de plomo",
+    "slug": "jeremias-pies-de-plomo",
+    "createdAt": "2025-05-19T04:28:41.859Z",
+    "updatedAt": "2025-05-19T04:28:41.859Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Jeremías pies de plomo"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/2517bedf-babf-4625-bdc7-44fdff1881bb/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Vox Dei"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1972
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Rock"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Mexico"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Rock album by Vox Dei released in 1972."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/2517bedf-babf-4625-bdc7-44fdff1881bb"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Highlights",
+    "slug": "highlights",
+    "createdAt": "2025-05-19T04:28:43.220Z",
+    "updatedAt": "2025-05-19T04:28:43.220Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Highlights"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/05d927b0-f4cb-4195-8da0-1377780f2918/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "7Star Styaneo"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 63,
+        "textValue": "7Star Styaneo"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Pop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Pop album by 7Star Styaneo released in 2022."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/05d927b0-f4cb-4195-8da0-1377780f2918"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Falling Like A Stone",
+    "slug": "falling-like-a-stone",
+    "createdAt": "2025-05-19T04:28:44.525Z",
+    "updatedAt": "2025-05-19T04:28:44.525Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Falling Like A Stone"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/87ebfcf0-02f0-4c7a-885a-7f0f5cad7b17/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Marc Atlas"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Valeria Music"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Pop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Pop album by Marc Atlas released in 2024."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/87ebfcf0-02f0-4c7a-885a-7f0f5cad7b17"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Doppelgänger",
+    "slug": "doppelganger",
+    "createdAt": "2025-05-19T04:28:45.831Z",
+    "updatedAt": "2025-05-19T04:28:45.831Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Doppelgänger"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/a476dbd0-18e2-4964-ad1d-0dda5d1d5953/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Andy Burns"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Pop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Spain"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Pop album by Andy Burns released in 2022."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/a476dbd0-18e2-4964-ad1d-0dda5d1d5953"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Dear Faraway Friends Sessions",
+    "slug": "dear-faraway-friends-sessions",
+    "createdAt": "2025-05-19T04:28:47.138Z",
+    "updatedAt": "2025-05-19T04:28:47.138Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Dear Faraway Friends Sessions"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/a6d4f573-f111-420c-807e-967c74ff4612/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Various Artists"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2021
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Popscene Manila"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Pop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Canada"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Pop album by Various Artists released in 2021."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/a6d4f573-f111-420c-807e-967c74ff4612"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Younger Than I Was Before",
+    "slug": "younger-than-i-was-before",
+    "createdAt": "2025-05-19T04:28:48.445Z",
+    "updatedAt": "2025-05-19T04:28:48.445Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Younger Than I Was Before"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/2bebf494-1851-468f-9798-c655c5b16eb3/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "LAUNDRY DAY"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Polo & Fomo, LLC"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Pop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Pop album by LAUNDRY DAY released in 2023."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/2bebf494-1851-468f-9798-c655c5b16eb3"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "R Plus Seven",
+    "slug": "r-plus-seven",
+    "createdAt": "2025-05-19T04:28:49.835Z",
+    "updatedAt": "2025-05-19T04:28:49.835Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "R Plus Seven"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/e86d7c9a-7471-44e6-b767-b143055b3150/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Oneohtrix Point Never"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2013
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Warp"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Electronic album by Oneohtrix Point Never released in 2013."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/e86d7c9a-7471-44e6-b767-b143055b3150"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "The Expansion Pack",
+    "slug": "the-expansion-pack",
+    "createdAt": "2025-05-19T04:28:51.145Z",
+    "updatedAt": "2025-05-19T04:28:51.145Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "The Expansion Pack"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/bacc8ea2-b823-4bcd-8cbf-3384cb23ee58/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Dream Theory"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2014
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Spain"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Electronic album by Dream Theory released in 2014."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/bacc8ea2-b823-4bcd-8cbf-3384cb23ee58"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "The Sound of Unconsciousness",
+    "slug": "the-sound-of-unconsciousness",
+    "createdAt": "2025-05-19T04:28:52.452Z",
+    "updatedAt": "2025-05-19T04:28:52.452Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "The Sound of Unconsciousness"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/e2c3c89f-e20b-452a-aa7a-8e7eaacb8de0/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Dream Theory"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2015
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "German"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Germany"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Electronic album by Dream Theory released in 2015."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/e2c3c89f-e20b-452a-aa7a-8e7eaacb8de0"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Be My Medicine",
+    "slug": "be-my-medicine",
+    "createdAt": "2025-05-19T04:28:53.756Z",
+    "updatedAt": "2025-05-19T04:28:53.756Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Be My Medicine"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/fef4b90f-6784-4b0b-b8b2-21c7ca8defee/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "RONA."
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Rose Avenue Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Electronic album by RONA. released in 2024."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/fef4b90f-6784-4b0b-b8b2-21c7ca8defee"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Kraftwerk",
+    "slug": "kraftwerk",
+    "createdAt": "2025-05-19T04:28:55.066Z",
+    "updatedAt": "2025-05-19T04:28:55.066Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Kraftwerk"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/a248ca04-8b4f-4045-afd9-20158efacb04/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Kraftwerk"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1998
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Euroton"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Nigeria"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Electronic album by Kraftwerk released in 1998."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/a248ca04-8b4f-4045-afd9-20158efacb04"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Wake the Vaulted Echo EP",
+    "slug": "wake-the-vaulted-echo-ep",
+    "createdAt": "2025-05-19T04:28:56.430Z",
+    "updatedAt": "2025-05-19T04:28:56.430Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Wake the Vaulted Echo EP"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/936cdd46-7d11-4f0e-bd0a-78d3ad87ef3d/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "The Owl Service"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2020
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Folk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Folk album by The Owl Service released in 2020."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/936cdd46-7d11-4f0e-bd0a-78d3ad87ef3d"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Black Chapel Music Part 3: The Garden Gate / Above the Hill",
+    "slug": "black-chapel-music-part-3-the-garden-gate-above-the-hill",
+    "createdAt": "2025-05-19T04:28:57.734Z",
+    "updatedAt": "2025-05-19T04:28:57.734Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Black Chapel Music Part 3: The Garden Gate / Above the Hill"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/041f373d-18a2-4345-8720-79c8537b06e3/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "The Owl Service"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Folk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Mexico"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Folk album by The Owl Service released in 2024."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/041f373d-18a2-4345-8720-79c8537b06e3"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Black Chapel Music Part 1: The Stone Tape",
+    "slug": "black-chapel-music-part-1-the-stone-tape",
+    "createdAt": "2025-05-19T04:28:59.051Z",
+    "updatedAt": "2025-05-19T04:28:59.052Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Black Chapel Music Part 1: The Stone Tape"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/4723818c-fec0-45a3-bb34-ae708d2e6d1c/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "The Owl Service"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2024
+      },
+      {
+        "fieldId": 63,
+        "textValue": "To Everybody"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Folk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Mexico"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Folk album by The Owl Service released in 2024."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/4723818c-fec0-45a3-bb34-ae708d2e6d1c"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "English Country Music (bonus tracks)",
+    "slug": "english-country-music-bonus-tracks",
+    "createdAt": "2025-05-19T04:29:00.360Z",
+    "updatedAt": "2025-05-19T04:29:00.360Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "English Country Music (bonus tracks)"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/d558dafd-4d06-47d7-9013-ef6405a945ab/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "The Owl Service"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Folk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Folk album by The Owl Service released in 2023."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/d558dafd-4d06-47d7-9013-ef6405a945ab"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "English Country Music",
+    "slug": "english-country-music",
+    "createdAt": "2025-05-19T04:29:01.666Z",
+    "updatedAt": "2025-05-19T04:29:01.666Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "English Country Music"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/46236107-1f58-4200-b284-1886209d4d93/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "The Owl Service"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 63,
+        "textValue": "[no label]"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Folk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Folk album by The Owl Service released in 2023."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/46236107-1f58-4200-b284-1886209d4d93"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "No Sorrow",
+    "slug": "no-sorrow",
+    "createdAt": "2025-05-19T04:29:03.320Z",
+    "updatedAt": "2025-05-19T04:29:03.320Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "No Sorrow"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/bee61137-a706-4139-9583-079c17265e8c/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "James Tonic"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2023
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Drummer Records, Inc."
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Metal"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Metal album by James Tonic released in 2023."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/bee61137-a706-4139-9583-079c17265e8c"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Judge Me",
+    "slug": "judge-me",
+    "createdAt": "2025-05-19T04:29:04.922Z",
+    "updatedAt": "2025-05-19T04:29:04.922Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Judge Me"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/c46b31e5-517e-4912-896e-a03a5cecb3b2/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "James Tonic"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Prime Corporation International"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Hip-Hop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Nigeria"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Hip-Hop album by James Tonic released in 2022."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/c46b31e5-517e-4912-896e-a03a5cecb3b2"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Come Up",
+    "slug": "come-up",
+    "createdAt": "2025-05-19T04:29:06.528Z",
+    "updatedAt": "2025-05-19T04:29:06.528Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Come Up"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/4a67f3ce-6fbf-4c18-8430-dab89651aacc/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "James Tonic"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Prime Corporation International"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Experimental"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Experimental album by James Tonic released in 2022."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/4a67f3ce-6fbf-4c18-8430-dab89651aacc"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Patrona",
+    "slug": "patrona",
+    "createdAt": "2025-05-19T04:29:08.138Z",
+    "updatedAt": "2025-05-19T04:29:08.138Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Patrona"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/d78e8c9d-0a70-4786-b57f-be6253737992/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "James Tonic"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Prime Corporation International"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Experimental"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Mexico"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Experimental album by James Tonic released in 2022."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/d78e8c9d-0a70-4786-b57f-be6253737992"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "She's Like",
+    "slug": "shes-like",
+    "createdAt": "2025-05-19T04:29:09.744Z",
+    "updatedAt": "2025-05-19T04:29:09.744Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "She's Like"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/56b2570a-744d-4c73-beb3-b0a0ac2a3968/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "James Tonic"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Prime Corporation International"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Experimental"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "New Zealand"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Experimental album by James Tonic released in 2022."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/56b2570a-744d-4c73-beb3-b0a0ac2a3968"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Lucky Mays",
+    "slug": "lucky-mays",
+    "createdAt": "2025-05-19T04:29:11.082Z",
+    "updatedAt": "2025-05-19T04:29:11.082Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Lucky Mays"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/68e0ca56-6e89-410e-b25a-3537cca40679/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Lucky Mays"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Country"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Mexico"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Country album by Lucky Mays released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/68e0ca56-6e89-410e-b25a-3537cca40679"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "The Very Best of Slim Whitman: 50th Anniversary Collection",
+    "slug": "the-very-best-of-slim-whitman-50th-anniversary-collection",
+    "createdAt": "2025-05-19T04:29:12.405Z",
+    "updatedAt": "2025-05-19T04:29:12.405Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "The Very Best of Slim Whitman: 50th Anniversary Collection"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/92788236-1e2d-4708-8374-51329d2850d7/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Slim Whitman"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2020
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Country"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Country album by Slim Whitman released in 2020."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/92788236-1e2d-4708-8374-51329d2850d7"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "You & Me",
+    "slug": "you-and-me",
+    "createdAt": "2025-05-19T04:29:13.712Z",
+    "updatedAt": "2025-05-19T04:29:13.712Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "You & Me"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/61c9f4ba-67aa-4269-aab5-1f07d458d4c9/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Benjamin Beiler"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2020
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Diverse Label Group"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Country"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Country album by Benjamin Beiler released in 2020."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/61c9f4ba-67aa-4269-aab5-1f07d458d4c9"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "The Country Music Hall of Fame: Red Foley",
+    "slug": "the-country-music-hall-of-fame-red-foley",
+    "createdAt": "2025-05-19T04:29:15.021Z",
+    "updatedAt": "2025-05-19T04:29:15.021Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "The Country Music Hall of Fame: Red Foley"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/bf1688ec-5581-4c48-b1c2-51d92f48bb45/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Red Foley"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1991
+      },
+      {
+        "fieldId": 63,
+        "textValue": "MCA Special Products"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Country"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Australia"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Country album by Red Foley released in 1991."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/bf1688ec-5581-4c48-b1c2-51d92f48bb45"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Red Foley's Golden Favorites",
+    "slug": "red-foleys-golden-favorites",
+    "createdAt": "2025-05-19T04:29:16.328Z",
+    "updatedAt": "2025-05-19T04:29:16.328Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Red Foley's Golden Favorites"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/cf55f327-932e-45eb-99ac-ef9041386bd5/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Red Foley"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1961
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Decca Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Country"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Italian"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Italy"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Country album by Red Foley released in 1961."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/cf55f327-932e-45eb-99ac-ef9041386bd5"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Money Symbol Martyrs",
+    "slug": "money-symbol-martyrs",
+    "createdAt": "2025-05-19T04:29:18.009Z",
+    "updatedAt": "2025-05-19T04:29:18.009Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Money Symbol Martyrs"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/967130c8-2ea2-44a7-be7c-ce16da807479/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "$martyr"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2006
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Cornerstone Recording Arts Society"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Hip-Hop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Hip-Hop album by $martyr released in 2006."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/967130c8-2ea2-44a7-be7c-ce16da807479"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Things Fall Apart",
+    "slug": "things-fall-apart",
+    "createdAt": "2025-05-19T04:29:19.612Z",
+    "updatedAt": "2025-05-19T04:29:19.612Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Things Fall Apart"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/1a3422a3-bedc-3c7a-a984-b0fd51c0e5ec/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "The Roots"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1999
+      },
+      {
+        "fieldId": 63,
+        "textValue": "MCA Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Hip-Hop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Nigeria"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Hip-Hop album by The Roots released in 1999."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/1a3422a3-bedc-3c7a-a984-b0fd51c0e5ec"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Buhloone Mindstate",
+    "slug": "buhloone-mindstate",
+    "createdAt": "2025-05-19T04:29:21.218Z",
+    "updatedAt": "2025-05-19T04:29:21.218Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Buhloone Mindstate"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/6ab169df-4d1f-3e64-bc7f-33783f13cc6c/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "De La Soul"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1993
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Fnac Music"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Hip-Hop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Russian"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Russia"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Hip-Hop album by De La Soul released in 1993."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/6ab169df-4d1f-3e64-bc7f-33783f13cc6c"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Butterfly 2021",
+    "slug": "butterfly-2021",
+    "createdAt": "2025-05-19T04:29:22.824Z",
+    "updatedAt": "2025-05-19T04:29:22.824Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Butterfly 2021"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/ac621365-791d-40a4-9a51-7256a4d77244/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Ekoh"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2021
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Just-Us"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Hip-Hop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Spain"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Hip-Hop album by Ekoh released in 2021."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/ac621365-791d-40a4-9a51-7256a4d77244"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Joyful Rebellion",
+    "slug": "joyful-rebellion",
+    "createdAt": "2025-05-19T04:29:24.426Z",
+    "updatedAt": "2025-05-19T04:29:24.426Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Joyful Rebellion"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/629b8c1f-7315-431d-a035-5271d6dab0ab/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "k‐os"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2004
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Virgin"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Hip-Hop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Russian"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Russia"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Hip-Hop album by k‐os released in 2004."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/629b8c1f-7315-431d-a035-5271d6dab0ab"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Axis Volume 3 U.S.A. Tour",
+    "slug": "axis-volume-3-usa-tour",
+    "createdAt": "2025-05-19T04:29:25.776Z",
+    "updatedAt": "2025-05-19T04:29:25.776Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Axis Volume 3 U.S.A. Tour"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/9f1ec5c3-7839-4f17-a607-769316544060/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Gerry Joe Weise"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Blues Breaking Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Blues"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Blues album by Gerry Joe Weise released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/9f1ec5c3-7839-4f17-a607-769316544060"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Shuckin' Stuff: Rare Blues From Ace Records",
+    "slug": "shuckin-stuff-rare-blues-from-ace-records",
+    "createdAt": "2025-05-19T04:29:27.086Z",
+    "updatedAt": "2025-05-19T04:29:27.086Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Shuckin' Stuff: Rare Blues From Ace Records"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/d9267273-5fa3-4fd2-9866-b4a9fdb632d2/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Various Artists"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2002
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Westside"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Blues"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Blues album by Various Artists released in 2002."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/d9267273-5fa3-4fd2-9866-b4a9fdb632d2"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Blues Live '82: American Folk Blues Festival",
+    "slug": "blues-live-82-american-folk-blues-festival",
+    "createdAt": "2025-05-19T04:29:28.391Z",
+    "updatedAt": "2025-05-19T04:29:28.392Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Blues Live '82: American Folk Blues Festival"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/3ec44626-6ff6-4c33-91ad-6d9083d6b855/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Various Artists"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1991
+      },
+      {
+        "fieldId": 63,
+        "textValue": "L+R Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Blues"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Blues album by Various Artists released in 1991."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/3ec44626-6ff6-4c33-91ad-6d9083d6b855"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "(Blue Guitars) - A Collection Of Songs -",
+    "slug": "blue-guitars-a-collection-of-songs",
+    "createdAt": "2025-05-19T04:29:29.699Z",
+    "updatedAt": "2025-05-19T04:29:29.699Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "(Blue Guitars) - A Collection Of Songs -"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/3e855384-cfc6-4f18-b928-ac05314d75bd/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Chris Rea"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2007
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Jazzee Blue"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Blues"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Blues album by Chris Rea released in 2007."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/3e855384-cfc6-4f18-b928-ac05314d75bd"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Never Get Out of These Blues Alive",
+    "slug": "never-get-out-of-these-blues-alive",
+    "createdAt": "2025-05-19T04:29:31.008Z",
+    "updatedAt": "2025-05-19T04:29:31.008Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Never Get Out of These Blues Alive"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/0afd568e-9476-45f6-a0eb-70bfb66f61c3/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "John Lee Hooker"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1990
+      },
+      {
+        "fieldId": 63,
+        "textValue": "MCA Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Blues"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Canada"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Blues album by John Lee Hooker released in 1990."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/0afd568e-9476-45f6-a0eb-70bfb66f61c3"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Under The North Star",
+    "slug": "under-the-north-star",
+    "createdAt": "2025-05-19T04:29:32.358Z",
+    "updatedAt": "2025-05-19T04:29:32.358Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Under The North Star"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/c7ff6f30-330a-43d0-b0f6-213100b9c05f/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Blossom Hill"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2018
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Punk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Mexico"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Punk album by Blossom Hill released in 2018."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/c7ff6f30-330a-43d0-b0f6-213100b9c05f"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Steps I Take - Images I Fake",
+    "slug": "steps-i-take-images-i-fake",
+    "createdAt": "2025-05-19T04:29:33.663Z",
+    "updatedAt": "2025-05-19T04:29:33.663Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Steps I Take - Images I Fake"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/0623592c-22ba-44af-a2a6-dacf7fcbdcb2/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Bike Age"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Punk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Punk album by Bike Age released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/0623592c-22ba-44af-a2a6-dacf7fcbdcb2"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Beer Is My Cup of Tea",
+    "slug": "beer-is-my-cup-of-tea",
+    "createdAt": "2025-05-19T04:29:34.972Z",
+    "updatedAt": "2025-05-19T04:29:34.972Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Beer Is My Cup of Tea"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/7b3e9e33-33a5-409f-b9aa-67640fe9745d/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Bike Age"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2017
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Punk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Korean"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "South Korea"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Punk album by Bike Age released in 2017."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/7b3e9e33-33a5-409f-b9aa-67640fe9745d"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Laugh Now, Laugh Later",
+    "slug": "laugh-now-laugh-later",
+    "createdAt": "2025-05-19T04:29:36.277Z",
+    "updatedAt": "2025-05-19T04:29:36.278Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Laugh Now, Laugh Later"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/8d9701f7-3c24-4995-97ac-ea6198fcd9c4/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "face to face"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2011
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Antagonist Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Punk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Australia"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Punk album by face to face released in 2011."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/8d9701f7-3c24-4995-97ac-ea6198fcd9c4"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "I Wanna Lady",
+    "slug": "i-wanna-lady",
+    "createdAt": "2025-05-19T04:29:37.585Z",
+    "updatedAt": "2025-05-19T04:29:37.585Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "I Wanna Lady"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/fef7e0b3-f8d0-49af-856f-5bed66d5a4f4/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "N.V.S"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2020
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Punk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Swedish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Sweden"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Punk album by N.V.S released in 2020."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/fef7e0b3-f8d0-49af-856f-5bed66d5a4f4"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Apollo",
+    "slug": "apollo",
+    "createdAt": "2025-05-19T04:29:38.943Z",
+    "updatedAt": "2025-05-19T04:29:38.943Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Apollo"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/8bf4e235-8b10-4e00-904d-338b8f03175b/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Tristan Harders"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2021
+      },
+      {
+        "fieldId": 63,
+        "textValue": "[no label]"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Metal"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Canada"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Metal album by Tristan Harders released in 2021."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/8bf4e235-8b10-4e00-904d-338b8f03175b"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "The Realms of Fire and Death",
+    "slug": "the-realms-of-fire-and-death",
+    "createdAt": "2025-05-19T04:29:40.260Z",
+    "updatedAt": "2025-05-19T04:29:40.260Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "The Realms of Fire and Death"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/f262bd84-78aa-4029-8087-8206f9dfc390/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Ignea"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2020
+      },
+      {
+        "fieldId": 63,
+        "textValue": "[no label]"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Metal"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Korean"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "South Korea"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Metal album by Ignea released in 2020."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/f262bd84-78aa-4029-8087-8206f9dfc390"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "For Lies I Sire",
+    "slug": "for-lies-i-sire",
+    "createdAt": "2025-05-19T04:29:41.567Z",
+    "updatedAt": "2025-05-19T04:29:41.567Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "For Lies I Sire"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/b17277f9-8ec8-4f9d-8d2c-46d2392f5616/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "My Dying Bride"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2021
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Peaceville"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Metal"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Nigeria"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Metal album by My Dying Bride released in 2021."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/b17277f9-8ec8-4f9d-8d2c-46d2392f5616"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "As the Flower Withers",
+    "slug": "as-the-flower-withers",
+    "createdAt": "2025-05-19T04:29:42.875Z",
+    "updatedAt": "2025-05-19T04:29:42.875Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "As the Flower Withers"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/7497a933-151d-4553-af3c-ab4b0ba0a2dc/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "My Dying Bride"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2021
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Peaceville"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Metal"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Metal album by My Dying Bride released in 2021."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/7497a933-151d-4553-af3c-ab4b0ba0a2dc"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Songs of Darkness, Words of Light",
+    "slug": "songs-of-darkness-words-of-light",
+    "createdAt": "2025-05-19T04:29:44.185Z",
+    "updatedAt": "2025-05-19T04:29:44.185Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Songs of Darkness, Words of Light"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/0dbedac6-fa16-41cb-afb1-7ffc4291c7fb/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "My Dying Bride"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2021
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Peaceville"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Metal"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "South Africa"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Metal album by My Dying Bride released in 2021."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/0dbedac6-fa16-41cb-afb1-7ffc4291c7fb"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Legend: The Best of Bob Marley and The Wailers",
+    "slug": "legend-the-best-of-bob-marley-and-the-wailers",
+    "createdAt": "2025-05-19T04:29:45.535Z",
+    "updatedAt": "2025-05-19T04:29:45.535Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Legend: The Best of Bob Marley and The Wailers"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/4ccca10d-45dd-31f7-8d34-ff97d09f8a2b/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Bob Marley & The Wailers"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2002
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Island"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Reggae"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "USA"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Reggae album by Bob Marley & The Wailers released in 2002."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/4ccca10d-45dd-31f7-8d34-ff97d09f8a2b"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Dayz of Ma Life",
+    "slug": "dayz-of-ma-life",
+    "createdAt": "2025-05-19T04:29:46.844Z",
+    "updatedAt": "2025-05-19T04:29:46.844Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Dayz of Ma Life"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/fb870c8c-2f83-43c4-a790-9d035a9e6bfa/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Dadiigii"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2004
+      },
+      {
+        "fieldId": 63,
+        "textValue": "CHM Pacific Gold"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Reggae"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Cantonese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Reggae album by Dadiigii released in 2004."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/fb870c8c-2f83-43c4-a790-9d035a9e6bfa"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "All Over the World",
+    "slug": "all-over-the-world",
+    "createdAt": "2025-05-19T04:29:48.152Z",
+    "updatedAt": "2025-05-19T04:29:48.152Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "All Over the World"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/a58ed394-3c53-4321-b1c3-dd5c566042a7/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Wailing Souls"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1992
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Columbia"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Reggae"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Nigeria"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Reggae album by Wailing Souls released in 1992."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/a58ed394-3c53-4321-b1c3-dd5c566042a7"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Rastaman Vibration",
+    "slug": "rastaman-vibration",
+    "createdAt": "2025-05-19T04:29:49.460Z",
+    "updatedAt": "2025-05-19T04:29:49.460Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Rastaman Vibration"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/ddd7b6f6-6ed2-4418-9508-ff3cbfcef9c7/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Bob Marley & The Wailers"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2001
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Island"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Reggae"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Cantonese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Reggae album by Bob Marley & The Wailers released in 2001."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/ddd7b6f6-6ed2-4418-9508-ff3cbfcef9c7"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Paradise",
+    "slug": "paradise",
+    "createdAt": "2025-05-19T04:29:50.766Z",
+    "updatedAt": "2025-05-19T04:29:50.766Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Paradise"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/60b8c154-0397-4ed4-bd4a-b2ad01a77c94/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "O'Yaba"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2020
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Gallo Record Company"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Reggae"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Korean"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "South Korea"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Reggae album by O'Yaba released in 2020."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/60b8c154-0397-4ed4-bd4a-b2ad01a77c94"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Arde",
+    "slug": "arde",
+    "createdAt": "2025-05-19T04:29:52.116Z",
+    "updatedAt": "2025-05-19T04:29:52.116Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Arde"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/974d8cfc-bb22-4d2e-99fb-4b160b10c3f2/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Quadrafunks"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Indie"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Indie album by Quadrafunks released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/974d8cfc-bb22-4d2e-99fb-4b160b10c3f2"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Midnight",
+    "slug": "midnight",
+    "createdAt": "2025-05-19T04:29:53.425Z",
+    "updatedAt": "2025-05-19T04:29:53.425Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Midnight"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/882a3065-7532-44c5-be75-a76d71ac789d/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Plane Parades"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 63,
+        "textValue": "From The Log House"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Indie"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Swedish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Sweden"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Indie album by Plane Parades released in 2022."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/882a3065-7532-44c5-be75-a76d71ac789d"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "The Response",
+    "slug": "the-response",
+    "createdAt": "2025-05-19T04:29:54.734Z",
+    "updatedAt": "2025-05-19T04:29:54.734Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "The Response"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/566f2766-ba66-4c70-97ef-0b15263dc5ce/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "The Response"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2012
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Indie"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Indie album by The Response released in 2012."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/566f2766-ba66-4c70-97ef-0b15263dc5ce"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Beside Me",
+    "slug": "beside-me",
+    "createdAt": "2025-05-19T04:29:56.038Z",
+    "updatedAt": "2025-05-19T04:29:56.038Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Beside Me"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/2c5fc057-9a86-47c0-9423-d9e3c485183b/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Mosley Bar"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2020
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Indie"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Indie album by Mosley Bar released in 2020."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/2c5fc057-9a86-47c0-9423-d9e3c485183b"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Malcontent",
+    "slug": "malcontent",
+    "createdAt": "2025-05-19T04:29:57.350Z",
+    "updatedAt": "2025-05-19T04:29:57.350Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Malcontent"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/bdd25334-ab82-44a9-9d91-9e0af37c8a4b/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Small Town Incident"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2012
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Indie"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Nigeria"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Indie album by Small Town Incident released in 2012."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/bdd25334-ab82-44a9-9d91-9e0af37c8a4b"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Mind",
+    "slug": "mind",
+    "createdAt": "2025-05-19T04:29:58.711Z",
+    "updatedAt": "2025-05-19T04:29:58.711Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Mind"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/e282d53c-a151-4f88-8756-f7fa5a68b02c/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "PVNV"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2017
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Intimate Silence"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Ambient"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Spain"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Ambient album by PVNV released in 2017."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/e282d53c-a151-4f88-8756-f7fa5a68b02c"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Gryning",
+    "slug": "gryning",
+    "createdAt": "2025-05-19T04:30:00.022Z",
+    "updatedAt": "2025-05-19T04:30:00.022Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Gryning"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/ef528980-de59-45ef-a2b4-017384202413/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Dold"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2016
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Intimate Silence"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Ambient"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Australia"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Ambient album by Dold released in 2016."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/ef528980-de59-45ef-a2b4-017384202413"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Filling the Scars With Light",
+    "slug": "filling-the-scars-with-light",
+    "createdAt": "2025-05-19T04:30:01.327Z",
+    "updatedAt": "2025-05-19T04:30:01.327Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Filling the Scars With Light"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/5e8cbab4-49ae-4c20-bcf1-49f016696c47/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Głós"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2017
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Intimate Silence"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Ambient"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Australia"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Ambient album by Głós released in 2017."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/5e8cbab4-49ae-4c20-bcf1-49f016696c47"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "The Sevastopol",
+    "slug": "the-sevastopol",
+    "createdAt": "2025-05-19T04:30:02.646Z",
+    "updatedAt": "2025-05-19T04:30:02.646Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "The Sevastopol"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/76d9e15b-e62e-42da-8a70-4949fbb88375/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Aphotic Apathy"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2015
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Ambient"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Ambient album by Aphotic Apathy released in 2015."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/76d9e15b-e62e-42da-8a70-4949fbb88375"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "The Chant Soundtrack",
+    "slug": "the-chant-soundtrack",
+    "createdAt": "2025-05-19T04:30:03.950Z",
+    "updatedAt": "2025-05-19T04:30:03.950Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "The Chant Soundtrack"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/3a5406bc-de47-4abe-8d1d-ce5780d738d1/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Paul Ruskay"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2022
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Ambient"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Ambient album by Paul Ruskay released in 2022."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/3a5406bc-de47-4abe-8d1d-ce5780d738d1"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Ce cochon tient en équilibre sur mes fesses",
+    "slug": "ce-cochon-tient-en-equilibre-sur-mes-fesses",
+    "createdAt": "2025-05-19T04:30:05.311Z",
+    "updatedAt": "2025-05-19T04:30:05.311Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Ce cochon tient en équilibre sur mes fesses"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/6c913a43-22e5-440c-b0dd-fbd864cefc1a/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Dirtounet"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2015
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Experimental"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Mexico"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Experimental album by Dirtounet released in 2015."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/6c913a43-22e5-440c-b0dd-fbd864cefc1a"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Raw Sewage, Vol. 2",
+    "slug": "raw-sewage-vol-2",
+    "createdAt": "2025-05-19T04:30:06.617Z",
+    "updatedAt": "2025-05-19T04:30:06.617Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Raw Sewage, Vol. 2"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/39ccc74c-0c70-48ba-bcbc-3ad711e2469b/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Wall of Genius"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2016
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Walls Of Genius"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Experimental"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Experimental album by Wall of Genius released in 2016."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/39ccc74c-0c70-48ba-bcbc-3ad711e2469b"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Raw Sewage, Vol. 3",
+    "slug": "raw-sewage-vol-3",
+    "createdAt": "2025-05-19T04:30:07.921Z",
+    "updatedAt": "2025-05-19T04:30:07.921Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Raw Sewage, Vol. 3"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/53fe0bae-7e5c-43b2-b250-e7af071e9b28/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Walls Of Genius"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2018
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Walls Of Genius"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Experimental"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Experimental album by Walls Of Genius released in 2018."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/53fe0bae-7e5c-43b2-b250-e7af071e9b28"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "The White Cassette",
+    "slug": "the-white-cassette",
+    "createdAt": "2025-05-19T04:30:09.236Z",
+    "updatedAt": "2025-05-19T04:30:09.236Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "The White Cassette"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/0885f6d8-c9d5-4e09-8e95-bcff1b33151d/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Wall of Genius"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2018
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Walls Of Genius"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Experimental"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "South Africa"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Experimental album by Wall of Genius released in 2018."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/0885f6d8-c9d5-4e09-8e95-bcff1b33151d"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Ludovico Treatment",
+    "slug": "ludovico-treatment",
+    "createdAt": "2025-05-19T04:30:10.547Z",
+    "updatedAt": "2025-05-19T04:30:10.547Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Ludovico Treatment"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/ef8c68bc-9f87-490b-8fbc-9c1ce9567167/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Wall of Genius"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2016
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Walls Of Genius"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Experimental"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "South Africa"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Experimental album by Wall of Genius released in 2016."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/ef8c68bc-9f87-490b-8fbc-9c1ce9567167"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Bible Camp Songbook",
+    "slug": "bible-camp-songbook",
+    "createdAt": "2025-05-19T04:30:11.894Z",
+    "updatedAt": "2025-05-19T04:30:11.894Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Bible Camp Songbook"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/e5baa1ed-c9d3-4ff6-a7ca-52e02a1f90a1/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Flying Colours"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2015
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Allegro Musical Productions"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Religious"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Spain"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Religious album by Flying Colours released in 2015."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/e5baa1ed-c9d3-4ff6-a7ca-52e02a1f90a1"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Tenir parole",
+    "slug": "tenir-parole",
+    "createdAt": "2025-05-19T04:30:13.201Z",
+    "updatedAt": "2025-05-19T04:30:13.201Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Tenir parole"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/dc328212-5704-4101-8030-d3f3e016d6e7/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Robert Lebel"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2007
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Les Éditions Pontbriand"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Religious"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Religious album by Robert Lebel released in 2007."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/dc328212-5704-4101-8030-d3f3e016d6e7"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "El hermano Francisco. VIII centenario",
+    "slug": "el-hermano-francisco-viii-centenario",
+    "createdAt": "2025-05-19T04:30:14.511Z",
+    "updatedAt": "2025-05-19T04:30:14.511Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "El hermano Francisco. VIII centenario"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/e031b507-a12d-4558-8c4f-67cda39f6592/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Cesáreo Gabaráin"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1981
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Ediciones Paulinas"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Religious"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Swedish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Sweden"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Religious album by Cesáreo Gabaráin released in 1981."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/e031b507-a12d-4558-8c4f-67cda39f6592"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Happy Rhythm",
+    "slug": "happy-rhythm",
+    "createdAt": "2025-05-19T04:30:15.820Z",
+    "updatedAt": "2025-05-19T04:30:15.820Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Happy Rhythm"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/469afc6c-7e04-4f11-8d3e-54702e4b45da/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Gaither Vocal Band"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2015
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Gaither Music Group"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Religious"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Korean"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "South Korea"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Religious album by Gaither Vocal Band released in 2015."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/469afc6c-7e04-4f11-8d3e-54702e4b45da"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Precious Memories",
+    "slug": "precious-memories",
+    "createdAt": "2025-05-19T04:30:17.128Z",
+    "updatedAt": "2025-05-19T04:30:17.128Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Precious Memories"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/a7831695-3f0d-4666-b7e0-878e178c5c8b/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Alan Jackson"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2012
+      },
+      {
+        "fieldId": 63,
+        "textValue": "ACR Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Religious"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Religious album by Alan Jackson released in 2012."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/a7831695-3f0d-4666-b7e0-878e178c5c8b"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Le Roi des papas.com",
+    "slug": "le-roi-des-papascom",
+    "createdAt": "2025-05-19T04:30:18.479Z",
+    "updatedAt": "2025-05-19T04:30:18.479Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Le Roi des papas.com"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/76e37409-f6d4-47cc-a105-e4f3c554c63b/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Vincent Malone"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2001
+      },
+      {
+        "fieldId": 63,
+        "textValue": "naïve"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Country"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Mandarin"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Country album by Vincent Malone released in 2001."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/76e37409-f6d4-47cc-a105-e4f3c554c63b"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Le cabaret magique du Roi des papas",
+    "slug": "le-cabaret-magique-du-roi-des-papas",
+    "createdAt": "2025-05-19T04:30:19.783Z",
+    "updatedAt": "2025-05-19T04:30:19.783Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Le cabaret magique du Roi des papas"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/7178625b-2292-406f-992c-a8c02c84c8e7/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Vincent Malone"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2008
+      },
+      {
+        "fieldId": 63,
+        "textValue": "naïve"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Punk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Punk album by Vincent Malone released in 2008."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/7178625b-2292-406f-992c-a8c02c84c8e7"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "In Low Places",
+    "slug": "in-low-places",
+    "createdAt": "2025-05-19T04:30:21.092Z",
+    "updatedAt": "2025-05-19T04:30:21.092Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "In Low Places"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/648cd149-965f-486a-bdbf-ed5081cb92ed/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "The Chipmunks"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1992
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Epic"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Country",
+          "Children's"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Mandarin"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Country album by The Chipmunks released in 1992."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/648cd149-965f-486a-bdbf-ed5081cb92ed"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Je donne ma langue au chant ! Vol. 1",
+    "slug": "je-donne-ma-langue-au-chant-vol-1",
+    "createdAt": "2025-05-19T04:30:22.402Z",
+    "updatedAt": "2025-05-19T04:30:22.402Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Je donne ma langue au chant ! Vol. 1"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/456ddaad-ed15-437a-b94d-d8bca7db6b11/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Patricia Johnston"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2006
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Kids’ Factory"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Folk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Canada"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Folk album by Patricia Johnston released in 2006."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/456ddaad-ed15-437a-b94d-d8bca7db6b11"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Der kleine Major Tom 5: Gefährliche Reise zum Mars",
+    "slug": "der-kleine-major-tom-5-gefahrliche-reise-zum-mars",
+    "createdAt": "2025-05-19T04:30:23.707Z",
+    "updatedAt": "2025-05-19T04:30:23.707Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Der kleine Major Tom 5: Gefährliche Reise zum Mars"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/17e105c4-3b55-4e68-a48b-7a23fcb0552f/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Bernd Flessner"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Tessloff"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Hip-Hop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Hip-Hop album by Bernd Flessner released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/17e105c4-3b55-4e68-a48b-7a23fcb0552f"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Pravda",
+    "slug": "pravda",
+    "createdAt": "2025-05-19T04:30:25.080Z",
+    "updatedAt": "2025-05-19T04:30:25.080Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Pravda"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/ba484a95-2fa3-4cf6-ab25-ed6da47fe677/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Technostadt"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Synth-Me"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Electronic album by Technostadt released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/ba484a95-2fa3-4cf6-ab25-ed6da47fe677"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Influence Remix EP: Part 2",
+    "slug": "influence-remix-ep-part-2",
+    "createdAt": "2025-05-19T04:30:26.390Z",
+    "updatedAt": "2025-05-19T04:30:26.390Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Influence Remix EP: Part 2"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/48502a83-a2c2-4b8e-accf-56c45f5ca53a/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Dope Ammo"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Dope Ammo Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Metal"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Swedish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Sweden"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Metal album by Dope Ammo released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/48502a83-a2c2-4b8e-accf-56c45f5ca53a"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "眠れない人のためのNocturne",
+    "slug": "nocturne",
+    "createdAt": "2025-05-19T04:30:27.694Z",
+    "updatedAt": "2025-05-19T04:30:27.694Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "眠れない人のためのNocturne"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/e807bb71-fad6-4cb8-805e-1ad04f9911f7/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "虚空"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2013
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Indie"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Indie album by 虚空 released in 2013."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/e807bb71-fad6-4cb8-805e-1ad04f9911f7"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Kykeon",
+    "slug": "kykeon",
+    "createdAt": "2025-05-19T04:30:29.006Z",
+    "updatedAt": "2025-05-19T04:30:29.006Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Kykeon"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/ab9d57c6-815f-40cb-9f62-70b004ed7d42/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Rev Rev Rev"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Fuzz Club Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Rock"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "New Zealand"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Rock album by Rev Rev Rev released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/ab9d57c6-815f-40cb-9f62-70b004ed7d42"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "We Can Work It Out",
+    "slug": "we-can-work-it-out",
+    "createdAt": "2025-05-19T04:30:30.312Z",
+    "updatedAt": "2025-05-19T04:30:30.312Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "We Can Work It Out"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/680c7993-2c70-4a66-80ba-e32f1b6c6db9/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Andy Stansall"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2018
+      },
+      {
+        "fieldId": 63,
+        "textValue": "WEATNU Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Mexico"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Electronic album by Andy Stansall released in 2018."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/680c7993-2c70-4a66-80ba-e32f1b6c6db9"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "LP ZERO",
+    "slug": "lp-zero",
+    "createdAt": "2025-05-19T04:30:31.620Z",
+    "updatedAt": "2025-05-19T04:30:31.620Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "LP ZERO"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/c9c38d3c-5c8d-48fe-b412-83c4edb7d9eb/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "ella guro"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2017
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Experimental",
+          "Ambient",
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Nigeria"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Experimental album by ella guro released in 2017."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/c9c38d3c-5c8d-48fe-b412-83c4edb7d9eb"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "The Ovines",
+    "slug": "the-ovines",
+    "createdAt": "2025-05-19T04:30:33.427Z",
+    "updatedAt": "2025-05-19T04:30:33.427Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "The Ovines"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/271166d9-cd39-4354-8067-1f4f82923d37/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "The Ovines"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Punk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Portuguese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Brazil"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Punk album by The Ovines released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/271166d9-cd39-4354-8067-1f4f82923d37"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Sirens",
+    "slug": "sirens",
+    "createdAt": "2025-05-19T04:30:34.911Z",
+    "updatedAt": "2025-05-19T04:30:34.911Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Sirens"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/36b9a6e2-909a-4f4d-b105-975b7ba780ce/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Badass Wolf Shirt"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2015
+      },
+      {
+        "fieldId": 63,
+        "textValue": "POLYCOFFIN"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "French"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "France"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Electronic album by Badass Wolf Shirt released in 2015."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/36b9a6e2-909a-4f4d-b105-975b7ba780ce"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Sateet palata saavat",
+    "slug": "sateet-palata-saavat",
+    "createdAt": "2025-05-19T04:30:36.220Z",
+    "updatedAt": "2025-05-19T04:30:36.220Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Sateet palata saavat"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/b4c489c2-37cf-46c6-ba11-a970b97fdaa3/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Vorna"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Lifeforce Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Metal"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Metal album by Vorna released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/b4c489c2-37cf-46c6-ba11-a970b97fdaa3"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Ancient Futures",
+    "slug": "ancient-futures",
+    "createdAt": "2025-05-19T04:30:37.526Z",
+    "updatedAt": "2025-05-19T04:30:37.526Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Ancient Futures"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/3bdf462c-5476-4669-8769-24137891d6ff/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Bleepeater"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2018
+      },
+      {
+        "fieldId": 63,
+        "textValue": "WEATNU Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Nigeria"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Electronic album by Bleepeater released in 2018."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/3bdf462c-5476-4669-8769-24137891d6ff"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "W",
+    "slug": "w",
+    "createdAt": "2025-05-19T04:30:38.832Z",
+    "updatedAt": "2025-05-19T04:30:38.832Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "W"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/f63b9f1e-8c89-4897-9c22-9156447fb063/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Wombo Orchestra"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2016
+      },
+      {
+        "fieldId": 63,
+        "textValue": "[no label]"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Religious"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Hindi"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "India"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Religious album by Wombo Orchestra released in 2016."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/f63b9f1e-8c89-4897-9c22-9156447fb063"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "So Crimson",
+    "slug": "so-crimson",
+    "createdAt": "2025-05-19T04:30:40.151Z",
+    "updatedAt": "2025-05-19T04:30:40.151Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "So Crimson"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/ef43a273-1639-4872-b378-02fd92f5b26f/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Foxtrot"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2011
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Pop",
+          "Folk",
+          "Indie"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Swedish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Sweden"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Pop album by Foxtrot released in 2011."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/ef43a273-1639-4872-b378-02fd92f5b26f"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Deus Nihil",
+    "slug": "deus-nihil",
+    "createdAt": "2025-05-19T04:30:41.455Z",
+    "updatedAt": "2025-05-19T04:30:41.455Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Deus Nihil"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/206d4142-5cf5-48e2-aa0f-13c640e2f18b/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Witchden"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Metal"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Thai"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Thailand"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Metal album by Witchden released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/206d4142-5cf5-48e2-aa0f-13c640e2f18b"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "At The Speed Of Love",
+    "slug": "at-the-speed-of-love",
+    "createdAt": "2025-05-19T04:30:42.766Z",
+    "updatedAt": "2025-05-19T04:30:42.766Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "At The Speed Of Love"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/06d45142-cfeb-43cd-9750-bd966feb8d1d/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Voiski"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "ara"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Irish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Ireland"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Electronic album by Voiski released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/06d45142-cfeb-43cd-9750-bd966feb8d1d"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "1X1",
+    "slug": "1x1",
+    "createdAt": "2025-05-19T04:30:44.070Z",
+    "updatedAt": "2025-05-19T04:30:44.070Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "1X1"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/d297d55e-0d2b-47be-b637-9f78e4bb8852/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "All Them Witches"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "New West Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Rock",
+          "Blues"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Rock album by All Them Witches released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/d297d55e-0d2b-47be-b637-9f78e4bb8852"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Poly-Seeds",
+    "slug": "poly-seeds",
+    "createdAt": "2025-05-19T04:30:45.391Z",
+    "updatedAt": "2025-05-19T04:30:45.391Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Poly-Seeds"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/765c0fd1-969a-45c4-80c3-bce5f36bb69c/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "dholl"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2011
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Mandarin"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "China"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Electronic album by dholl released in 2011."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "NC-17"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/765c0fd1-969a-45c4-80c3-bce5f36bb69c"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Hui Buh, das Schloßgespenst 2: in neuen Abenteuern",
+    "slug": "hui-buh-das-schlossgespenst-2-in-neuen-abenteuern",
+    "createdAt": "2025-05-19T04:30:46.700Z",
+    "updatedAt": "2025-05-19T04:30:46.700Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Hui Buh, das Schloßgespenst 2: in neuen Abenteuern"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/f6c5db1a-cc82-4d4e-813e-a9a31ed43410/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Hui Buh, das Schloßgespenst"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 1975
+      },
+      {
+        "fieldId": 63,
+        "textValue": "EUROPA"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Hip-Hop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "English"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Nigeria"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Hip-Hop album by Hui Buh, das Schloßgespenst released in 1975."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "R"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/f6c5db1a-cc82-4d4e-813e-a9a31ed43410"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Pleasure Venom",
+    "slug": "pleasure-venom",
+    "createdAt": "2025-05-19T04:30:48.025Z",
+    "updatedAt": "2025-05-19T04:30:48.025Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Pleasure Venom"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/bfa57d3b-92c0-4bb4-869f-eb3c979000c2/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Pleasure Venom"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2018
+      },
+      {
+        "fieldId": 63,
+        "textValue": "[no label]"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Rock",
+          "Punk",
+          "Experimental"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Swedish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Sweden"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Rock album by Pleasure Venom released in 2018."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/bfa57d3b-92c0-4bb4-869f-eb3c979000c2"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Pacify Her (Reworked)",
+    "slug": "pacify-her-reworked",
+    "createdAt": "2025-05-19T04:30:49.333Z",
+    "updatedAt": "2025-05-19T04:30:49.333Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Pacify Her (Reworked)"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/61ad29dd-5deb-4c4c-ba09-4ffc5ecfd6ca/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Mel's Son"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "[no label]"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Pop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Mexico"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Pop album by Mel's Son released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/61ad29dd-5deb-4c4c-ba09-4ffc5ecfd6ca"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Like an Undine",
+    "slug": "like-an-undine",
+    "createdAt": "2025-05-19T04:30:50.641Z",
+    "updatedAt": "2025-05-19T04:30:50.641Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Like an Undine"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/b9aa2935-2dd3-4369-ba97-47f0697337c1/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Aqua Blend Server"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2016
+      },
+      {
+        "fieldId": 63,
+        "textValue": "[no label]"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Hip-Hop"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Russian"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Russia"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Hip-Hop album by Aqua Blend Server released in 2016."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 40
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/b9aa2935-2dd3-4369-ba97-47f0697337c1"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Daymares",
+    "slug": "daymares",
+    "createdAt": "2025-05-19T04:30:51.951Z",
+    "updatedAt": "2025-05-19T04:30:51.951Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Daymares"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/8d17098b-9e2f-4c4e-9a2b-a099ae22e296/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Fleshmeadow"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Metal"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Metal album by Fleshmeadow released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/8d17098b-9e2f-4c4e-9a2b-a099ae22e296"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "AKVO",
+    "slug": "akvo",
+    "createdAt": "2025-05-19T04:30:53.261Z",
+    "updatedAt": "2025-05-19T04:30:53.261Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "AKVO"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/10d4cdbe-83be-4399-8c93-de455b2ae47a/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Erik Minkkinen"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2018
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Scum Yr Earth"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Ambient",
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Japanese"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Japan"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Ambient album by Erik Minkkinen released in 2018."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/10d4cdbe-83be-4399-8c93-de455b2ae47a"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Tabula Rasa",
+    "slug": "tabula-rasa",
+    "createdAt": "2025-05-19T04:30:54.569Z",
+    "updatedAt": "2025-05-19T04:30:54.569Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Tabula Rasa"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/7e0b97c3-dbe0-445c-a282-6839e7f1a739/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Karasu"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2017
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Unknown Label"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Ambient"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Italian"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Italy"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Ambient album by Karasu released in 2017."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "CD"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/7e0b97c3-dbe0-445c-a282-6839e7f1a739"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "Radical Spectacular",
+    "slug": "radical-spectacular",
+    "createdAt": "2025-05-19T04:30:55.878Z",
+    "updatedAt": "2025-05-19T04:30:55.878Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "Radical Spectacular"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/fc0f0281-0dcc-4861-b3df-5cbd0463b6d9/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "Mor Elian"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Fever AM"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Electronic"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Russian"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Russia"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Electronic album by Mor Elian released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "G"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Vinyl"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/fc0f0281-0dcc-4861-b3df-5cbd0463b6d9"
+      }
+    ]
+  },
+  {
+    "templateId": 5,
+    "title": "parted/departed/apart",
+    "slug": "parteddepartedapart",
+    "createdAt": "2025-05-19T04:30:57.184Z",
+    "updatedAt": "2025-05-19T04:30:57.184Z",
+    "fieldValues": [
+      {
+        "fieldId": 59,
+        "textValue": "parted/departed/apart"
+      },
+      {
+        "fieldId": 60,
+        "textValue": "https://coverartarchive.org/release/5156d564-eab0-49e3-a647-d5d083a6f25e/front-250"
+      },
+      {
+        "fieldId": 61,
+        "textValue": "FRAIL HANDS"
+      },
+      {
+        "fieldId": 62,
+        "numericValue": 2019
+      },
+      {
+        "fieldId": 63,
+        "textValue": "Twelve Gauge Records"
+      },
+      {
+        "fieldId": 64,
+        "jsonValue": [
+          "Punk"
+        ]
+      },
+      {
+        "fieldId": 65,
+        "jsonValue": [
+          "Spanish"
+        ]
+      },
+      {
+        "fieldId": 66,
+        "jsonValue": [
+          "Spain"
+        ]
+      },
+      {
+        "fieldId": 67,
+        "textValue": "A Punk album by FRAIL HANDS released in 2019."
+      },
+      {
+        "fieldId": 68,
+        "textValue": "PG-13"
+      },
+      {
+        "fieldId": 69,
+        "numericValue": 30
+      },
+      {
+        "fieldId": 70,
+        "numericValue": 10
+      },
+      {
+        "fieldId": 71,
+        "textValue": "Digital"
+      },
+      {
+        "fieldId": 72,
+        "textValue": "https://musicbrainz.org/release/5156d564-eab0-49e3-a647-d5d083a6f25e"
+      }
+    ]
+  }
+]
