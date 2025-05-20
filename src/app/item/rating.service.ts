@@ -121,7 +121,7 @@ export class RatingService {
       where: { itemId: itemId },
       include: {
         user: {
-          select: { id: true, username: true },
+          select: { id: true, username: true, nickname: true, avatar: true },
         },
       },
       orderBy: { createdAt: 'desc' }, // Newest first

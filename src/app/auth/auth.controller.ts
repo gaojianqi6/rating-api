@@ -78,13 +78,10 @@ export class AuthController {
 
     this.logger.log(`User registered successfully: ${user.username}`);
     return {
-      message: 'User registered successfully',
-      user: {
-        id: user.id,
-        username: user.username,
-        email: user.email,
-        nickname: user.nickname,
-      },
+      id: user.id,
+      username: user.username,
+      email: user.email,
+      nickname: user.nickname,
     };
   }
 
