@@ -59,7 +59,8 @@ RateEverything is a unified rating and review platform that brings together dive
    S3_BUCKET=rating-item
    ```
 
-4. Start the development server:
+4. Generate new prisma files: `npx prisma generate`
+5. Start the development server:
    ```bash
    pnpm start
    ```
