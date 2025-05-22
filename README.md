@@ -74,6 +74,9 @@ Once the server is running, you can access the Swagger documentation at:
 http://localhost:8888/swagger
 ```
 
+### Google Oauth API
+1. How to set and Manage API keys: https://cloud.google.com/docs/authentication/api-keys
+
 ## 🔧 Technology Stack
 
 - **Framework**: NestJS

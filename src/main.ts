@@ -20,6 +20,8 @@ async function bootstrap() {
   // Apply the global exception filter
   app.useGlobalFilters(new HttpExceptionFilter());
 
+  app.enableCors();
+
   const config = new DocumentBuilder()
     .setTitle('Rating API')
     .setDescription('For Rating Website')
