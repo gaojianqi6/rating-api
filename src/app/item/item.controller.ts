@@ -49,6 +49,7 @@ export class ItemController {
               slug: { type: 'string' },
               poster: { type: 'string' },
               createdAt: { type: 'string' },
+              avgRating: { type: 'number', format: 'float' },
             },
           },
         },

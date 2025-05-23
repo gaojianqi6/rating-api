@@ -160,6 +160,9 @@ export class ItemService {
         item.fieldValues.find((fv) => fv.fieldId === posterFieldId)
           ?.textValue || 'https://via.placeholder.com/150',
       createdAt: item.createdAt.toISOString().split('T')[0],
+      avgRating: item.statistics?.avgRating
+        ? Number(item.statistics.avgRating)
+        : 0,
     }));
 
     return {
@@ -369,6 +372,7 @@ export class ItemService {
         fieldValues: {
           where: posterFieldId ? { fieldId: posterFieldId } : undefined,
         },
+        statistics: true,
       },
       orderBy: { createdAt: 'desc' },
       take: 10,
@@ -382,6 +386,9 @@ export class ItemService {
       poster:
         item.fieldValues[0]?.textValue || 'https://via.placeholder.com/150', // Fallback to placeholder
       createdAt: item.createdAt.toISOString().split('T')[0], // Format as YYYY-MM-DD
+      avgRating: item.statistics?.avgRating
+        ? Number(item.statistics.avgRating)
+        : 0,
     }));
   }
 
@@ -428,6 +435,7 @@ export class ItemService {
       where: { templateId },
       include: {
         fieldValues: true, // Include all field values to inspect
+        statistics: true,
       },
     });
 
@@ -475,6 +483,9 @@ export class ItemService {
         item.fieldValues.find((fv) => fv.fieldId === posterFieldId)
           ?.textValue || 'https://via.placeholder.com/150',
       createdAt: item.createdAt.toISOString().split('T')[0],
+      avgRating: item.statistics?.avgRating
+        ? Number(item.statistics.avgRating)
+        : 0,
     }));
   }
 }
