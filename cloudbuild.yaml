@@ -5,27 +5,31 @@ steps:
     args:
       - 'build'
       - '-t'
-      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:$COMMIT_SHA'
+      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:v1'  # Static tag
       - '-t'
       - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:latest'
-      - '--build-arg'
-      - 'BUILDKIT_INLINE_CACHE=1'
       - '-f'
       - 'Dockerfile'
       - '.'
-    env:
-      - 'PNPM_HOME=/app/.pnpm'
-      - 'PNPM_CACHE_DIR=/app/.pnpm-cache'
 
-  # Step 2: Push image to Artifact Registry
+  # Step 2a: Push v1 tag
   - name: 'gcr.io/cloud-builders/docker'
-    id: 'push'
+    id: 'push-v1'
     args:
       - 'push'
-      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api'
+      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:v1'  # Single image
+    waitFor: ['build']
 
-  # Step 3: Deploy to Cloud Run (Sydney) - UPDATED FOR AWS S3
-  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:slim'  # ← Added missing dash here!
+  # Step 2b: Push latest tag
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'push-latest'
+    args:
+      - 'push'
+      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:latest'  # Single image
+    waitFor: ['push-v1']
+
+  # Step 3: Deploy to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:slim'
     id: 'deploy'
     entrypoint: 'gcloud'
     args:
@@ -33,7 +37,7 @@ steps:
       - 'deploy'
       - 'rating-api'
       - '--image'
-      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:$COMMIT_SHA'
+      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:v1'  # Use v1 tag
       - '--region'
       - 'australia-southeast1'
       - '--platform'
@@ -52,7 +56,7 @@ steps:
       - '--concurrency'
       - '80'
       - '--port'
-      - '8888'
+      - '8080'
       - '--set-env-vars'
       - 'NODE_ENV=production'
       - '--set-env-vars'
@@ -67,7 +71,6 @@ steps:
       - 'WEBSITE_URL=$_WEBSITE_URL'
       - '--set-env-vars'
       - 'GOOGLE_CALLBACK_URL=$_GOOGLE_CALLBACK_URL'
-      # AWS S3 variables (from your .env)
       - '--set-env-vars'
       - 'AWS_ACCESS_KEY_ID=$_AWS_ACCESS_KEY_ID'
       - '--set-env-vars'
@@ -77,7 +80,7 @@ steps:
       - '--set-env-vars'
       - 'S3_BUCKET=$_S3_BUCKET'
 
-  # Step 4: Run Prisma migrations (if needed)
+  # Step 4: Run Prisma migrations
   - name: 'gcr.io/cloud-builders/docker'
     id: 'migrate'
     args:
@@ -87,19 +90,16 @@ steps:
       - 'DATABASE_URL=$_DATABASE_URL'
       - '-e'
       - 'NODE_ENV=production'
-      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:$COMMIT_SHA'
-      - 'pnpm'
-      - 'exec'
+      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:v1'  # Use v1 tag
+      - 'npx'
       - 'prisma'
       - 'migrate'
       - 'deploy'
     waitFor: ['deploy']
-    env:
-      - 'PNPM_HOME=/app/.pnpm'
 
 images:
-  - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:$COMMIT_SHA'
-  - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:latest'
+  - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:v1'  # Single image
+  - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:latest'  # Latest tag
 
 timeout: 1800s
 options:

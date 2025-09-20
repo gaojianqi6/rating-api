@@ -50,7 +50,7 @@ RateEverything is a unified rating and review platform that brings together dive
    # Google OAuth2 Configuration
    GOOGLE_CLIENT_ID=your-google-client-id
    GOOGLE_CLIENT_SECRET=your-google-client-secret
-   GOOGLE_CALLBACK_URL=http://localhost:8888/auth/google/callback
+   GOOGLE_CALLBACK_URL=http://localhost:8080/auth/google/callback
 
    # AWS Configuration (for file uploads)
    AWS_ACCESS_KEY_ID=your-aws-access-key
@@ -65,13 +65,13 @@ RateEverything is a unified rating and review platform that brings together dive
    pnpm start
    ```
 
-The API will be available at `http://localhost:8888`
+The API will be available at `http://localhost:8080`
 
 ## 📚 API Documentation
 
 Once the server is running, you can access the Swagger documentation at:
 ```
-http://localhost:8888/swagger
+http://localhost:8080/swagger
 ```
 
 ### Google Oauth API

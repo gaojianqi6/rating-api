@@ -23,8 +23,8 @@ async function bootstrap() {
 
   app.enableCors();
 
-  // Get port from environment (Cloud Run sets PORT, fallback to 8888)
-  const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 8888;
+  // Get port from environment (Cloud Run sets PORT, fallback to 8080)
+  const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 8080;
 
   // Setup Swagger
   const config = new DocumentBuilder()

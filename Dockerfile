@@ -68,12 +68,12 @@ COPY --from=builder --chown=rating-api:rating /app/package.json ./package.json
 # Change to non-root user
 USER rating-api
 
-# Expose port 8888 (your app's default)
-EXPOSE 8888
+# Expose port 8080 (your app's default)
+EXPOSE 8080
 
-# Health check for port 8888
+# Health check for port 8080
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD node -e "require('http').get('http://localhost:8888/health', (res) => { process.exit(res.statusCode === 200 ? 0 : 1) }).on('error', () => process.exit(1))" || exit 1
+  CMD node -e "require('http').get('http://localhost:8080/health', (res) => { process.exit(res.statusCode === 200 ? 0 : 1) }).on('error', () => process.exit(1))" || exit 1
 
 # Start the application
 CMD ["npm", "run", "start:prod"]

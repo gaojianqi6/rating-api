@@ -16,7 +16,7 @@ export class HealthController {
         timestamp: '2025-01-01T12:00:00.000Z',
         uptime: 1.234,
         environment: 'production',
-        port: 8888,
+        port: 8080,
       },
     },
   })
@@ -26,7 +26,7 @@ export class HealthController {
       timestamp: new Date().toISOString(),
       uptime: process.uptime(),
       environment: process.env.NODE_ENV || 'development',
-      port: process.env.PORT || 8888,
+      port: process.env.PORT || 8080,
     };
   }
 }
