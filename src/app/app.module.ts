@@ -9,6 +9,7 @@ import { ItemModule } from './item/item.module';
 import { TemplateModule } from './template/template.module';
 import { DataSourceModule } from './data-source/data-source.module';
 import { UploadModule } from './upload/upload.module';
+import { HealthModule } from '../common/health/health.module';
 
 @Module({
   imports: [
@@ -19,6 +20,7 @@ import { UploadModule } from './upload/upload.module';
     TemplateModule,
     DataSourceModule,
     UploadModule,
+    HealthModule,
   ],
   controllers: [AppController],
   providers: [PrismaService, AppService],

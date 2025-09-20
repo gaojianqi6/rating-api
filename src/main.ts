@@ -1,3 +1,4 @@
+// src/main.ts
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app/app.module';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
@@ -22,6 +23,10 @@ async function bootstrap() {
 
   app.enableCors();
 
+  // Get port from environment (Cloud Run sets PORT, fallback to 8888)
+  const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 8888;
+
+  // Setup Swagger
   const config = new DocumentBuilder()
     .setTitle('Rating API')
     .setDescription('For Rating Website')
@@ -31,7 +36,16 @@ async function bootstrap() {
   const documentFactory = () => SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('swagger', app, documentFactory);
 
-  await app.listen(process.env.PORT ?? 8888);
+  console.log(`🚀 RatingAPI starting on port ${port}`);
+  console.log(`📚 Swagger docs available at: http://localhost:${port}/swagger`);
+
+  await app.listen(port);
+
+  console.log('✅ RatingAPI is running and healthy!');
+  console.log(`🔍 Health endpoint: http://localhost:${port}/health`);
 }
 
-bootstrap();
+bootstrap().catch((error) => {
+  console.error('❌ Failed to start RatingAPI:', error);
+  process.exit(1);
+});

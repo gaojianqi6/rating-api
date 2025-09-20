@@ -1,0 +1,108 @@
+steps:
+  # Step 1: Build the Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'build'
+    args:
+      - 'build'
+      - '-t'
+      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:$COMMIT_SHA'
+      - '-t'
+      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:latest'
+      - '--build-arg'
+      - 'BUILDKIT_INLINE_CACHE=1'
+      - '-f'
+      - 'Dockerfile'
+      - '.'
+    env:
+      - 'PNPM_HOME=/app/.pnpm'
+      - 'PNPM_CACHE_DIR=/app/.pnpm-cache'
+
+  # Step 2: Push image to Artifact Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'push'
+    args:
+      - 'push'
+      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api'
+
+  # Step 3: Deploy to Cloud Run (Sydney) - UPDATED FOR AWS S3
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:slim'  # ← Added missing dash here!
+    id: 'deploy'
+    entrypoint: 'gcloud'
+    args:
+      - 'run'
+      - 'deploy'
+      - 'rating-api'
+      - '--image'
+      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:$COMMIT_SHA'
+      - '--region'
+      - 'australia-southeast1'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+      - '--memory'
+      - '512Mi'
+      - '--cpu'
+      - '1'
+      - '--max-instances'
+      - '10'
+      - '--min-instances'
+      - '0'
+      - '--timeout'
+      - '300'
+      - '--concurrency'
+      - '80'
+      - '--port'
+      - '8888'
+      - '--set-env-vars'
+      - 'NODE_ENV=production'
+      - '--set-env-vars'
+      - 'DATABASE_URL=$_DATABASE_URL'
+      - '--set-env-vars'
+      - 'JWT_SECRET=$_JWT_SECRET'
+      - '--set-env-vars'
+      - 'GOOGLE_CLIENT_ID=$_GOOGLE_CLIENT_ID'
+      - '--set-env-vars'
+      - 'GOOGLE_CLIENT_SECRET=$_GOOGLE_CLIENT_SECRET'
+      - '--set-env-vars'
+      - 'WEBSITE_URL=$_WEBSITE_URL'
+      - '--set-env-vars'
+      - 'GOOGLE_CALLBACK_URL=$_GOOGLE_CALLBACK_URL'
+      # AWS S3 variables (from your .env)
+      - '--set-env-vars'
+      - 'AWS_ACCESS_KEY_ID=$_AWS_ACCESS_KEY_ID'
+      - '--set-env-vars'
+      - 'AWS_SECRET_ACCESS_KEY=$_AWS_SECRET_ACCESS_KEY'
+      - '--set-env-vars'
+      - 'AWS_REGION=$_AWS_REGION'
+      - '--set-env-vars'
+      - 'S3_BUCKET=$_S3_BUCKET'
+
+  # Step 4: Run Prisma migrations (if needed)
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'migrate'
+    args:
+      - 'run'
+      - '--rm'
+      - '-e'
+      - 'DATABASE_URL=$_DATABASE_URL'
+      - '-e'
+      - 'NODE_ENV=production'
+      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:$COMMIT_SHA'
+      - 'pnpm'
+      - 'exec'
+      - 'prisma'
+      - 'migrate'
+      - 'deploy'
+    waitFor: ['deploy']
+    env:
+      - 'PNPM_HOME=/app/.pnpm'
+
+images:
+  - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:$COMMIT_SHA'
+  - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:latest'
+
+timeout: 1800s
+options:
+  logging: CLOUD_LOGGING_ONLY
+  machineType: 'E2_HIGHCPU_8'
+  substitutionOption: 'ALLOW_LOOSE'
