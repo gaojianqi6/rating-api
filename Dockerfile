@@ -12,12 +12,12 @@ WORKDIR /app
 RUN apk add --no-cache ca-certificates && \
     update-ca-certificates
 
-# Copy package files
-COPY package.json ./
+# Copy package-lock.json and package.json FIRST (for caching)
+COPY package-lock.json package.json ./
 
 # Install ALL dependencies (including devDependencies for build)
-# Flags BEFORE install command
-RUN npm install --network-timeout=120000 --fetch-retries=3
+# Use npm ci for reproducible builds from package-lock.json
+RUN npm ci --network-timeout=120000
 
 # Copy source code
 COPY . .
@@ -44,12 +44,12 @@ RUN apk add --no-cache ca-certificates && \
 RUN addgroup --system --gid 1001 rating && \
     adduser --system --uid 1001 rating-api
 
-# Copy package files
-COPY package.json ./
+# Copy package-lock.json and package.json
+COPY package-lock.json package.json ./
 
 # Install only production dependencies
-# Flags BEFORE install command + use --omit=dev (npm warning fix)
-RUN npm install --only=production --network-timeout=120000 --fetch-retries=3 && \
+# Use npm ci --only=production for reproducible prod builds
+RUN npm ci --only=production --network-timeout=120000 && \
     npm cache clean --force
 
 # Copy built application from builder stage
