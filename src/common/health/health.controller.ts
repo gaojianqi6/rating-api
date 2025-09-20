@@ -29,4 +29,17 @@ export class HealthController {
       port: process.env.PORT || 8080,
     };
   }
+
+  @Get('envs')
+  @ApiOperation({ summary: 'Print all environment variables' })
+  @ApiResponse({
+    status: 200,
+    description: 'Environment variables',
+  })
+  getEnvs() {
+    // ⚠️ WARNING: Exposes sensitive information. Use only for debugging!
+    return {
+      envs: process.env,
+    };
+  }
 }

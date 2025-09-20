@@ -82,23 +82,24 @@ steps:
       - 'S3_BUCKET=$_S3_BUCKET'
 
   # Step 4: Run Prisma migrations
-  - name: 'gcr.io/cloud-builders/docker'
-    id: 'migrate'
-    args:
-      - 'run'
-      - '--rm'
-      - '-e'
-      - 'DATABASE_URL=$_DATABASE_URL'
-      - '-e'
-      - 'NODE_ENV=production'
-      - '-e'
-      - 'JWT_SECRET=$_JWT_SECRET'
-      - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:v1'
-      - 'npx'
-      - 'prisma'
-      - 'migrate'
-      - 'deploy'
-    waitFor: ['deploy']
+  # - name: 'gcr.io/cloud-builders/docker'
+  #   id: 'migrate'
+  #   args:
+  #     - 'run'
+  #     - '--rm'
+  #     - '-e'
+  #     - 'DATABASE_URL=$_DATABASE_URL'
+  #     - '-e'
+  #     - 'NODE_ENV=production'
+  #     - '-e'
+  #     - 'JWT_SECRET=$_JWT_SECRET'
+  #     - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:v1'
+  #     - 'npx'
+  #     - 'prisma'
+  #     - 'migrate'
+  #     - 'deploy'
+  #   waitFor: ['deploy']
+
 
 images:
   - 'australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo/rating-api:v1'
