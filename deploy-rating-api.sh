@@ -1,5 +1,5 @@
 #!/bin/bash
-# deploy-rating-api.sh - FIXED MONITORING (polling + real-time logs)
+# deploy-rating-api.sh - MULTIPLE SET-ENV-VARS (simple)
 
 echo "🚀 Deploying rating-api to Sydney Cloud Run..."
 echo "📍 Project: rating-app-453105"
@@ -55,39 +55,28 @@ echo "   ✅ DATABASE_URL: ${DATABASE_URL:0:20}..."
 echo "   ✅ JWT_SECRET: ${JWT_SECRET:0:10}..."
 echo "   ✅ AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID:0:10}..."
 
-# Build substitution arguments
-SUBS_ARGS=(
-  "--substitutions=_DATABASE_URL=$DATABASE_URL"
-  "--substitutions=_JWT_SECRET=$JWT_SECRET"
-  "--substitutions=_GOOGLE_CLIENT_ID=$GOOGLE_CLIENT_ID"
-  "--substitutions=_GOOGLE_CLIENT_SECRET=$GOOGLE_CLIENT_SECRET"
-  "--substitutions=_WEBSITE_URL=$WEBSITE_URL"
-  "--substitutions=_GOOGLE_CALLBACK_URL=$GOOGLE_CALLBACK_URL"
-  "--substitutions=_AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID"
-  "--substitutions=_AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY"
-  "--substitutions=_AWS_REGION=$AWS_REGION"
-  "--substitutions=_S3_BUCKET=$S3_BUCKET"
-)
-
 echo ""
 echo "🐳 Building Docker image..."
 echo "📤 Uploading to Artifact Registry..."
-echo "🚀 Deploying to Cloud Run..."
+echo "🚀 Deploying to Cloud Run (multiple --set-env-vars)..."
 
-# Start the build (async - no wait)
-BUILD_ID=$(gcloud builds submit --config cloudbuild.yaml "${SUBS_ARGS[@]}" --async --format="value(id)" 2>/dev/null)
+# Start the build with simple substitutions (no escaping needed)
+BUILD_ID=$(gcloud builds submit --config cloudbuild.yaml \
+  --substitutions="_DATABASE_URL=$DATABASE_URL,_JWT_SECRET=$JWT_SECRET,_GOOGLE_CLIENT_ID=$GOOGLE_CLIENT_ID,_GOOGLE_CLIENT_SECRET=$GOOGLE_CLIENT_SECRET,_WEBSITE_URL=$WEBSITE_URL,_GOOGLE_CALLBACK_URL=$GOOGLE_CALLBACK_URL,_AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID,_AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY,_AWS_REGION=$AWS_REGION,_S3_BUCKET=$S3_BUCKET" \
+  --async --format="value(id)" 2>/dev/null)
+
 if [ $? -eq 0 ]; then
   echo "🔄 Build started: $BUILD_ID"
   echo ""
-  echo "📊 Status command: gcloud builds describe $BUILD_ID --format='table(id,status,startTime,finishTime)'"
-  echo "📄 Log command: gcloud builds log $BUILD_ID"
-  echo "🌐 Web console: https://console.cloud.google.com/cloud-build/builds;region=global?project=rating-app-453105&buildId=$BUILD_ID"
+  echo "📊 Status: gcloud builds describe $BUILD_ID --format='table(id,status)'"
+  echo "📄 Logs: gcloud builds log $BUILD_ID"
+  echo "🌐 Console: https://console.cloud.google.com/cloud-build/builds;region=global?project=rating-app-453105&buildId=$BUILD_ID"
   echo ""
   
-  # POLLING LOOP: Monitor status until complete
+  # POLLING: Monitor until complete
   echo -n "⏳ Monitoring build progress"
-  MAX_WAIT=1800  # 30 minutes max
-  WAIT_INTERVAL=30  # Check every 30 seconds
+  MAX_WAIT=1800
+  WAIT_INTERVAL=30
   ELAPSED=0
   
   while [ $ELAPSED -lt $MAX_WAIT ]; do
@@ -100,15 +89,10 @@ if [ $? -eq 0 ]; then
     elif [ "$STATUS" = "FAILURE" ]; then
       echo ""
       echo "❌ BUILD FAILED"
-      echo "💡 Full logs: gcloud builds log $BUILD_ID"
-      echo "💡 Recent builds: gcloud builds list --limit=3"
+      echo "💡 Logs: gcloud builds log $BUILD_ID"
       exit 1
     elif [ "$STATUS" = "WORKING" ]; then
       echo -n "."
-      ELAPSED=$((ELAPSED + WAIT_INTERVAL))
-      sleep $WAIT_INTERVAL
-    elif [ "$STATUS" = "QUEUED" ]; then
-      echo -n "Q"  # Queued
       ELAPSED=$((ELAPSED + WAIT_INTERVAL))
       sleep $WAIT_INTERVAL
     else
@@ -116,26 +100,12 @@ if [ $? -eq 0 ]; then
       ELAPSED=$((ELAPSED + WAIT_INTERVAL))
       sleep $WAIT_INTERVAL
     fi
-    
-    # Show progress every 5 minutes
-    if [ $((ELAPSED % 300)) -eq 0 ] && [ $ELAPSED -gt 0 ]; then
-      echo ""
-      echo "⏳ Elapsed: $((ELAPSED / 60)) minutes, Status: $STATUS"
-      gcloud builds describe $BUILD_ID --format="table(startTime,finishTime)" 2>/dev/null || true
-    fi
   done
   
-  if [ $ELAPSED -ge $MAX_WAIT ]; then
-    echo ""
-    echo "⚠️  Build timeout after 30 minutes"
-    echo "💡 Check status: gcloud builds describe $BUILD_ID"
-    exit 1
-  fi
-  
-  # BUILD SUCCEEDED - Check Cloud Run deployment
+  # BUILD SUCCEEDED - Check Cloud Run
   echo ""
-  echo "🔍 Checking Cloud Run service deployment..."
-  sleep 15  # Give Cloud Run time to deploy
+  echo "🔍 Checking Cloud Run deployment..."
+  sleep 15
   
   SERVICE_URL=$(gcloud run services describe rating-api \
     --region=australia-southeast1 \
@@ -146,7 +116,6 @@ if [ $? -eq 0 ]; then
     echo "🎉 DEPLOYMENT SUCCESSFUL!"
     echo "📍 Service URL: $SERVICE_URL"
     echo "🔍 Health check: $SERVICE_URL/health"
-    echo "📚 Swagger docs: $SERVICE_URL/swagger"
     
     echo ""
     echo "🧪 Testing health endpoint..."
@@ -154,7 +123,7 @@ if [ $? -eq 0 ]; then
       echo "✅ Health check: PASSED"
       echo "   $(curl -s "$SERVICE_URL/health" | jq -r '.status // "ok"')"
     else
-      echo "⚠️  Health check: PENDING (wait 1-3 minutes for cold start)"
+      echo "⚠️  Health check: PENDING (wait 1-3 minutes)"
       echo "   Retest: curl -v \"$SERVICE_URL/health\""
     fi
     
@@ -162,22 +131,14 @@ if [ $? -eq 0 ]; then
     echo "📊 Monitor logs:"
     echo "   gcloud run services logs tail rating-api --region=australia-southeast1 --limit=50"
     echo ""
-    echo "📈 Service details:"
-    echo "   gcloud run services describe rating-api --region=australia-southeast1 --format='table(name,status.url,status.conditions)'"
-    echo ""
-    echo "🎯 Your rating-api is LIVE in Sydney, Australia!"
-    echo "🌍 Expected latency from New Zealand: 60-80ms"
-    echo ""
-    echo "🏷️  Build ID: $BUILD_ID"
-    echo "🖼️  Images: gcloud artifacts docker images list australia-southeast1-docker.pkg.dev/rating-app-453105/rating-repo --limit=5"
-    echo ""
-    echo "🔄 Next deployment: ./deploy-rating-api.sh (auto-overrides latest tag)"
+    echo "🎯 Your rating-api is LIVE in Sydney!"
+    echo "🌍 Latency from NZ: 60-80ms"
   else
-    echo "⚠️  Service URL not ready yet..."
-    echo "🔍 Check deployment: gcloud run services describe rating-api --region=australia-southeast1"
+    echo "⚠️  Service still deploying..."
+    echo "🔍 Check: gcloud run services describe rating-api --region=australia-southeast1"
   fi
 else
   echo "❌ Failed to start build"
-  echo "💡 Recent builds: gcloud builds list --limit=3 --format='table(id,status)'"
+  echo "💡 Check: gcloud builds list --limit=1"
   exit 1
 fi
